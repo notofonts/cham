@@ -156,16 +156,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* raMedial_cham_pre.low
-	* ssFinal_cham
-	* ga_cham
-	* dda_cham
-	* pFinal_cham
-	* bba_cham
-	* raMedial_cham
-	* chha_cham
-	* va_cham
-	* yFinal_cham and 52 more.
+	* ngue_cham
+	* nue_cham
+	* bha_cham
+	* ka_cham
+	* chFinal_cham
+	* three_cham
+	* ya_cham
+	* jha_cham
+	* eiSign_cham
+	* pha_cham and 52 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
@@ -305,16 +305,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* ga_cham
-	* dda_cham
-	* pFinal_cham
-	* bba_cham
-	* chha_cham
-	* va_cham
-	* yFinal_cham
-	* nga_cham
-	* o_cham
-	* nue_cham and 40 more.
+	* ngue_cham
+	* nue_cham
+	* bha_cham
+	* ka_cham
+	* chFinal_cham
+	* ya_cham
+	* jha_cham
+	* eiSign_cham
+	* pha_cham
+	* pFinal_cham and 40 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
@@ -460,16 +460,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* ssFinal_cham
-	* ga_cham
-	* dda_cham
-	* pFinal_cham
-	* bba_cham
-	* chha_cham
-	* va_cham
-	* yFinal_cham
-	* nga_cham
-	* o_cham and 44 more.
+	* ngue_cham
+	* nue_cham
+	* bha_cham
+	* ka_cham
+	* chFinal_cham
+	* ya_cham
+	* jha_cham
+	* eiSign_cham
+	* pha_cham
+	* pFinal_cham and 44 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
@@ -831,16 +831,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* ga_cham
-	* dda_cham
-	* bba_cham
+	* ngue_cham
+	* nue_cham
+	* jha_cham
+	* kha_cham
+	* na_cham
 	* chha_cham
 	* va_cham
-	* nga_cham
-	* nue_cham
-	* nhja_cham
-	* bba_cham.calt
-	* eight_cham and 16 more.
+	* ppa_cham
+	* ngFinal_cham
+	* bba_cham and 16 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
@@ -1116,16 +1116,16 @@ Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 61
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* dda_cham
-	* bba_cham
-	* chha_cham
-	* nga_cham
+	* ngue_cham
 	* nue_cham
-	* nhja_cham
-	* bba_cham.calt
-	* nFinal_cham
+	* jha_cham
+	* kha_cham
+	* na_cham
+	* chha_cham
+	* ngFinal_cham
+	* bba_cham
 	* na_cham.calt
-	* kha_cham and 8 more.
+	* dda_cham and 8 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
@@ -1215,16 +1215,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* ga_cham
-	* dda_cham
-	* pFinal_cham
-	* bba_cham
-	* chha_cham
-	* va_cham
-	* nga_cham
+	* ngue_cham
 	* nue_cham
+	* chFinal_cham
+	* jha_cham
+	* eiSign_cham
+	* pha_cham
+	* pFinal_cham
 	* ma_cham.calt
-	* nhja_cham and 27 more.
+	* ma_cham
+	* kha_cham and 27 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
