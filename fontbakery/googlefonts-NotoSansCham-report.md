@@ -5,148 +5,11 @@ Fontbakery version: 0.8.9
 <details><summary><b>[1] Family checks</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking all files are in the same directory. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/single_directory">com.google.fonts/check/family/single_directory</a>)</summary><div>
 
 
-* 🔥 **FAIL** Not all fonts passed in the command line are in the same directory. This may lead to bad results as the tool will interpret all font files as belonging to a single font family. The detected directories are: ['fonts/NotoSansCham/googlefonts/slim-variable-ttf', 'fonts/NotoSansCham/googlefonts/ttf', 'fonts/NotoSansCham/googlefonts/variable-ttf'] [code: single-directory]
-</div></details><br></div></details><details><summary><b>[20] NotoSansCham[wght].ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+* 🔥 **FAIL** Not all fonts passed in the command line are in the same directory. This may lead to bad results as the tool will interpret all font files as belonging to a single font family. The detected directories are: ['fonts/NotoSansCham/googlefonts/ttf', 'fonts/NotoSansCham/googlefonts/variable-ttf'] [code: single-directory]
+</div></details><br></div></details><details><summary><b>[11] NotoSansCham-Black.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x00AF (MACRON)
- [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSansCham/googlefonts/slim-variable-ttf/NotoSansCham[wght].ttf', 'fonts/NotoSansCham/googlefonts/ttf/NotoSansCham-Black.ttf', 'fonts/NotoSansCham/googlefonts/ttf/NotoSansCham-Bold.ttf', 'fonts/NotoSansCham/googlefonts/ttf/NotoSansCham-ExtraBold.ttf', 'fonts/NotoSansCham/googlefonts/ttf/NotoSansCham-ExtraLight.ttf', 'fonts/NotoSansCham/googlefonts/ttf/NotoSansCham-Light.ttf', 'fonts/NotoSansCham/googlefonts/ttf/NotoSansCham-Medium.ttf', 'fonts/NotoSansCham/googlefonts/ttf/NotoSansCham-Regular.ttf', 'fonts/NotoSansCham/googlefonts/ttf/NotoSansCham-SemiBold.ttf', 'fonts/NotoSansCham/googlefonts/ttf/NotoSansCham-Thin.ttf', 'fonts/NotoSansCham/googlefonts/variable-ttf/NotoSansCham[wght].ttf']. [code: missing-os2-fsselection-bit7]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x00AF (MACRON)
- [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSansCham/googlefonts/slim-variable-ttf/NotoSansCham[wght].ttf', 'fonts/NotoSansCham/googlefonts/ttf/NotoSansCham-Black.ttf', 'fonts/NotoSansCham/googlefonts/ttf/NotoSansCham-Bold.ttf', 'fonts/NotoSansCham/googlefonts/ttf/NotoSansCham-ExtraBold.ttf', 'fonts/NotoSansCham/googlefonts/ttf/NotoSansCham-ExtraLight.ttf', 'fonts/NotoSansCham/googlefonts/ttf/NotoSansCham-Light.ttf', 'fonts/NotoSansCham/googlefonts/ttf/NotoSansCham-Medium.ttf', 'fonts/NotoSansCham/googlefonts/ttf/NotoSansCham-Regular.ttf', 'fonts/NotoSansCham/googlefonts/ttf/NotoSansCham-SemiBold.ttf', 'fonts/NotoSansCham/googlefonts/ttf/NotoSansCham-Thin.ttf', 'fonts/NotoSansCham/googlefonts/variable-ttf/NotoSansCham[wght].ttf']. [code: missing-os2-fsselection-bit7]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1368, but got 1117 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 645, but got 351 instead. [code: descent]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1368, but got 1117 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 645, but got 351 instead. [code: descent]
-</div></details><details><summary>🔥 <b>FAIL:</b> Validates that when an instance record is included for the default instance, its subfamilyNameID value is set to either 2 or 17, and its postScriptNameID value is set to 6. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/fvar.html#com.adobe.fonts/check/varfont/valid_default_instance_nameids">com.adobe.fonts/check/varfont/valid_default_instance_nameids</a>)</summary><div>
-
-
-* 🔥 **FAIL** 'Regular' instance has the same coordinates as the default instance; its subfamilyNameID should be either 2 or 17, instead of 278. [code: invalid-default-instance-subfamily-nameid:278]
-</div></details><details><summary>🔥 <b>FAIL:</b> Validates that when an instance record is included for the default instance, its subfamilyNameID value is set to either 2 or 17, and its postScriptNameID value is set to 6. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/fvar.html#com.adobe.fonts/check/varfont/valid_default_instance_nameids">com.adobe.fonts/check/varfont/valid_default_instance_nameids</a>)</summary><div>
-
-
-* 🔥 **FAIL** 'Regular' instance has the same coordinates as the default instance; its subfamilyNameID should be either 2 or 17, instead of 278. [code: invalid-default-instance-subfamily-nameid:278]
-</div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
-
-
-* ⚠ **WARN** This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
-</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
-
-
-* ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
-
-	- laMedial_cham + waMedial_cham
-
-	- waMedial_cham + uSign_cham
-
-	- uSign_cham + waMedial_cham
-
-	- waMedial_cham + ueSign_cham
-
-	- ueSign_cham + uSign_cham
-
-	- uSign_cham + ueSign_cham
-
-	- ueSign_cham + waMedial_cham 
-
-	- And laMedial_cham.narrow + uSign_cham [code: lacks-kern-info]
-</div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
-
-
-* ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
-</div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
-
-
-* ⚠ **WARN** This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
-</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
-
-
-* ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
-
-	- laMedial_cham + waMedial_cham
-
-	- waMedial_cham + uSign_cham
-
-	- uSign_cham + waMedial_cham
-
-	- waMedial_cham + ueSign_cham
-
-	- ueSign_cham + uSign_cham
-
-	- uSign_cham + ueSign_cham
-
-	- ueSign_cham + waMedial_cham 
-
-	- And laMedial_cham.narrow + uSign_cham [code: lacks-kern-info]
-</div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
-
-
-* ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
-</div></details><details><summary>⚠ <b>WARN:</b> Font has **proper** whitespace glyph names? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_glyphnames">com.google.fonts/check/whitespace_glyphnames</a>)</summary><div>
-
-
-* ⚠ **WARN** Glyph 0x00A0 is called "nbspace": Change to "uni00A0" [code: not-recommended-00a0]
-</div></details><details><summary>⚠ <b>WARN:</b> Font has **proper** whitespace glyph names? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_glyphnames">com.google.fonts/check/whitespace_glyphnames</a>)</summary><div>
-
-
-* ⚠ **WARN** Glyph 0x00A0 is called "nbspace": Change to "uni00A0" [code: not-recommended-00a0]
-</div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
-
-
-* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), brevecomb (U+0306), caroncomb (U+030C), cedillacomb (U+0327), circumflexcomb (U+0302), commaaccentcomb (U+0326), commaturnedabovecomb (U+0312), dieresiscomb (U+0308), dotaccentcomb (U+0307), gravecomb (U+0300) and 5 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
-</div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
-
-
-* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), brevecomb (U+0306), caroncomb (U+030C), cedillacomb (U+0327), circumflexcomb (U+0302), commaaccentcomb (U+0326), commaturnedabovecomb (U+0312), dieresiscomb (U+0308), dotaccentcomb (U+0307), gravecomb (U+0300) and 5 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
-</div></details><br></div></details><details><summary><b>[13] NotoSansCham-Black.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x00AF (MACRON)
- [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSansCham/googlefonts/slim-variable-ttf/NotoSansCham[wght].ttf', 'fonts/NotoSansCham/googlefonts/ttf/NotoSansCham-Black.ttf', 'fonts/NotoSansCham/googlefonts/ttf/NotoSansCham-Bold.ttf', 'fonts/NotoSansCham/googlefonts/ttf/NotoSansCham-ExtraBold.ttf', 'fonts/NotoSansCham/googlefonts/ttf/NotoSansCham-ExtraLight.ttf', 'fonts/NotoSansCham/googlefonts/ttf/NotoSansCham-Light.ttf', 'fonts/NotoSansCham/googlefonts/ttf/NotoSansCham-Medium.ttf', 'fonts/NotoSansCham/googlefonts/ttf/NotoSansCham-Regular.ttf', 'fonts/NotoSansCham/googlefonts/ttf/NotoSansCham-SemiBold.ttf', 'fonts/NotoSansCham/googlefonts/ttf/NotoSansCham-Thin.ttf', 'fonts/NotoSansCham/googlefonts/variable-ttf/NotoSansCham[wght].ttf']. [code: missing-os2-fsselection-bit7]
+* 💔 **ERROR** Failed with IndexError: list index out of range
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -156,16 +19,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* ngue_cham
-	* nue_cham
-	* bha_cham
-	* ka_cham
 	* chFinal_cham
 	* three_cham
-	* ya_cham
-	* jha_cham
-	* eiSign_cham
-	* pha_cham and 52 more.
+	* ta_cham
+	* dda_cham
+	* ngue_cham
+	* ma_cham.calt
+	* bba_cham
+	* chha_cham
+	* da_cham
+	* o_cham and 52 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
@@ -281,21 +144,10 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 	* And 6 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[14] NotoSansCham-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[12] NotoSansCham-Bold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x00AF (MACRON)
- [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSansCham/googlefonts/slim-variable-ttf/NotoSansCham[wght].ttf', 'fonts/NotoSansCham/googlefonts/ttf/NotoSansCham-Black.ttf', 'fonts/NotoSansCham/googlefonts/ttf/NotoSansCham-Bold.ttf', 'fonts/NotoSansCham/googlefonts/ttf/NotoSansCham-ExtraBold.ttf', 'fonts/NotoSansCham/googlefonts/ttf/NotoSansCham-ExtraLight.ttf', 'fonts/NotoSansCham/googlefonts/ttf/NotoSansCham-Light.ttf', 'fonts/NotoSansCham/googlefonts/ttf/NotoSansCham-Medium.ttf', 'fonts/NotoSansCham/googlefonts/ttf/NotoSansCham-Regular.ttf', 'fonts/NotoSansCham/googlefonts/ttf/NotoSansCham-SemiBold.ttf', 'fonts/NotoSansCham/googlefonts/ttf/NotoSansCham-Thin.ttf', 'fonts/NotoSansCham/googlefonts/variable-ttf/NotoSansCham[wght].ttf']. [code: missing-os2-fsselection-bit7]
+* 💔 **ERROR** Failed with IndexError: list index out of range
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -305,16 +157,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* ngue_cham
-	* nue_cham
-	* bha_cham
-	* ka_cham
 	* chFinal_cham
-	* ya_cham
-	* jha_cham
-	* eiSign_cham
-	* pha_cham
-	* pFinal_cham and 40 more.
+	* ta_cham
+	* dda_cham
+	* ngue_cham
+	* ma_cham.calt
+	* bba_cham
+	* chha_cham
+	* da_cham
+	* o_cham
+	* nhue_cham and 40 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
@@ -436,21 +288,10 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 	* And 5 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[14] NotoSansCham-ExtraBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[12] NotoSansCham-ExtraBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x00AF (MACRON)
- [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSansCham/googlefonts/slim-variable-ttf/NotoSansCham[wght].ttf', 'fonts/NotoSansCham/googlefonts/ttf/NotoSansCham-Black.ttf', 'fonts/NotoSansCham/googlefonts/ttf/NotoSansCham-Bold.ttf', 'fonts/NotoSansCham/googlefonts/ttf/NotoSansCham-ExtraBold.ttf', 'fonts/NotoSansCham/googlefonts/ttf/NotoSansCham-ExtraLight.ttf', 'fonts/NotoSansCham/googlefonts/ttf/NotoSansCham-Light.ttf', 'fonts/NotoSansCham/googlefonts/ttf/NotoSansCham-Medium.ttf', 'fonts/NotoSansCham/googlefonts/ttf/NotoSansCham-Regular.ttf', 'fonts/NotoSansCham/googlefonts/ttf/NotoSansCham-SemiBold.ttf', 'fonts/NotoSansCham/googlefonts/ttf/NotoSansCham-Thin.ttf', 'fonts/NotoSansCham/googlefonts/variable-ttf/NotoSansCham[wght].ttf']. [code: missing-os2-fsselection-bit7]
+* 💔 **ERROR** Failed with IndexError: list index out of range
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -460,16 +301,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* ngue_cham
-	* nue_cham
-	* bha_cham
-	* ka_cham
 	* chFinal_cham
-	* ya_cham
-	* jha_cham
-	* eiSign_cham
-	* pha_cham
-	* pFinal_cham and 44 more.
+	* ta_cham
+	* dda_cham
+	* ngue_cham
+	* ma_cham.calt
+	* bba_cham
+	* chha_cham
+	* da_cham
+	* o_cham
+	* ssFinal_cham and 44 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
@@ -590,21 +431,10 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 	* Wgrave (U+1E80): B<<283.5,211.5>-<290.0,175.0>-<293.0,151.0>>/B<<293.0,151.0>-<297.0,183.0>-<305.0,226.5>> = 14.25003269780357 
 
 	* And Wgrave (U+1E80): B<<506.5,475.5>-<502.0,500.0>-<501.0,516.0>>/B<<501.0,516.0>-<499.0,500.0>-<494.5,475.5>> = 10.701350723899111 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[12] NotoSansCham-ExtraLight.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[10] NotoSansCham-ExtraLight.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x00AF (MACRON)
- [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSansCham/googlefonts/slim-variable-ttf/NotoSansCham[wght].ttf', 'fonts/NotoSansCham/googlefonts/ttf/NotoSansCham-Black.ttf', 'fonts/NotoSansCham/googlefonts/ttf/NotoSansCham-Bold.ttf', 'fonts/NotoSansCham/googlefonts/ttf/NotoSansCham-ExtraBold.ttf', 'fonts/NotoSansCham/googlefonts/ttf/NotoSansCham-ExtraLight.ttf', 'fonts/NotoSansCham/googlefonts/ttf/NotoSansCham-Light.ttf', 'fonts/NotoSansCham/googlefonts/ttf/NotoSansCham-Medium.ttf', 'fonts/NotoSansCham/googlefonts/ttf/NotoSansCham-Regular.ttf', 'fonts/NotoSansCham/googlefonts/ttf/NotoSansCham-SemiBold.ttf', 'fonts/NotoSansCham/googlefonts/ttf/NotoSansCham-Thin.ttf', 'fonts/NotoSansCham/googlefonts/variable-ttf/NotoSansCham[wght].ttf']. [code: missing-os2-fsselection-bit7]
+* 💔 **ERROR** Failed with IndexError: list index out of range
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -702,21 +532,10 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 	* And 80 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
-</div></details><br></div></details><details><summary><b>[11] NotoSansCham-Light.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[9] NotoSansCham-Light.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x00AF (MACRON)
- [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSansCham/googlefonts/slim-variable-ttf/NotoSansCham[wght].ttf', 'fonts/NotoSansCham/googlefonts/ttf/NotoSansCham-Black.ttf', 'fonts/NotoSansCham/googlefonts/ttf/NotoSansCham-Bold.ttf', 'fonts/NotoSansCham/googlefonts/ttf/NotoSansCham-ExtraBold.ttf', 'fonts/NotoSansCham/googlefonts/ttf/NotoSansCham-ExtraLight.ttf', 'fonts/NotoSansCham/googlefonts/ttf/NotoSansCham-Light.ttf', 'fonts/NotoSansCham/googlefonts/ttf/NotoSansCham-Medium.ttf', 'fonts/NotoSansCham/googlefonts/ttf/NotoSansCham-Regular.ttf', 'fonts/NotoSansCham/googlefonts/ttf/NotoSansCham-SemiBold.ttf', 'fonts/NotoSansCham/googlefonts/ttf/NotoSansCham-Thin.ttf', 'fonts/NotoSansCham/googlefonts/variable-ttf/NotoSansCham[wght].ttf']. [code: missing-os2-fsselection-bit7]
+* 💔 **ERROR** Failed with IndexError: list index out of range
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -807,21 +626,10 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 	* And 67 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
-</div></details><br></div></details><details><summary><b>[14] NotoSansCham-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[12] NotoSansCham-Medium.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x00AF (MACRON)
- [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSansCham/googlefonts/slim-variable-ttf/NotoSansCham[wght].ttf', 'fonts/NotoSansCham/googlefonts/ttf/NotoSansCham-Black.ttf', 'fonts/NotoSansCham/googlefonts/ttf/NotoSansCham-Bold.ttf', 'fonts/NotoSansCham/googlefonts/ttf/NotoSansCham-ExtraBold.ttf', 'fonts/NotoSansCham/googlefonts/ttf/NotoSansCham-ExtraLight.ttf', 'fonts/NotoSansCham/googlefonts/ttf/NotoSansCham-Light.ttf', 'fonts/NotoSansCham/googlefonts/ttf/NotoSansCham-Medium.ttf', 'fonts/NotoSansCham/googlefonts/ttf/NotoSansCham-Regular.ttf', 'fonts/NotoSansCham/googlefonts/ttf/NotoSansCham-SemiBold.ttf', 'fonts/NotoSansCham/googlefonts/ttf/NotoSansCham-Thin.ttf', 'fonts/NotoSansCham/googlefonts/variable-ttf/NotoSansCham[wght].ttf']. [code: missing-os2-fsselection-bit7]
+* 💔 **ERROR** Failed with IndexError: list index out of range
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -831,16 +639,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
+	* ta_cham
+	* dda_cham
 	* ngue_cham
-	* nue_cham
-	* jha_cham
-	* kha_cham
-	* na_cham
+	* bba_cham
 	* chha_cham
-	* va_cham
-	* ppa_cham
-	* ngFinal_cham
-	* bba_cham and 16 more.
+	* nhue_cham
+	* bba_cham.calt
+	* na_cham
+	* gFinal_cham
+	* nhja_cham and 16 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
@@ -921,21 +729,10 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 	* nhja_cham (U+AA12): B<<349.5,-51.5>-<362.0,-22.0>-<381.0,-6.0>>/B<<381.0,-6.0>-<352.0,-21.0>-<313.0,-21.0>> = 12.751031766142344 
 
 	* And nhja_cham (U+AA12): B<<437.0,86.0>-<437.0,35.0>-<400.0,6.0>>/B<<400.0,6.0>-<418.0,14.0>-<443.0,17.5>> = 14.126283906397104 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[13] NotoSansCham-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[11] NotoSansCham-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x00AF (MACRON)
- [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSansCham/googlefonts/slim-variable-ttf/NotoSansCham[wght].ttf', 'fonts/NotoSansCham/googlefonts/ttf/NotoSansCham-Black.ttf', 'fonts/NotoSansCham/googlefonts/ttf/NotoSansCham-Bold.ttf', 'fonts/NotoSansCham/googlefonts/ttf/NotoSansCham-ExtraBold.ttf', 'fonts/NotoSansCham/googlefonts/ttf/NotoSansCham-ExtraLight.ttf', 'fonts/NotoSansCham/googlefonts/ttf/NotoSansCham-Light.ttf', 'fonts/NotoSansCham/googlefonts/ttf/NotoSansCham-Medium.ttf', 'fonts/NotoSansCham/googlefonts/ttf/NotoSansCham-Regular.ttf', 'fonts/NotoSansCham/googlefonts/ttf/NotoSansCham-SemiBold.ttf', 'fonts/NotoSansCham/googlefonts/ttf/NotoSansCham-Thin.ttf', 'fonts/NotoSansCham/googlefonts/variable-ttf/NotoSansCham[wght].ttf']. [code: missing-os2-fsselection-bit7]
+* 💔 **ERROR** Failed with IndexError: list index out of range
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -1040,29 +837,29 @@ Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 74
 
 
 Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 6255 2468" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 851)"/>
-<path d=""  transform="translate(914, 851)"/>
-<path d=""  transform="translate(2321, 851)"/>
-<path d=""  transform="translate(3693, 846)"/>
-<path d=""  transform="translate(3806, 851)"/>
-<path d=""  transform="translate(4348, 851)"/>
-<path d=""  transform="translate(4913, 851)"/>
-<path d=""  transform="translate(5181, 851)"/>
-<path d=""  transform="translate(5181, 851)"/>
-<path d=""  transform="translate(6189, 851)"/>
+<path d="M861.0,329.0Q861.0,245.0 833.5,163.5Q806.0,82.0 755.0,8.5Q704.0,-65.0 632.0,-124.0L572.0,-71.0Q634.0,-21.0 679.5,43.5Q725.0,108.0 750.0,181.0Q775.0,254.0 775.0,328.0Q775.0,422.0 738.0,473.5Q701.0,525.0 633.0,525.0Q578.0,525.0 542.5,488.0Q507.0,451.0 508.0,377.0L434.0,377.0Q436.0,448.0 402.0,486.5Q368.0,525.0 312.0,525.0Q244.0,525.0 205.0,467.5Q166.0,410.0 166.0,309.0Q166.0,237.0 182.0,183.0Q198.0,129.0 226.0,95.0Q242.0,135.0 273.0,158.5Q304.0,182.0 347.0,182.0Q395.0,182.0 426.0,155.0Q457.0,128.0 457.0,82.0Q457.0,38.0 425.5,9.5Q394.0,-19.0 339.0,-19.0Q265.0,-19.0 206.0,20.5Q147.0,60.0 113.5,133.5Q80.0,207.0 80.0,308.0Q80.0,441.0 140.5,517.5Q201.0,594.0 305.0,594.0Q362.0,594.0 405.0,569.5Q448.0,545.0 471.0,501.0Q496.0,545.0 540.0,569.5Q584.0,594.0 642.0,594.0Q746.0,594.0 803.5,523.0Q861.0,452.0 861.0,329.0ZM346.0,131.0Q314.0,131.0 294.0,109.5Q274.0,88.0 267.0,57.0Q302.0,35.0 344.0,35.0Q370.0,35.0 385.0,48.0Q400.0,61.0 400.0,83.0Q400.0,108.0 384.5,119.5Q369.0,131.0 346.0,131.0Z"  transform="translate(0, 851)"/>
+<path d="M820.0,421.0Q820.0,391.0 811.5,364.0Q803.0,337.0 791.0,312.0Q812.0,317.0 835.0,317.0Q906.0,317.0 950.5,275.5Q995.0,234.0 995.0,163.0Q995.0,131.0 986.5,102.5Q978.0,74.0 969.0,54.0Q1021.0,66.0 1048.5,102.0Q1076.0,138.0 1076.0,196.0Q1076.0,237.0 1066.0,272.5Q1056.0,308.0 1046.0,344.5Q1036.0,381.0 1036.0,424.0Q1036.0,501.0 1090.5,547.5Q1145.0,594.0 1233.0,594.0Q1323.0,594.0 1377.5,544.5Q1432.0,495.0 1432.0,415.0Q1432.0,376.0 1417.5,338.0Q1403.0,300.0 1372.0,272.0L1310.0,320.0Q1327.0,338.0 1337.0,363.5Q1347.0,389.0 1347.0,417.0Q1347.0,467.0 1317.5,496.0Q1288.0,525.0 1234.0,525.0Q1181.0,525.0 1151.0,495.5Q1121.0,466.0 1121.0,418.0Q1121.0,381.0 1131.0,346.5Q1141.0,312.0 1151.0,275.0Q1161.0,238.0 1161.0,191.0Q1161.0,97.0 1099.0,40.0Q1037.0,-17.0 925.0,-17.0Q849.0,-17.0 792.5,6.0Q736.0,29.0 705.0,69.0Q674.0,109.0 674.0,161.0L674.0,161.0L674.0,163.0L674.0,165.0Q674.0,175.0 675.0,185.0Q679.0,229.0 693.5,266.5Q708.0,304.0 721.0,339.5Q734.0,375.0 734.0,412.0Q734.0,462.0 704.0,493.5Q674.0,525.0 619.0,525.0Q563.0,525.0 530.0,495.5Q497.0,466.0 497.0,417.0Q497.0,382.0 508.0,348.0Q519.0,314.0 529.5,276.0Q540.0,238.0 540.0,191.0Q540.0,97.0 478.0,40.0Q416.0,-17.0 304.0,-17.0Q228.0,-17.0 171.5,6.0Q115.0,29.0 84.0,70.0Q53.0,111.0 53.0,165.0Q53.0,230.0 96.0,273.5Q139.0,317.0 214.0,317.0Q285.0,317.0 329.5,275.5Q374.0,234.0 374.0,163.0Q374.0,131.0 365.5,102.5Q357.0,74.0 348.0,54.0Q400.0,66.0 427.5,102.0Q455.0,138.0 455.0,196.0Q455.0,237.0 444.5,272.5Q434.0,308.0 423.0,344.5Q412.0,381.0 412.0,424.0Q412.0,474.0 437.5,512.5Q463.0,551.0 508.5,572.5Q554.0,594.0 615.0,594.0Q707.0,594.0 763.5,547.0Q820.0,500.0 820.0,421.0ZM132.0,166.0Q132.0,116.0 172.0,84.0Q212.0,52.0 279.0,48.0Q288.0,69.0 295.5,98.0Q303.0,127.0 303.0,152.0Q303.0,199.0 280.0,225.0Q257.0,251.0 217.0,251.0Q177.0,251.0 154.5,227.5Q132.0,204.0 132.0,166.0ZM753.0,166.0Q753.0,116.0 793.0,84.0Q833.0,52.0 900.0,48.0Q909.0,69.0 916.5,98.0Q924.0,127.0 924.0,152.0Q924.0,199.0 901.0,225.0Q878.0,251.0 838.0,251.0Q798.0,251.0 775.5,227.5Q753.0,204.0 753.0,166.0Z"  transform="translate(914, 851)"/>
+<path d="M820.0,421.0Q820.0,391.0 811.5,364.0Q803.0,337.0 791.0,312.0Q812.0,317.0 835.0,317.0Q906.0,317.0 950.5,275.5Q995.0,234.0 995.0,163.0Q995.0,131.0 986.5,102.5Q978.0,74.0 969.0,54.0Q1021.0,66.0 1048.5,102.0Q1076.0,138.0 1076.0,196.0Q1076.0,237.0 1066.0,272.5Q1056.0,308.0 1046.0,344.5Q1036.0,381.0 1036.0,424.0Q1036.0,501.0 1090.5,547.5Q1145.0,594.0 1233.0,594.0Q1323.0,594.0 1377.5,544.5Q1432.0,495.0 1432.0,415.0Q1432.0,376.0 1417.5,338.0Q1403.0,300.0 1372.0,272.0L1310.0,320.0Q1327.0,338.0 1337.0,363.5Q1347.0,389.0 1347.0,417.0Q1347.0,467.0 1317.5,496.0Q1288.0,525.0 1234.0,525.0Q1181.0,525.0 1151.0,495.5Q1121.0,466.0 1121.0,418.0Q1121.0,381.0 1131.0,346.5Q1141.0,312.0 1151.0,275.0Q1161.0,238.0 1161.0,191.0Q1161.0,97.0 1099.0,40.0Q1037.0,-17.0 925.0,-17.0Q849.0,-17.0 792.5,6.0Q736.0,29.0 705.0,69.0Q674.0,109.0 674.0,161.0L674.0,161.0L674.0,163.0L674.0,165.0Q674.0,175.0 675.0,185.0Q679.0,229.0 693.5,266.5Q708.0,304.0 721.0,339.5Q734.0,375.0 734.0,412.0Q734.0,462.0 704.0,493.5Q674.0,525.0 619.0,525.0Q563.0,525.0 530.0,495.5Q497.0,466.0 497.0,417.0Q497.0,382.0 508.0,348.0Q519.0,314.0 529.5,276.0Q540.0,238.0 540.0,191.0Q540.0,97.0 478.0,40.0Q416.0,-17.0 304.0,-17.0Q228.0,-17.0 171.5,6.0Q115.0,29.0 84.0,70.0Q53.0,111.0 53.0,165.0Q53.0,230.0 96.0,273.5Q139.0,317.0 214.0,317.0Q285.0,317.0 329.5,275.5Q374.0,234.0 374.0,163.0Q374.0,131.0 365.5,102.5Q357.0,74.0 348.0,54.0Q400.0,66.0 427.5,102.0Q455.0,138.0 455.0,196.0Q455.0,237.0 444.5,272.5Q434.0,308.0 423.0,344.5Q412.0,381.0 412.0,424.0Q412.0,474.0 437.5,512.5Q463.0,551.0 508.5,572.5Q554.0,594.0 615.0,594.0Q707.0,594.0 763.5,547.0Q820.0,500.0 820.0,421.0ZM132.0,166.0Q132.0,116.0 172.0,84.0Q212.0,52.0 279.0,48.0Q288.0,69.0 295.5,98.0Q303.0,127.0 303.0,152.0Q303.0,199.0 280.0,225.0Q257.0,251.0 217.0,251.0Q177.0,251.0 154.5,227.5Q132.0,204.0 132.0,166.0ZM753.0,166.0Q753.0,116.0 793.0,84.0Q833.0,52.0 900.0,48.0Q909.0,69.0 916.5,98.0Q924.0,127.0 924.0,152.0Q924.0,199.0 901.0,225.0Q878.0,251.0 838.0,251.0Q798.0,251.0 775.5,227.5Q753.0,204.0 753.0,166.0Z"  transform="translate(2321, 851)"/>
+<path d="M56.0,-76.0Q56.0,-131.0 26.5,-165.0Q-3.0,-199.0 -50.0,-199.0Q-97.0,-199.0 -126.5,-162.5Q-156.0,-126.0 -156.0,-68.0Q-156.0,-5.0 -113.5,57.0Q-71.0,119.0 11.0,159.0L45.0,110.0Q14.0,94.0 -11.0,75.0Q56.0,6.0 56.0,-76.0ZM-93.0,-66.0Q-93.0,-100.0 -80.5,-119.0Q-68.0,-138.0 -49.0,-138.0Q-9.0,-138.0 -9.0,-77.0Q-9.0,-51.0 -20.0,-23.5Q-31.0,4.0 -56.0,30.0Q-76.0,5.0 -84.5,-19.5Q-93.0,-44.0 -93.0,-66.0Z"  transform="translate(3693, 846)"/>
+<path d="M489.0,421.0Q489.0,341.0 425.0,274.0L362.0,321.0Q382.0,341.0 393.5,367.0Q405.0,393.0 405.0,421.0Q405.0,471.0 375.5,498.0Q346.0,525.0 296.0,525.0Q246.0,525.0 217.5,499.0Q189.0,473.0 189.0,429.0Q189.0,403.0 195.5,375.5Q202.0,348.0 202.0,319.0Q202.0,269.0 163.0,231.0Q124.0,193.0 56.0,172.0L30.0,199.0Q33.0,214.0 33.0,231.0Q33.0,283.0 2.5,315.5Q-28.0,348.0 -78.0,351.0L-81.0,424.0Q-2.0,415.0 42.0,366.0Q86.0,317.0 86.0,247.0Q106.0,261.0 114.5,279.5Q123.0,298.0 123.0,320.0Q123.0,343.0 115.0,374.0Q107.0,405.0 107.0,436.0Q107.0,507.0 157.5,550.5Q208.0,594.0 296.0,594.0Q383.0,594.0 436.0,546.5Q489.0,499.0 489.0,421.0Z"  transform="translate(3806, 851)"/>
+<path d="M512.0,392.0Q512.0,268.0 404.0,198.0L362.0,171.0Q340.0,157.0 333.0,144.5Q326.0,132.0 326.0,109.0L326.0,-282.0L239.0,-282.0L239.0,118.0Q239.0,147.0 245.5,166.5Q252.0,186.0 284.0,205.0L331.0,234.0Q384.0,266.0 405.0,305.5Q426.0,345.0 426.0,387.0Q426.0,455.0 385.0,490.0Q344.0,525.0 278.0,525.0Q211.0,525.0 170.5,491.5Q130.0,458.0 130.0,396.0Q130.0,374.0 133.0,355.0Q162.0,384.0 203.0,384.0Q238.0,384.0 260.5,364.5Q283.0,345.0 283.0,311.0Q283.0,277.0 258.5,255.5Q234.0,234.0 196.0,234.0Q136.0,234.0 94.5,279.5Q53.0,325.0 53.0,401.0Q53.0,459.0 82.0,502.0Q111.0,545.0 163.0,569.5Q215.0,594.0 283.0,594.0Q350.0,594.0 401.5,570.0Q453.0,546.0 482.5,500.5Q512.0,455.0 512.0,392.0ZM199.0,346.0Q166.0,346.0 148.0,308.0Q167.0,275.0 201.0,275.0Q221.0,275.0 230.0,285.0Q239.0,295.0 239.0,311.0Q239.0,328.0 227.5,337.0Q216.0,346.0 199.0,346.0Z"  transform="translate(4348, 851)"/>
+<path d="M192.0,470.0Q179.0,417.0 154.5,353.5Q130.0,290.0 106.0,236.0L41.0,236.0Q55.0,293.0 69.5,361.0Q84.0,429.0 91.0,481.0L185.0,481.0L192.0,470.0Z"  transform="translate(4913, 851)"/>
+<path d="M-45.0,156.0L-19.0,104.0Q-55.0,90.0 -83.0,71.0Q-16.0,4.0 -16.0,-72.0Q-16.0,-126.0 -47.5,-162.0Q-79.0,-198.0 -132.0,-198.0Q-184.0,-198.0 -215.5,-162.0Q-247.0,-126.0 -247.0,-72.0Q-247.0,4.0 -181.0,71.0Q-210.0,89.0 -247.0,104.0L-222.0,157.0Q-172.0,139.0 -132.0,111.0Q-93.0,138.0 -45.0,156.0ZM-180.0,-72.0Q-180.0,-100.0 -167.5,-120.0Q-155.0,-140.0 -132.0,-140.0Q-109.0,-140.0 -96.5,-120.0Q-84.0,-100.0 -84.0,-72.0Q-84.0,-48.0 -95.5,-21.0Q-107.0,6.0 -132.0,32.0Q-157.0,6.0 -168.5,-21.0Q-180.0,-48.0 -180.0,-72.0Z"  transform="translate(5181, 851)"/>
+<path d="M1021.0,421.0Q1021.0,381.0 1005.5,343.5Q990.0,306.0 958.0,276.0L895.0,324.0Q914.0,344.0 925.5,368.5Q937.0,393.0 937.0,421.0Q937.0,470.0 908.0,497.5Q879.0,525.0 829.0,525.0Q779.0,525.0 751.5,498.5Q724.0,472.0 724.0,428.0Q724.0,404.0 730.5,381.5Q737.0,359.0 737.0,335.0Q737.0,294.0 721.0,268.0Q705.0,242.0 681.5,224.0Q658.0,206.0 634.0,191.0Q610.0,176.0 594.0,157.5Q578.0,139.0 578.0,111.0Q578.0,89.0 586.5,73.5Q595.0,58.0 613.0,37.0L591.0,-16.0Q578.0,-17.0 561.0,-17.0Q544.0,-17.0 526.0,-17.0Q462.0,-17.0 414.0,7.0Q366.0,31.0 340.0,73.0Q314.0,115.0 314.0,170.0Q314.0,205.0 324.0,235.5Q334.0,266.0 347.0,294.5Q360.0,323.0 370.0,351.5Q380.0,380.0 380.0,411.0Q380.0,463.0 347.0,494.0Q314.0,525.0 257.0,525.0Q198.0,525.0 162.0,492.5Q126.0,460.0 126.0,398.0Q126.0,369.0 133.0,345.0Q165.0,381.0 211.0,381.0Q245.0,381.0 264.5,361.5Q284.0,342.0 284.0,313.0Q284.0,279.0 262.0,258.0Q240.0,237.0 202.0,237.0Q168.0,237.0 138.0,252.0Q133.0,228.0 131.0,198.0L84.0,202.0Q87.0,246.0 98.0,281.0Q78.0,303.0 65.5,334.5Q53.0,366.0 53.0,405.0Q53.0,491.0 109.5,542.5Q166.0,594.0 260.0,594.0Q321.0,594.0 367.5,571.5Q414.0,549.0 440.0,509.0Q466.0,469.0 466.0,414.0Q466.0,378.0 456.0,347.0Q446.0,316.0 433.0,287.0Q420.0,258.0 410.0,229.0Q400.0,200.0 400.0,170.0Q400.0,118.0 430.0,85.0Q460.0,52.0 511.0,52.0L518.0,52.0Q505.0,69.0 500.0,85.0Q495.0,101.0 495.0,122.0Q495.0,158.0 511.0,181.0Q527.0,204.0 550.0,221.0Q573.0,238.0 596.0,254.0Q619.0,270.0 635.0,291.5Q651.0,313.0 651.0,346.0Q651.0,363.0 644.5,387.5Q638.0,412.0 638.0,439.0Q638.0,508.0 690.0,551.0Q742.0,594.0 830.0,594.0Q916.0,594.0 968.5,546.5Q1021.0,499.0 1021.0,421.0ZM208.0,340.0Q175.0,340.0 155.0,302.0Q177.0,278.0 207.0,278.0Q226.0,278.0 234.0,287.5Q242.0,297.0 242.0,310.0Q242.0,326.0 232.0,333.0Q222.0,340.0 208.0,340.0Z"  transform="translate(5181, 851)"/>
+<path d="M56.0,-76.0Q56.0,-131.0 26.5,-165.0Q-3.0,-199.0 -50.0,-199.0Q-97.0,-199.0 -126.5,-162.5Q-156.0,-126.0 -156.0,-68.0Q-156.0,-5.0 -113.5,57.0Q-71.0,119.0 11.0,159.0L45.0,110.0Q14.0,94.0 -11.0,75.0Q56.0,6.0 56.0,-76.0ZM-93.0,-66.0Q-93.0,-100.0 -80.5,-119.0Q-68.0,-138.0 -49.0,-138.0Q-9.0,-138.0 -9.0,-77.0Q-9.0,-51.0 -20.0,-23.5Q-31.0,4.0 -56.0,30.0Q-76.0,5.0 -84.5,-19.5Q-93.0,-44.0 -93.0,-66.0Z"  transform="translate(6189, 851)"/>
 </svg>
  Expected: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 6849 2468" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 851)"/>
-<path d=""  transform="translate(914, 851)"/>
-<path d=""  transform="translate(2321, 851)"/>
-<path d=""  transform="translate(3693, 846)"/>
-<path d=""  transform="translate(3806, 851)"/>
-<path d=""  transform="translate(4348, 851)"/>
-<path d=""  transform="translate(4913, 851)"/>
-<path d=""  transform="translate(5181, 851)"/>
-<path d=""  transform="translate(5592, 616)"/>
-<path d=""  transform="translate(5775, 851)"/>
-<path d=""  transform="translate(6783, 851)"/>
+<path d="M861.0,329.0Q861.0,245.0 833.5,163.5Q806.0,82.0 755.0,8.5Q704.0,-65.0 632.0,-124.0L572.0,-71.0Q634.0,-21.0 679.5,43.5Q725.0,108.0 750.0,181.0Q775.0,254.0 775.0,328.0Q775.0,422.0 738.0,473.5Q701.0,525.0 633.0,525.0Q578.0,525.0 542.5,488.0Q507.0,451.0 508.0,377.0L434.0,377.0Q436.0,448.0 402.0,486.5Q368.0,525.0 312.0,525.0Q244.0,525.0 205.0,467.5Q166.0,410.0 166.0,309.0Q166.0,237.0 182.0,183.0Q198.0,129.0 226.0,95.0Q242.0,135.0 273.0,158.5Q304.0,182.0 347.0,182.0Q395.0,182.0 426.0,155.0Q457.0,128.0 457.0,82.0Q457.0,38.0 425.5,9.5Q394.0,-19.0 339.0,-19.0Q265.0,-19.0 206.0,20.5Q147.0,60.0 113.5,133.5Q80.0,207.0 80.0,308.0Q80.0,441.0 140.5,517.5Q201.0,594.0 305.0,594.0Q362.0,594.0 405.0,569.5Q448.0,545.0 471.0,501.0Q496.0,545.0 540.0,569.5Q584.0,594.0 642.0,594.0Q746.0,594.0 803.5,523.0Q861.0,452.0 861.0,329.0ZM346.0,131.0Q314.0,131.0 294.0,109.5Q274.0,88.0 267.0,57.0Q302.0,35.0 344.0,35.0Q370.0,35.0 385.0,48.0Q400.0,61.0 400.0,83.0Q400.0,108.0 384.5,119.5Q369.0,131.0 346.0,131.0Z"  transform="translate(0, 851)"/>
+<path d="M820.0,421.0Q820.0,391.0 811.5,364.0Q803.0,337.0 791.0,312.0Q812.0,317.0 835.0,317.0Q906.0,317.0 950.5,275.5Q995.0,234.0 995.0,163.0Q995.0,131.0 986.5,102.5Q978.0,74.0 969.0,54.0Q1021.0,66.0 1048.5,102.0Q1076.0,138.0 1076.0,196.0Q1076.0,237.0 1066.0,272.5Q1056.0,308.0 1046.0,344.5Q1036.0,381.0 1036.0,424.0Q1036.0,501.0 1090.5,547.5Q1145.0,594.0 1233.0,594.0Q1323.0,594.0 1377.5,544.5Q1432.0,495.0 1432.0,415.0Q1432.0,376.0 1417.5,338.0Q1403.0,300.0 1372.0,272.0L1310.0,320.0Q1327.0,338.0 1337.0,363.5Q1347.0,389.0 1347.0,417.0Q1347.0,467.0 1317.5,496.0Q1288.0,525.0 1234.0,525.0Q1181.0,525.0 1151.0,495.5Q1121.0,466.0 1121.0,418.0Q1121.0,381.0 1131.0,346.5Q1141.0,312.0 1151.0,275.0Q1161.0,238.0 1161.0,191.0Q1161.0,97.0 1099.0,40.0Q1037.0,-17.0 925.0,-17.0Q849.0,-17.0 792.5,6.0Q736.0,29.0 705.0,69.0Q674.0,109.0 674.0,161.0L674.0,161.0L674.0,163.0L674.0,165.0Q674.0,175.0 675.0,185.0Q679.0,229.0 693.5,266.5Q708.0,304.0 721.0,339.5Q734.0,375.0 734.0,412.0Q734.0,462.0 704.0,493.5Q674.0,525.0 619.0,525.0Q563.0,525.0 530.0,495.5Q497.0,466.0 497.0,417.0Q497.0,382.0 508.0,348.0Q519.0,314.0 529.5,276.0Q540.0,238.0 540.0,191.0Q540.0,97.0 478.0,40.0Q416.0,-17.0 304.0,-17.0Q228.0,-17.0 171.5,6.0Q115.0,29.0 84.0,70.0Q53.0,111.0 53.0,165.0Q53.0,230.0 96.0,273.5Q139.0,317.0 214.0,317.0Q285.0,317.0 329.5,275.5Q374.0,234.0 374.0,163.0Q374.0,131.0 365.5,102.5Q357.0,74.0 348.0,54.0Q400.0,66.0 427.5,102.0Q455.0,138.0 455.0,196.0Q455.0,237.0 444.5,272.5Q434.0,308.0 423.0,344.5Q412.0,381.0 412.0,424.0Q412.0,474.0 437.5,512.5Q463.0,551.0 508.5,572.5Q554.0,594.0 615.0,594.0Q707.0,594.0 763.5,547.0Q820.0,500.0 820.0,421.0ZM132.0,166.0Q132.0,116.0 172.0,84.0Q212.0,52.0 279.0,48.0Q288.0,69.0 295.5,98.0Q303.0,127.0 303.0,152.0Q303.0,199.0 280.0,225.0Q257.0,251.0 217.0,251.0Q177.0,251.0 154.5,227.5Q132.0,204.0 132.0,166.0ZM753.0,166.0Q753.0,116.0 793.0,84.0Q833.0,52.0 900.0,48.0Q909.0,69.0 916.5,98.0Q924.0,127.0 924.0,152.0Q924.0,199.0 901.0,225.0Q878.0,251.0 838.0,251.0Q798.0,251.0 775.5,227.5Q753.0,204.0 753.0,166.0Z"  transform="translate(914, 851)"/>
+<path d="M820.0,421.0Q820.0,391.0 811.5,364.0Q803.0,337.0 791.0,312.0Q812.0,317.0 835.0,317.0Q906.0,317.0 950.5,275.5Q995.0,234.0 995.0,163.0Q995.0,131.0 986.5,102.5Q978.0,74.0 969.0,54.0Q1021.0,66.0 1048.5,102.0Q1076.0,138.0 1076.0,196.0Q1076.0,237.0 1066.0,272.5Q1056.0,308.0 1046.0,344.5Q1036.0,381.0 1036.0,424.0Q1036.0,501.0 1090.5,547.5Q1145.0,594.0 1233.0,594.0Q1323.0,594.0 1377.5,544.5Q1432.0,495.0 1432.0,415.0Q1432.0,376.0 1417.5,338.0Q1403.0,300.0 1372.0,272.0L1310.0,320.0Q1327.0,338.0 1337.0,363.5Q1347.0,389.0 1347.0,417.0Q1347.0,467.0 1317.5,496.0Q1288.0,525.0 1234.0,525.0Q1181.0,525.0 1151.0,495.5Q1121.0,466.0 1121.0,418.0Q1121.0,381.0 1131.0,346.5Q1141.0,312.0 1151.0,275.0Q1161.0,238.0 1161.0,191.0Q1161.0,97.0 1099.0,40.0Q1037.0,-17.0 925.0,-17.0Q849.0,-17.0 792.5,6.0Q736.0,29.0 705.0,69.0Q674.0,109.0 674.0,161.0L674.0,161.0L674.0,163.0L674.0,165.0Q674.0,175.0 675.0,185.0Q679.0,229.0 693.5,266.5Q708.0,304.0 721.0,339.5Q734.0,375.0 734.0,412.0Q734.0,462.0 704.0,493.5Q674.0,525.0 619.0,525.0Q563.0,525.0 530.0,495.5Q497.0,466.0 497.0,417.0Q497.0,382.0 508.0,348.0Q519.0,314.0 529.5,276.0Q540.0,238.0 540.0,191.0Q540.0,97.0 478.0,40.0Q416.0,-17.0 304.0,-17.0Q228.0,-17.0 171.5,6.0Q115.0,29.0 84.0,70.0Q53.0,111.0 53.0,165.0Q53.0,230.0 96.0,273.5Q139.0,317.0 214.0,317.0Q285.0,317.0 329.5,275.5Q374.0,234.0 374.0,163.0Q374.0,131.0 365.5,102.5Q357.0,74.0 348.0,54.0Q400.0,66.0 427.5,102.0Q455.0,138.0 455.0,196.0Q455.0,237.0 444.5,272.5Q434.0,308.0 423.0,344.5Q412.0,381.0 412.0,424.0Q412.0,474.0 437.5,512.5Q463.0,551.0 508.5,572.5Q554.0,594.0 615.0,594.0Q707.0,594.0 763.5,547.0Q820.0,500.0 820.0,421.0ZM132.0,166.0Q132.0,116.0 172.0,84.0Q212.0,52.0 279.0,48.0Q288.0,69.0 295.5,98.0Q303.0,127.0 303.0,152.0Q303.0,199.0 280.0,225.0Q257.0,251.0 217.0,251.0Q177.0,251.0 154.5,227.5Q132.0,204.0 132.0,166.0ZM753.0,166.0Q753.0,116.0 793.0,84.0Q833.0,52.0 900.0,48.0Q909.0,69.0 916.5,98.0Q924.0,127.0 924.0,152.0Q924.0,199.0 901.0,225.0Q878.0,251.0 838.0,251.0Q798.0,251.0 775.5,227.5Q753.0,204.0 753.0,166.0Z"  transform="translate(2321, 851)"/>
+<path d="M56.0,-76.0Q56.0,-131.0 26.5,-165.0Q-3.0,-199.0 -50.0,-199.0Q-97.0,-199.0 -126.5,-162.5Q-156.0,-126.0 -156.0,-68.0Q-156.0,-5.0 -113.5,57.0Q-71.0,119.0 11.0,159.0L45.0,110.0Q14.0,94.0 -11.0,75.0Q56.0,6.0 56.0,-76.0ZM-93.0,-66.0Q-93.0,-100.0 -80.5,-119.0Q-68.0,-138.0 -49.0,-138.0Q-9.0,-138.0 -9.0,-77.0Q-9.0,-51.0 -20.0,-23.5Q-31.0,4.0 -56.0,30.0Q-76.0,5.0 -84.5,-19.5Q-93.0,-44.0 -93.0,-66.0Z"  transform="translate(3693, 846)"/>
+<path d="M489.0,421.0Q489.0,341.0 425.0,274.0L362.0,321.0Q382.0,341.0 393.5,367.0Q405.0,393.0 405.0,421.0Q405.0,471.0 375.5,498.0Q346.0,525.0 296.0,525.0Q246.0,525.0 217.5,499.0Q189.0,473.0 189.0,429.0Q189.0,403.0 195.5,375.5Q202.0,348.0 202.0,319.0Q202.0,269.0 163.0,231.0Q124.0,193.0 56.0,172.0L30.0,199.0Q33.0,214.0 33.0,231.0Q33.0,283.0 2.5,315.5Q-28.0,348.0 -78.0,351.0L-81.0,424.0Q-2.0,415.0 42.0,366.0Q86.0,317.0 86.0,247.0Q106.0,261.0 114.5,279.5Q123.0,298.0 123.0,320.0Q123.0,343.0 115.0,374.0Q107.0,405.0 107.0,436.0Q107.0,507.0 157.5,550.5Q208.0,594.0 296.0,594.0Q383.0,594.0 436.0,546.5Q489.0,499.0 489.0,421.0Z"  transform="translate(3806, 851)"/>
+<path d="M512.0,392.0Q512.0,268.0 404.0,198.0L362.0,171.0Q340.0,157.0 333.0,144.5Q326.0,132.0 326.0,109.0L326.0,-282.0L239.0,-282.0L239.0,118.0Q239.0,147.0 245.5,166.5Q252.0,186.0 284.0,205.0L331.0,234.0Q384.0,266.0 405.0,305.5Q426.0,345.0 426.0,387.0Q426.0,455.0 385.0,490.0Q344.0,525.0 278.0,525.0Q211.0,525.0 170.5,491.5Q130.0,458.0 130.0,396.0Q130.0,374.0 133.0,355.0Q162.0,384.0 203.0,384.0Q238.0,384.0 260.5,364.5Q283.0,345.0 283.0,311.0Q283.0,277.0 258.5,255.5Q234.0,234.0 196.0,234.0Q136.0,234.0 94.5,279.5Q53.0,325.0 53.0,401.0Q53.0,459.0 82.0,502.0Q111.0,545.0 163.0,569.5Q215.0,594.0 283.0,594.0Q350.0,594.0 401.5,570.0Q453.0,546.0 482.5,500.5Q512.0,455.0 512.0,392.0ZM199.0,346.0Q166.0,346.0 148.0,308.0Q167.0,275.0 201.0,275.0Q221.0,275.0 230.0,285.0Q239.0,295.0 239.0,311.0Q239.0,328.0 227.5,337.0Q216.0,346.0 199.0,346.0Z"  transform="translate(4348, 851)"/>
+<path d="M192.0,470.0Q179.0,417.0 154.5,353.5Q130.0,290.0 106.0,236.0L41.0,236.0Q55.0,293.0 69.5,361.0Q84.0,429.0 91.0,481.0L185.0,481.0L192.0,470.0Z"  transform="translate(4913, 851)"/>
+<path d="M297.0,537.0Q308.0,537.0 315.5,529.5Q323.0,522.0 323.0,511.0Q323.0,501.0 315.5,493.0Q308.0,485.0 297.0,485.0Q287.0,485.0 279.0,493.0Q271.0,501.0 271.0,511.0Q271.0,522.0 279.0,529.5Q287.0,537.0 297.0,537.0ZM213.0,519.0Q224.0,519.0 231.5,511.5Q239.0,504.0 239.0,493.0Q239.0,483.0 231.5,475.0Q224.0,467.0 213.0,467.0Q203.0,467.0 195.0,475.0Q187.0,483.0 187.0,493.0Q187.0,504.0 195.0,511.5Q203.0,519.0 213.0,519.0ZM381.0,519.0Q392.0,519.0 399.5,511.5Q407.0,504.0 407.0,493.0Q407.0,483.0 399.5,475.0Q392.0,467.0 381.0,467.0Q371.0,467.0 363.0,475.0Q355.0,483.0 355.0,493.0Q355.0,504.0 363.0,511.5Q371.0,519.0 381.0,519.0ZM113.0,446.0Q113.0,457.0 121.0,464.5Q129.0,472.0 139.0,472.0Q150.0,472.0 157.5,464.5Q165.0,457.0 165.0,446.0Q165.0,436.0 157.5,428.0Q150.0,420.0 139.0,420.0Q129.0,420.0 121.0,428.0Q113.0,436.0 113.0,446.0ZM429.0,446.0Q429.0,457.0 437.0,464.5Q445.0,472.0 455.0,472.0Q466.0,472.0 473.5,464.5Q481.0,457.0 481.0,446.0Q481.0,436.0 473.5,428.0Q466.0,420.0 455.0,420.0Q445.0,420.0 437.0,428.0Q429.0,436.0 429.0,446.0ZM66.0,372.0Q66.0,383.0 74.0,390.5Q82.0,398.0 92.0,398.0Q103.0,398.0 110.5,390.5Q118.0,383.0 118.0,372.0Q118.0,362.0 110.5,354.0Q103.0,346.0 92.0,346.0Q82.0,346.0 74.0,354.0Q66.0,362.0 66.0,372.0ZM476.0,372.0Q476.0,383.0 484.0,390.5Q492.0,398.0 502.0,398.0Q513.0,398.0 520.5,390.5Q528.0,383.0 528.0,372.0Q528.0,362.0 520.5,354.0Q513.0,346.0 502.0,346.0Q492.0,346.0 484.0,354.0Q476.0,362.0 476.0,372.0ZM48.0,288.0Q48.0,299.0 56.0,306.5Q64.0,314.0 74.0,314.0Q85.0,314.0 92.5,306.5Q100.0,299.0 100.0,288.0Q100.0,278.0 92.5,270.0Q85.0,262.0 74.0,262.0Q64.0,262.0 56.0,270.0Q48.0,278.0 48.0,288.0ZM494.0,288.0Q494.0,299.0 502.0,306.5Q510.0,314.0 520.0,314.0Q531.0,314.0 538.5,306.5Q546.0,299.0 546.0,288.0Q546.0,278.0 538.5,270.0Q531.0,262.0 520.0,262.0Q510.0,262.0 502.0,270.0Q494.0,278.0 494.0,288.0ZM66.0,204.0Q66.0,215.0 74.0,222.5Q82.0,230.0 92.0,230.0Q103.0,230.0 110.5,222.5Q118.0,215.0 118.0,204.0Q118.0,194.0 110.5,186.0Q103.0,178.0 92.0,178.0Q82.0,178.0 74.0,186.0Q66.0,194.0 66.0,204.0ZM476.0,204.0Q476.0,215.0 484.0,222.5Q492.0,230.0 502.0,230.0Q513.0,230.0 520.5,222.5Q528.0,215.0 528.0,204.0Q528.0,194.0 520.5,186.0Q513.0,178.0 502.0,178.0Q492.0,178.0 484.0,186.0Q476.0,194.0 476.0,204.0ZM113.0,130.0Q113.0,141.0 121.0,148.5Q129.0,156.0 139.0,156.0Q150.0,156.0 157.5,148.5Q165.0,141.0 165.0,130.0Q165.0,120.0 157.5,112.0Q150.0,104.0 139.0,104.0Q129.0,104.0 121.0,112.0Q113.0,120.0 113.0,130.0ZM429.0,130.0Q429.0,141.0 437.0,148.5Q445.0,156.0 455.0,156.0Q466.0,156.0 473.5,148.5Q481.0,141.0 481.0,130.0Q481.0,120.0 473.5,112.0Q466.0,104.0 455.0,104.0Q445.0,104.0 437.0,112.0Q429.0,120.0 429.0,130.0ZM213.0,109.0Q224.0,109.0 231.5,101.5Q239.0,94.0 239.0,83.0Q239.0,73.0 231.5,65.0Q224.0,57.0 213.0,57.0Q203.0,57.0 195.0,65.0Q187.0,73.0 187.0,83.0Q187.0,94.0 195.0,101.5Q203.0,109.0 213.0,109.0ZM381.0,109.0Q392.0,109.0 399.5,101.5Q407.0,94.0 407.0,83.0Q407.0,73.0 399.5,65.0Q392.0,57.0 381.0,57.0Q371.0,57.0 363.0,65.0Q355.0,73.0 355.0,83.0Q355.0,94.0 363.0,101.5Q371.0,109.0 381.0,109.0ZM297.0,91.0Q308.0,91.0 315.5,83.5Q323.0,76.0 323.0,65.0Q323.0,55.0 315.5,47.0Q308.0,39.0 297.0,39.0Q287.0,39.0 279.0,47.0Q271.0,55.0 271.0,65.0Q271.0,76.0 279.0,83.5Q287.0,91.0 297.0,91.0Z"  transform="translate(5181, 851)"/>
+<path d="M-45.0,156.0L-19.0,104.0Q-55.0,90.0 -83.0,71.0Q-16.0,4.0 -16.0,-72.0Q-16.0,-126.0 -47.5,-162.0Q-79.0,-198.0 -132.0,-198.0Q-184.0,-198.0 -215.5,-162.0Q-247.0,-126.0 -247.0,-72.0Q-247.0,4.0 -181.0,71.0Q-210.0,89.0 -247.0,104.0L-222.0,157.0Q-172.0,139.0 -132.0,111.0Q-93.0,138.0 -45.0,156.0ZM-180.0,-72.0Q-180.0,-100.0 -167.5,-120.0Q-155.0,-140.0 -132.0,-140.0Q-109.0,-140.0 -96.5,-120.0Q-84.0,-100.0 -84.0,-72.0Q-84.0,-48.0 -95.5,-21.0Q-107.0,6.0 -132.0,32.0Q-157.0,6.0 -168.5,-21.0Q-180.0,-48.0 -180.0,-72.0Z"  transform="translate(5592, 616)"/>
+<path d="M1021.0,421.0Q1021.0,381.0 1005.5,343.5Q990.0,306.0 958.0,276.0L895.0,324.0Q914.0,344.0 925.5,368.5Q937.0,393.0 937.0,421.0Q937.0,470.0 908.0,497.5Q879.0,525.0 829.0,525.0Q779.0,525.0 751.5,498.5Q724.0,472.0 724.0,428.0Q724.0,404.0 730.5,381.5Q737.0,359.0 737.0,335.0Q737.0,294.0 721.0,268.0Q705.0,242.0 681.5,224.0Q658.0,206.0 634.0,191.0Q610.0,176.0 594.0,157.5Q578.0,139.0 578.0,111.0Q578.0,89.0 586.5,73.5Q595.0,58.0 613.0,37.0L591.0,-16.0Q578.0,-17.0 561.0,-17.0Q544.0,-17.0 526.0,-17.0Q462.0,-17.0 414.0,7.0Q366.0,31.0 340.0,73.0Q314.0,115.0 314.0,170.0Q314.0,205.0 324.0,235.5Q334.0,266.0 347.0,294.5Q360.0,323.0 370.0,351.5Q380.0,380.0 380.0,411.0Q380.0,463.0 347.0,494.0Q314.0,525.0 257.0,525.0Q198.0,525.0 162.0,492.5Q126.0,460.0 126.0,398.0Q126.0,369.0 133.0,345.0Q165.0,381.0 211.0,381.0Q245.0,381.0 264.5,361.5Q284.0,342.0 284.0,313.0Q284.0,279.0 262.0,258.0Q240.0,237.0 202.0,237.0Q168.0,237.0 138.0,252.0Q133.0,228.0 131.0,198.0L84.0,202.0Q87.0,246.0 98.0,281.0Q78.0,303.0 65.5,334.5Q53.0,366.0 53.0,405.0Q53.0,491.0 109.5,542.5Q166.0,594.0 260.0,594.0Q321.0,594.0 367.5,571.5Q414.0,549.0 440.0,509.0Q466.0,469.0 466.0,414.0Q466.0,378.0 456.0,347.0Q446.0,316.0 433.0,287.0Q420.0,258.0 410.0,229.0Q400.0,200.0 400.0,170.0Q400.0,118.0 430.0,85.0Q460.0,52.0 511.0,52.0L518.0,52.0Q505.0,69.0 500.0,85.0Q495.0,101.0 495.0,122.0Q495.0,158.0 511.0,181.0Q527.0,204.0 550.0,221.0Q573.0,238.0 596.0,254.0Q619.0,270.0 635.0,291.5Q651.0,313.0 651.0,346.0Q651.0,363.0 644.5,387.5Q638.0,412.0 638.0,439.0Q638.0,508.0 690.0,551.0Q742.0,594.0 830.0,594.0Q916.0,594.0 968.5,546.5Q1021.0,499.0 1021.0,421.0ZM208.0,340.0Q175.0,340.0 155.0,302.0Q177.0,278.0 207.0,278.0Q226.0,278.0 234.0,287.5Q242.0,297.0 242.0,310.0Q242.0,326.0 232.0,333.0Q222.0,340.0 208.0,340.0Z"  transform="translate(5775, 851)"/>
+<path d="M56.0,-76.0Q56.0,-131.0 26.5,-165.0Q-3.0,-199.0 -50.0,-199.0Q-97.0,-199.0 -126.5,-162.5Q-156.0,-126.0 -156.0,-68.0Q-156.0,-5.0 -113.5,57.0Q-71.0,119.0 11.0,159.0L45.0,110.0Q14.0,94.0 -11.0,75.0Q56.0,6.0 56.0,-76.0ZM-93.0,-66.0Q-93.0,-100.0 -80.5,-119.0Q-68.0,-138.0 -49.0,-138.0Q-9.0,-138.0 -9.0,-77.0Q-9.0,-51.0 -20.0,-23.5Q-31.0,4.0 -56.0,30.0Q-76.0,5.0 -84.5,-19.5Q-93.0,-44.0 -93.0,-66.0Z"  transform="translate(6783, 851)"/>
 </svg>
 
 
@@ -1085,29 +882,29 @@ Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 62
 
 
 Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 6138 2468" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 851)"/>
-<path d=""  transform="translate(541, 851)"/>
-<path d=""  transform="translate(1439, 851)"/>
-<path d=""  transform="translate(2748, 851)"/>
-<path d=""  transform="translate(3016, 851)"/>
-<path d=""  transform="translate(3016, 851)"/>
-<path d=""  transform="translate(4387, 848)"/>
-<path d=""  transform="translate(4325, 851)"/>
-<path d=""  transform="translate(4867, 851)"/>
-<path d=""  transform="translate(5870, 851)"/>
+<path d="M512.0,392.0Q512.0,268.0 404.0,198.0L362.0,171.0Q340.0,157.0 333.0,144.5Q326.0,132.0 326.0,109.0L326.0,-282.0L239.0,-282.0L239.0,118.0Q239.0,147.0 245.5,166.5Q252.0,186.0 284.0,205.0L331.0,234.0Q384.0,266.0 405.0,305.5Q426.0,345.0 426.0,387.0Q426.0,455.0 385.0,490.0Q344.0,525.0 278.0,525.0Q211.0,525.0 170.5,491.5Q130.0,458.0 130.0,396.0Q130.0,374.0 133.0,355.0Q162.0,384.0 203.0,384.0Q238.0,384.0 260.5,364.5Q283.0,345.0 283.0,311.0Q283.0,277.0 258.5,255.5Q234.0,234.0 196.0,234.0Q136.0,234.0 94.5,279.5Q53.0,325.0 53.0,401.0Q53.0,459.0 82.0,502.0Q111.0,545.0 163.0,569.5Q215.0,594.0 283.0,594.0Q350.0,594.0 401.5,570.0Q453.0,546.0 482.5,500.5Q512.0,455.0 512.0,392.0ZM199.0,346.0Q166.0,346.0 148.0,308.0Q167.0,275.0 201.0,275.0Q221.0,275.0 230.0,285.0Q239.0,295.0 239.0,311.0Q239.0,328.0 227.5,337.0Q216.0,346.0 199.0,346.0Z"  transform="translate(0, 851)"/>
+<path d="M818.0,327.0Q818.0,242.0 789.0,158.5Q760.0,75.0 707.0,3.0Q654.0,-69.0 581.0,-122.0L523.0,-66.0Q588.0,-19.0 634.5,44.0Q681.0,107.0 706.5,179.5Q732.0,252.0 732.0,328.0Q732.0,421.0 700.0,473.0Q668.0,525.0 607.0,525.0Q558.0,525.0 524.5,490.0Q491.0,455.0 493.0,379.0L418.0,379.0Q420.0,453.0 387.5,489.0Q355.0,525.0 302.0,525.0Q252.0,525.0 223.0,496.0Q194.0,467.0 194.0,420.0Q194.0,382.0 209.5,343.0Q225.0,304.0 240.5,261.0Q256.0,218.0 256.0,168.0Q256.0,84.0 204.5,27.0Q153.0,-30.0 64.0,-45.0L48.0,27.0Q104.0,38.0 137.0,75.5Q170.0,113.0 170.0,173.0Q170.0,214.0 154.5,254.0Q139.0,294.0 123.5,335.5Q108.0,377.0 108.0,424.0Q108.0,474.0 131.0,512.5Q154.0,551.0 194.5,572.5Q235.0,594.0 289.0,594.0Q344.0,594.0 387.5,571.0Q431.0,548.0 455.0,504.0Q480.0,548.0 522.0,571.0Q564.0,594.0 618.0,594.0Q712.0,594.0 765.0,522.5Q818.0,451.0 818.0,327.0Z"  transform="translate(541, 851)"/>
+<path d="M1256.0,417.0Q1256.0,377.0 1242.5,342.0Q1229.0,307.0 1198.0,274.0L1134.0,320.0Q1172.0,359.0 1172.0,418.0Q1172.0,468.0 1143.5,496.5Q1115.0,525.0 1065.0,525.0Q1023.0,525.0 997.5,497.5Q972.0,470.0 963.0,418.0Q955.0,370.0 938.5,341.0Q922.0,312.0 892.5,295.0Q863.0,278.0 815.0,266.0Q810.0,180.0 784.0,116.5Q758.0,53.0 715.5,18.0Q673.0,-17.0 618.0,-17.0Q557.0,-17.0 521.0,17.0Q485.0,51.0 485.0,112.0Q485.0,192.0 550.5,243.0Q616.0,294.0 725.0,312.0L732.0,313.0Q731.0,418.0 699.0,471.5Q667.0,525.0 607.0,525.0Q558.0,525.0 524.5,490.0Q491.0,455.0 493.0,379.0L418.0,379.0Q420.0,453.0 387.5,489.0Q355.0,525.0 302.0,525.0Q252.0,525.0 223.0,496.0Q194.0,467.0 194.0,420.0Q194.0,382.0 209.5,343.0Q225.0,304.0 240.5,261.0Q256.0,218.0 256.0,168.0Q256.0,84.0 204.5,27.0Q153.0,-30.0 64.0,-45.0L48.0,27.0Q104.0,38.0 137.0,75.5Q170.0,113.0 170.0,173.0Q170.0,214.0 154.5,254.0Q139.0,294.0 123.5,335.5Q108.0,377.0 108.0,424.0Q108.0,474.0 131.0,512.5Q154.0,551.0 194.5,572.5Q235.0,594.0 289.0,594.0Q345.0,594.0 388.0,570.0Q431.0,546.0 455.0,501.0Q479.0,546.0 521.5,570.0Q564.0,594.0 618.0,594.0Q706.0,594.0 758.0,526.5Q810.0,459.0 815.0,333.0Q848.0,346.0 865.0,372.0Q882.0,398.0 891.0,449.0Q905.0,525.0 953.5,559.5Q1002.0,594.0 1072.0,594.0Q1156.0,594.0 1206.0,545.5Q1256.0,497.0 1256.0,417.0ZM568.0,115.0Q568.0,87.0 580.5,69.0Q593.0,51.0 618.0,51.0Q662.0,51.0 692.0,103.0Q722.0,155.0 730.0,248.0Q638.0,227.0 603.0,191.5Q568.0,156.0 568.0,115.0Z"  transform="translate(1439, 851)"/>
+<path d="M192.0,470.0Q179.0,417.0 154.5,353.5Q130.0,290.0 106.0,236.0L41.0,236.0Q55.0,293.0 69.5,361.0Q84.0,429.0 91.0,481.0L185.0,481.0L192.0,470.0Z"  transform="translate(2748, 851)"/>
+<path d="M-6.0,911.0Q-6.0,856.0 -33.5,807.5Q-61.0,759.0 -111.0,729.5Q-161.0,700.0 -229.0,700.0Q-275.0,700.0 -319.0,711.5Q-363.0,723.0 -388.0,745.0L-344.0,795.0Q-325.0,781.0 -295.0,772.5Q-265.0,764.0 -233.0,764.0Q-169.0,764.0 -126.0,804.0Q-83.0,844.0 -83.0,911.0L-6.0,911.0Z"  transform="translate(3016, 851)"/>
+<path d="M1256.0,417.0Q1256.0,377.0 1242.5,342.0Q1229.0,307.0 1198.0,274.0L1134.0,320.0Q1172.0,359.0 1172.0,418.0Q1172.0,468.0 1143.5,496.5Q1115.0,525.0 1065.0,525.0Q1023.0,525.0 997.5,497.5Q972.0,470.0 963.0,418.0Q955.0,370.0 938.5,341.0Q922.0,312.0 892.5,295.0Q863.0,278.0 815.0,266.0Q810.0,180.0 784.0,116.5Q758.0,53.0 715.5,18.0Q673.0,-17.0 618.0,-17.0Q557.0,-17.0 521.0,17.0Q485.0,51.0 485.0,112.0Q485.0,192.0 550.5,243.0Q616.0,294.0 725.0,312.0L732.0,313.0Q731.0,418.0 699.0,471.5Q667.0,525.0 607.0,525.0Q558.0,525.0 524.5,490.0Q491.0,455.0 493.0,379.0L418.0,379.0Q420.0,453.0 387.5,489.0Q355.0,525.0 302.0,525.0Q252.0,525.0 223.0,496.0Q194.0,467.0 194.0,420.0Q194.0,382.0 209.5,343.0Q225.0,304.0 240.5,261.0Q256.0,218.0 256.0,168.0Q256.0,84.0 204.5,27.0Q153.0,-30.0 64.0,-45.0L48.0,27.0Q104.0,38.0 137.0,75.5Q170.0,113.0 170.0,173.0Q170.0,214.0 154.5,254.0Q139.0,294.0 123.5,335.5Q108.0,377.0 108.0,424.0Q108.0,474.0 131.0,512.5Q154.0,551.0 194.5,572.5Q235.0,594.0 289.0,594.0Q345.0,594.0 388.0,570.0Q431.0,546.0 455.0,501.0Q479.0,546.0 521.5,570.0Q564.0,594.0 618.0,594.0Q706.0,594.0 758.0,526.5Q810.0,459.0 815.0,333.0Q848.0,346.0 865.0,372.0Q882.0,398.0 891.0,449.0Q905.0,525.0 953.5,559.5Q1002.0,594.0 1072.0,594.0Q1156.0,594.0 1206.0,545.5Q1256.0,497.0 1256.0,417.0ZM568.0,115.0Q568.0,87.0 580.5,69.0Q593.0,51.0 618.0,51.0Q662.0,51.0 692.0,103.0Q722.0,155.0 730.0,248.0Q638.0,227.0 603.0,191.5Q568.0,156.0 568.0,115.0Z"  transform="translate(3016, 851)"/>
+<path d="M-134.0,150.0Q-144.0,101.0 -166.0,74.0Q-188.0,47.0 -224.0,47.0Q-248.0,47.0 -267.0,55.0Q-286.0,63.0 -309.0,63.0Q-355.0,63.0 -370.0,7.0Q-365.0,7.0 -360.0,7.0Q-298.0,7.0 -257.5,-21.5Q-217.0,-50.0 -217.0,-103.0Q-217.0,-148.0 -244.5,-173.5Q-272.0,-199.0 -313.0,-199.0Q-365.0,-199.0 -402.5,-161.5Q-440.0,-124.0 -440.0,-44.0Q-440.0,30.0 -409.5,80.5Q-379.0,131.0 -321.0,131.0Q-297.0,131.0 -280.0,123.5Q-263.0,116.0 -244.0,116.0Q-224.0,116.0 -214.0,131.0Q-204.0,146.0 -199.0,172.0L-134.0,150.0ZM-357.0,-46.0Q-366.0,-46.0 -376.0,-48.0Q-375.0,-98.0 -356.5,-119.5Q-338.0,-141.0 -316.0,-141.0Q-281.0,-141.0 -281.0,-102.0Q-281.0,-75.0 -301.5,-60.5Q-322.0,-46.0 -357.0,-46.0Z"  transform="translate(4387, 848)"/>
+<path d="M489.0,421.0Q489.0,341.0 425.0,274.0L362.0,321.0Q382.0,341.0 393.5,367.0Q405.0,393.0 405.0,421.0Q405.0,471.0 375.5,498.0Q346.0,525.0 296.0,525.0Q246.0,525.0 217.5,499.0Q189.0,473.0 189.0,429.0Q189.0,403.0 195.5,375.5Q202.0,348.0 202.0,319.0Q202.0,269.0 163.0,231.0Q124.0,193.0 56.0,172.0L30.0,199.0Q33.0,214.0 33.0,231.0Q33.0,283.0 2.5,315.5Q-28.0,348.0 -78.0,351.0L-81.0,424.0Q-2.0,415.0 42.0,366.0Q86.0,317.0 86.0,247.0Q106.0,261.0 114.5,279.5Q123.0,298.0 123.0,320.0Q123.0,343.0 115.0,374.0Q107.0,405.0 107.0,436.0Q107.0,507.0 157.5,550.5Q208.0,594.0 296.0,594.0Q383.0,594.0 436.0,546.5Q489.0,499.0 489.0,421.0Z"  transform="translate(4325, 851)"/>
+<path d="M950.0,418.0Q950.0,381.0 935.0,342.0Q920.0,303.0 889.0,276.0L827.0,325.0Q844.0,342.0 855.0,367.5Q866.0,393.0 866.0,420.0Q866.0,469.0 836.5,497.0Q807.0,525.0 756.0,525.0Q706.0,525.0 678.5,495.5Q651.0,466.0 651.0,415.0Q651.0,384.0 661.0,354.5Q671.0,325.0 683.5,296.0Q696.0,267.0 706.0,236.0Q716.0,205.0 716.0,170.0Q716.0,87.0 659.0,35.0Q602.0,-17.0 503.0,-17.0Q403.0,-17.0 345.5,35.0Q288.0,87.0 288.0,170.0Q288.0,205.0 298.0,236.0Q308.0,267.0 320.5,296.0Q333.0,325.0 343.0,354.5Q353.0,384.0 353.0,415.0Q353.0,466.0 325.0,495.5Q297.0,525.0 247.0,525.0Q196.0,525.0 166.5,497.0Q137.0,469.0 137.0,420.0Q137.0,393.0 148.5,367.5Q160.0,342.0 176.0,325.0L114.0,276.0Q84.0,303.0 68.5,342.0Q53.0,381.0 53.0,418.0Q53.0,498.0 107.0,546.0Q161.0,594.0 249.0,594.0Q333.0,594.0 385.5,547.0Q438.0,500.0 438.0,422.0Q438.0,383.0 429.0,349.5Q420.0,316.0 407.5,286.0Q395.0,256.0 386.0,227.5Q377.0,199.0 377.0,170.0Q377.0,116.0 410.5,83.5Q444.0,51.0 502.0,51.0Q561.0,51.0 593.5,83.5Q626.0,116.0 626.0,170.0Q626.0,199.0 617.0,227.5Q608.0,256.0 595.5,286.0Q583.0,316.0 574.0,349.5Q565.0,383.0 565.0,422.0Q565.0,500.0 617.5,547.0Q670.0,594.0 754.0,594.0Q843.0,594.0 896.5,546.0Q950.0,498.0 950.0,418.0Z"  transform="translate(4867, 851)"/>
+<path d="M192.0,470.0Q179.0,417.0 154.5,353.5Q130.0,290.0 106.0,236.0L41.0,236.0Q55.0,293.0 69.5,361.0Q84.0,429.0 91.0,481.0L185.0,481.0L192.0,470.0Z"  transform="translate(5870, 851)"/>
 </svg>
  Expected: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 6732 2468" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 851)"/>
-<path d=""  transform="translate(541, 851)"/>
-<path d=""  transform="translate(1439, 851)"/>
-<path d=""  transform="translate(2748, 851)"/>
-<path d=""  transform="translate(3016, 851)"/>
-<path d=""  transform="translate(3541, 851)"/>
-<path d=""  transform="translate(3610, 851)"/>
-<path d=""  transform="translate(4981, 848)"/>
-<path d=""  transform="translate(4919, 851)"/>
-<path d=""  transform="translate(5461, 851)"/>
-<path d=""  transform="translate(6464, 851)"/>
+<path d="M512.0,392.0Q512.0,268.0 404.0,198.0L362.0,171.0Q340.0,157.0 333.0,144.5Q326.0,132.0 326.0,109.0L326.0,-282.0L239.0,-282.0L239.0,118.0Q239.0,147.0 245.5,166.5Q252.0,186.0 284.0,205.0L331.0,234.0Q384.0,266.0 405.0,305.5Q426.0,345.0 426.0,387.0Q426.0,455.0 385.0,490.0Q344.0,525.0 278.0,525.0Q211.0,525.0 170.5,491.5Q130.0,458.0 130.0,396.0Q130.0,374.0 133.0,355.0Q162.0,384.0 203.0,384.0Q238.0,384.0 260.5,364.5Q283.0,345.0 283.0,311.0Q283.0,277.0 258.5,255.5Q234.0,234.0 196.0,234.0Q136.0,234.0 94.5,279.5Q53.0,325.0 53.0,401.0Q53.0,459.0 82.0,502.0Q111.0,545.0 163.0,569.5Q215.0,594.0 283.0,594.0Q350.0,594.0 401.5,570.0Q453.0,546.0 482.5,500.5Q512.0,455.0 512.0,392.0ZM199.0,346.0Q166.0,346.0 148.0,308.0Q167.0,275.0 201.0,275.0Q221.0,275.0 230.0,285.0Q239.0,295.0 239.0,311.0Q239.0,328.0 227.5,337.0Q216.0,346.0 199.0,346.0Z"  transform="translate(0, 851)"/>
+<path d="M818.0,327.0Q818.0,242.0 789.0,158.5Q760.0,75.0 707.0,3.0Q654.0,-69.0 581.0,-122.0L523.0,-66.0Q588.0,-19.0 634.5,44.0Q681.0,107.0 706.5,179.5Q732.0,252.0 732.0,328.0Q732.0,421.0 700.0,473.0Q668.0,525.0 607.0,525.0Q558.0,525.0 524.5,490.0Q491.0,455.0 493.0,379.0L418.0,379.0Q420.0,453.0 387.5,489.0Q355.0,525.0 302.0,525.0Q252.0,525.0 223.0,496.0Q194.0,467.0 194.0,420.0Q194.0,382.0 209.5,343.0Q225.0,304.0 240.5,261.0Q256.0,218.0 256.0,168.0Q256.0,84.0 204.5,27.0Q153.0,-30.0 64.0,-45.0L48.0,27.0Q104.0,38.0 137.0,75.5Q170.0,113.0 170.0,173.0Q170.0,214.0 154.5,254.0Q139.0,294.0 123.5,335.5Q108.0,377.0 108.0,424.0Q108.0,474.0 131.0,512.5Q154.0,551.0 194.5,572.5Q235.0,594.0 289.0,594.0Q344.0,594.0 387.5,571.0Q431.0,548.0 455.0,504.0Q480.0,548.0 522.0,571.0Q564.0,594.0 618.0,594.0Q712.0,594.0 765.0,522.5Q818.0,451.0 818.0,327.0Z"  transform="translate(541, 851)"/>
+<path d="M1256.0,417.0Q1256.0,377.0 1242.5,342.0Q1229.0,307.0 1198.0,274.0L1134.0,320.0Q1172.0,359.0 1172.0,418.0Q1172.0,468.0 1143.5,496.5Q1115.0,525.0 1065.0,525.0Q1023.0,525.0 997.5,497.5Q972.0,470.0 963.0,418.0Q955.0,370.0 938.5,341.0Q922.0,312.0 892.5,295.0Q863.0,278.0 815.0,266.0Q810.0,180.0 784.0,116.5Q758.0,53.0 715.5,18.0Q673.0,-17.0 618.0,-17.0Q557.0,-17.0 521.0,17.0Q485.0,51.0 485.0,112.0Q485.0,192.0 550.5,243.0Q616.0,294.0 725.0,312.0L732.0,313.0Q731.0,418.0 699.0,471.5Q667.0,525.0 607.0,525.0Q558.0,525.0 524.5,490.0Q491.0,455.0 493.0,379.0L418.0,379.0Q420.0,453.0 387.5,489.0Q355.0,525.0 302.0,525.0Q252.0,525.0 223.0,496.0Q194.0,467.0 194.0,420.0Q194.0,382.0 209.5,343.0Q225.0,304.0 240.5,261.0Q256.0,218.0 256.0,168.0Q256.0,84.0 204.5,27.0Q153.0,-30.0 64.0,-45.0L48.0,27.0Q104.0,38.0 137.0,75.5Q170.0,113.0 170.0,173.0Q170.0,214.0 154.5,254.0Q139.0,294.0 123.5,335.5Q108.0,377.0 108.0,424.0Q108.0,474.0 131.0,512.5Q154.0,551.0 194.5,572.5Q235.0,594.0 289.0,594.0Q345.0,594.0 388.0,570.0Q431.0,546.0 455.0,501.0Q479.0,546.0 521.5,570.0Q564.0,594.0 618.0,594.0Q706.0,594.0 758.0,526.5Q810.0,459.0 815.0,333.0Q848.0,346.0 865.0,372.0Q882.0,398.0 891.0,449.0Q905.0,525.0 953.5,559.5Q1002.0,594.0 1072.0,594.0Q1156.0,594.0 1206.0,545.5Q1256.0,497.0 1256.0,417.0ZM568.0,115.0Q568.0,87.0 580.5,69.0Q593.0,51.0 618.0,51.0Q662.0,51.0 692.0,103.0Q722.0,155.0 730.0,248.0Q638.0,227.0 603.0,191.5Q568.0,156.0 568.0,115.0Z"  transform="translate(1439, 851)"/>
+<path d="M192.0,470.0Q179.0,417.0 154.5,353.5Q130.0,290.0 106.0,236.0L41.0,236.0Q55.0,293.0 69.5,361.0Q84.0,429.0 91.0,481.0L185.0,481.0L192.0,470.0Z"  transform="translate(2748, 851)"/>
+<path d="M297.0,537.0Q308.0,537.0 315.5,529.5Q323.0,522.0 323.0,511.0Q323.0,501.0 315.5,493.0Q308.0,485.0 297.0,485.0Q287.0,485.0 279.0,493.0Q271.0,501.0 271.0,511.0Q271.0,522.0 279.0,529.5Q287.0,537.0 297.0,537.0ZM213.0,519.0Q224.0,519.0 231.5,511.5Q239.0,504.0 239.0,493.0Q239.0,483.0 231.5,475.0Q224.0,467.0 213.0,467.0Q203.0,467.0 195.0,475.0Q187.0,483.0 187.0,493.0Q187.0,504.0 195.0,511.5Q203.0,519.0 213.0,519.0ZM381.0,519.0Q392.0,519.0 399.5,511.5Q407.0,504.0 407.0,493.0Q407.0,483.0 399.5,475.0Q392.0,467.0 381.0,467.0Q371.0,467.0 363.0,475.0Q355.0,483.0 355.0,493.0Q355.0,504.0 363.0,511.5Q371.0,519.0 381.0,519.0ZM113.0,446.0Q113.0,457.0 121.0,464.5Q129.0,472.0 139.0,472.0Q150.0,472.0 157.5,464.5Q165.0,457.0 165.0,446.0Q165.0,436.0 157.5,428.0Q150.0,420.0 139.0,420.0Q129.0,420.0 121.0,428.0Q113.0,436.0 113.0,446.0ZM429.0,446.0Q429.0,457.0 437.0,464.5Q445.0,472.0 455.0,472.0Q466.0,472.0 473.5,464.5Q481.0,457.0 481.0,446.0Q481.0,436.0 473.5,428.0Q466.0,420.0 455.0,420.0Q445.0,420.0 437.0,428.0Q429.0,436.0 429.0,446.0ZM66.0,372.0Q66.0,383.0 74.0,390.5Q82.0,398.0 92.0,398.0Q103.0,398.0 110.5,390.5Q118.0,383.0 118.0,372.0Q118.0,362.0 110.5,354.0Q103.0,346.0 92.0,346.0Q82.0,346.0 74.0,354.0Q66.0,362.0 66.0,372.0ZM476.0,372.0Q476.0,383.0 484.0,390.5Q492.0,398.0 502.0,398.0Q513.0,398.0 520.5,390.5Q528.0,383.0 528.0,372.0Q528.0,362.0 520.5,354.0Q513.0,346.0 502.0,346.0Q492.0,346.0 484.0,354.0Q476.0,362.0 476.0,372.0ZM48.0,288.0Q48.0,299.0 56.0,306.5Q64.0,314.0 74.0,314.0Q85.0,314.0 92.5,306.5Q100.0,299.0 100.0,288.0Q100.0,278.0 92.5,270.0Q85.0,262.0 74.0,262.0Q64.0,262.0 56.0,270.0Q48.0,278.0 48.0,288.0ZM494.0,288.0Q494.0,299.0 502.0,306.5Q510.0,314.0 520.0,314.0Q531.0,314.0 538.5,306.5Q546.0,299.0 546.0,288.0Q546.0,278.0 538.5,270.0Q531.0,262.0 520.0,262.0Q510.0,262.0 502.0,270.0Q494.0,278.0 494.0,288.0ZM66.0,204.0Q66.0,215.0 74.0,222.5Q82.0,230.0 92.0,230.0Q103.0,230.0 110.5,222.5Q118.0,215.0 118.0,204.0Q118.0,194.0 110.5,186.0Q103.0,178.0 92.0,178.0Q82.0,178.0 74.0,186.0Q66.0,194.0 66.0,204.0ZM476.0,204.0Q476.0,215.0 484.0,222.5Q492.0,230.0 502.0,230.0Q513.0,230.0 520.5,222.5Q528.0,215.0 528.0,204.0Q528.0,194.0 520.5,186.0Q513.0,178.0 502.0,178.0Q492.0,178.0 484.0,186.0Q476.0,194.0 476.0,204.0ZM113.0,130.0Q113.0,141.0 121.0,148.5Q129.0,156.0 139.0,156.0Q150.0,156.0 157.5,148.5Q165.0,141.0 165.0,130.0Q165.0,120.0 157.5,112.0Q150.0,104.0 139.0,104.0Q129.0,104.0 121.0,112.0Q113.0,120.0 113.0,130.0ZM429.0,130.0Q429.0,141.0 437.0,148.5Q445.0,156.0 455.0,156.0Q466.0,156.0 473.5,148.5Q481.0,141.0 481.0,130.0Q481.0,120.0 473.5,112.0Q466.0,104.0 455.0,104.0Q445.0,104.0 437.0,112.0Q429.0,120.0 429.0,130.0ZM213.0,109.0Q224.0,109.0 231.5,101.5Q239.0,94.0 239.0,83.0Q239.0,73.0 231.5,65.0Q224.0,57.0 213.0,57.0Q203.0,57.0 195.0,65.0Q187.0,73.0 187.0,83.0Q187.0,94.0 195.0,101.5Q203.0,109.0 213.0,109.0ZM381.0,109.0Q392.0,109.0 399.5,101.5Q407.0,94.0 407.0,83.0Q407.0,73.0 399.5,65.0Q392.0,57.0 381.0,57.0Q371.0,57.0 363.0,65.0Q355.0,73.0 355.0,83.0Q355.0,94.0 363.0,101.5Q371.0,109.0 381.0,109.0ZM297.0,91.0Q308.0,91.0 315.5,83.5Q323.0,76.0 323.0,65.0Q323.0,55.0 315.5,47.0Q308.0,39.0 297.0,39.0Q287.0,39.0 279.0,47.0Q271.0,55.0 271.0,65.0Q271.0,76.0 279.0,83.5Q287.0,91.0 297.0,91.0Z"  transform="translate(3016, 851)"/>
+<path d="M-6.0,911.0Q-6.0,856.0 -33.5,807.5Q-61.0,759.0 -111.0,729.5Q-161.0,700.0 -229.0,700.0Q-275.0,700.0 -319.0,711.5Q-363.0,723.0 -388.0,745.0L-344.0,795.0Q-325.0,781.0 -295.0,772.5Q-265.0,764.0 -233.0,764.0Q-169.0,764.0 -126.0,804.0Q-83.0,844.0 -83.0,911.0L-6.0,911.0Z"  transform="translate(3541, 851)"/>
+<path d="M1256.0,417.0Q1256.0,377.0 1242.5,342.0Q1229.0,307.0 1198.0,274.0L1134.0,320.0Q1172.0,359.0 1172.0,418.0Q1172.0,468.0 1143.5,496.5Q1115.0,525.0 1065.0,525.0Q1023.0,525.0 997.5,497.5Q972.0,470.0 963.0,418.0Q955.0,370.0 938.5,341.0Q922.0,312.0 892.5,295.0Q863.0,278.0 815.0,266.0Q810.0,180.0 784.0,116.5Q758.0,53.0 715.5,18.0Q673.0,-17.0 618.0,-17.0Q557.0,-17.0 521.0,17.0Q485.0,51.0 485.0,112.0Q485.0,192.0 550.5,243.0Q616.0,294.0 725.0,312.0L732.0,313.0Q731.0,418.0 699.0,471.5Q667.0,525.0 607.0,525.0Q558.0,525.0 524.5,490.0Q491.0,455.0 493.0,379.0L418.0,379.0Q420.0,453.0 387.5,489.0Q355.0,525.0 302.0,525.0Q252.0,525.0 223.0,496.0Q194.0,467.0 194.0,420.0Q194.0,382.0 209.5,343.0Q225.0,304.0 240.5,261.0Q256.0,218.0 256.0,168.0Q256.0,84.0 204.5,27.0Q153.0,-30.0 64.0,-45.0L48.0,27.0Q104.0,38.0 137.0,75.5Q170.0,113.0 170.0,173.0Q170.0,214.0 154.5,254.0Q139.0,294.0 123.5,335.5Q108.0,377.0 108.0,424.0Q108.0,474.0 131.0,512.5Q154.0,551.0 194.5,572.5Q235.0,594.0 289.0,594.0Q345.0,594.0 388.0,570.0Q431.0,546.0 455.0,501.0Q479.0,546.0 521.5,570.0Q564.0,594.0 618.0,594.0Q706.0,594.0 758.0,526.5Q810.0,459.0 815.0,333.0Q848.0,346.0 865.0,372.0Q882.0,398.0 891.0,449.0Q905.0,525.0 953.5,559.5Q1002.0,594.0 1072.0,594.0Q1156.0,594.0 1206.0,545.5Q1256.0,497.0 1256.0,417.0ZM568.0,115.0Q568.0,87.0 580.5,69.0Q593.0,51.0 618.0,51.0Q662.0,51.0 692.0,103.0Q722.0,155.0 730.0,248.0Q638.0,227.0 603.0,191.5Q568.0,156.0 568.0,115.0Z"  transform="translate(3610, 851)"/>
+<path d="M-134.0,150.0Q-144.0,101.0 -166.0,74.0Q-188.0,47.0 -224.0,47.0Q-248.0,47.0 -267.0,55.0Q-286.0,63.0 -309.0,63.0Q-355.0,63.0 -370.0,7.0Q-365.0,7.0 -360.0,7.0Q-298.0,7.0 -257.5,-21.5Q-217.0,-50.0 -217.0,-103.0Q-217.0,-148.0 -244.5,-173.5Q-272.0,-199.0 -313.0,-199.0Q-365.0,-199.0 -402.5,-161.5Q-440.0,-124.0 -440.0,-44.0Q-440.0,30.0 -409.5,80.5Q-379.0,131.0 -321.0,131.0Q-297.0,131.0 -280.0,123.5Q-263.0,116.0 -244.0,116.0Q-224.0,116.0 -214.0,131.0Q-204.0,146.0 -199.0,172.0L-134.0,150.0ZM-357.0,-46.0Q-366.0,-46.0 -376.0,-48.0Q-375.0,-98.0 -356.5,-119.5Q-338.0,-141.0 -316.0,-141.0Q-281.0,-141.0 -281.0,-102.0Q-281.0,-75.0 -301.5,-60.5Q-322.0,-46.0 -357.0,-46.0Z"  transform="translate(4981, 848)"/>
+<path d="M489.0,421.0Q489.0,341.0 425.0,274.0L362.0,321.0Q382.0,341.0 393.5,367.0Q405.0,393.0 405.0,421.0Q405.0,471.0 375.5,498.0Q346.0,525.0 296.0,525.0Q246.0,525.0 217.5,499.0Q189.0,473.0 189.0,429.0Q189.0,403.0 195.5,375.5Q202.0,348.0 202.0,319.0Q202.0,269.0 163.0,231.0Q124.0,193.0 56.0,172.0L30.0,199.0Q33.0,214.0 33.0,231.0Q33.0,283.0 2.5,315.5Q-28.0,348.0 -78.0,351.0L-81.0,424.0Q-2.0,415.0 42.0,366.0Q86.0,317.0 86.0,247.0Q106.0,261.0 114.5,279.5Q123.0,298.0 123.0,320.0Q123.0,343.0 115.0,374.0Q107.0,405.0 107.0,436.0Q107.0,507.0 157.5,550.5Q208.0,594.0 296.0,594.0Q383.0,594.0 436.0,546.5Q489.0,499.0 489.0,421.0Z"  transform="translate(4919, 851)"/>
+<path d="M950.0,418.0Q950.0,381.0 935.0,342.0Q920.0,303.0 889.0,276.0L827.0,325.0Q844.0,342.0 855.0,367.5Q866.0,393.0 866.0,420.0Q866.0,469.0 836.5,497.0Q807.0,525.0 756.0,525.0Q706.0,525.0 678.5,495.5Q651.0,466.0 651.0,415.0Q651.0,384.0 661.0,354.5Q671.0,325.0 683.5,296.0Q696.0,267.0 706.0,236.0Q716.0,205.0 716.0,170.0Q716.0,87.0 659.0,35.0Q602.0,-17.0 503.0,-17.0Q403.0,-17.0 345.5,35.0Q288.0,87.0 288.0,170.0Q288.0,205.0 298.0,236.0Q308.0,267.0 320.5,296.0Q333.0,325.0 343.0,354.5Q353.0,384.0 353.0,415.0Q353.0,466.0 325.0,495.5Q297.0,525.0 247.0,525.0Q196.0,525.0 166.5,497.0Q137.0,469.0 137.0,420.0Q137.0,393.0 148.5,367.5Q160.0,342.0 176.0,325.0L114.0,276.0Q84.0,303.0 68.5,342.0Q53.0,381.0 53.0,418.0Q53.0,498.0 107.0,546.0Q161.0,594.0 249.0,594.0Q333.0,594.0 385.5,547.0Q438.0,500.0 438.0,422.0Q438.0,383.0 429.0,349.5Q420.0,316.0 407.5,286.0Q395.0,256.0 386.0,227.5Q377.0,199.0 377.0,170.0Q377.0,116.0 410.5,83.5Q444.0,51.0 502.0,51.0Q561.0,51.0 593.5,83.5Q626.0,116.0 626.0,170.0Q626.0,199.0 617.0,227.5Q608.0,256.0 595.5,286.0Q583.0,316.0 574.0,349.5Q565.0,383.0 565.0,422.0Q565.0,500.0 617.5,547.0Q670.0,594.0 754.0,594.0Q843.0,594.0 896.5,546.0Q950.0,498.0 950.0,418.0Z"  transform="translate(5461, 851)"/>
+<path d="M192.0,470.0Q179.0,417.0 154.5,353.5Q130.0,290.0 106.0,236.0L41.0,236.0Q55.0,293.0 69.5,361.0Q84.0,429.0 91.0,481.0L185.0,481.0L192.0,470.0Z"  transform="translate(6464, 851)"/>
 </svg>
 
 
@@ -1116,16 +913,16 @@ Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 61
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
+	* dda_cham
 	* ngue_cham
-	* nue_cham
-	* jha_cham
-	* kha_cham
-	* na_cham
-	* chha_cham
-	* ngFinal_cham
 	* bba_cham
-	* na_cham.calt
-	* dda_cham and 8 more.
+	* chha_cham
+	* nhue_cham
+	* bba_cham.calt
+	* na_cham
+	* nhja_cham
+	* nFinal_cham
+	* kha_cham and 8 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
@@ -1191,21 +988,10 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 * ⚠ **WARN** The following glyphs have colinear vectors:
 
 	* jha_cham (U+AA0F): L<<674.0,161.0>--<674.0,163.0>> -> L<<674.0,163.0>--<674.0,165.0>> [code: found-colinear-vectors]
-</div></details><br></div></details><details><summary><b>[15] NotoSansCham-SemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[13] NotoSansCham-SemiBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x00AF (MACRON)
- [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSansCham/googlefonts/slim-variable-ttf/NotoSansCham[wght].ttf', 'fonts/NotoSansCham/googlefonts/ttf/NotoSansCham-Black.ttf', 'fonts/NotoSansCham/googlefonts/ttf/NotoSansCham-Bold.ttf', 'fonts/NotoSansCham/googlefonts/ttf/NotoSansCham-ExtraBold.ttf', 'fonts/NotoSansCham/googlefonts/ttf/NotoSansCham-ExtraLight.ttf', 'fonts/NotoSansCham/googlefonts/ttf/NotoSansCham-Light.ttf', 'fonts/NotoSansCham/googlefonts/ttf/NotoSansCham-Medium.ttf', 'fonts/NotoSansCham/googlefonts/ttf/NotoSansCham-Regular.ttf', 'fonts/NotoSansCham/googlefonts/ttf/NotoSansCham-SemiBold.ttf', 'fonts/NotoSansCham/googlefonts/ttf/NotoSansCham-Thin.ttf', 'fonts/NotoSansCham/googlefonts/variable-ttf/NotoSansCham[wght].ttf']. [code: missing-os2-fsselection-bit7]
+* 💔 **ERROR** Failed with IndexError: list index out of range
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -1215,16 +1001,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* ngue_cham
-	* nue_cham
 	* chFinal_cham
-	* jha_cham
-	* eiSign_cham
-	* pha_cham
-	* pFinal_cham
+	* ta_cham
+	* dda_cham
+	* ngue_cham
 	* ma_cham.calt
-	* ma_cham
-	* kha_cham and 27 more.
+	* bba_cham
+	* chha_cham
+	* da_cham
+	* nhue_cham
+	* bba_cham.calt and 27 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
@@ -1349,21 +1135,10 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 	* Wgrave (U+1E80): B<<257.0,182.5>-<263.0,150.0>-<266.0,126.0>>/B<<266.0,126.0>-<269.0,151.0>-<275.0,184.0>> = 13.967789761532726 
 
 	* And Wgrave (U+1E80): B<<678.0,182.0>-<684.0,150.0>-<687.0,126.0>>/B<<687.0,126.0>-<690.0,151.0>-<695.5,183.0>> = 13.967789761532726 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[12] NotoSansCham-Thin.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[10] NotoSansCham-Thin.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x00AF (MACRON)
- [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSansCham/googlefonts/slim-variable-ttf/NotoSansCham[wght].ttf', 'fonts/NotoSansCham/googlefonts/ttf/NotoSansCham-Black.ttf', 'fonts/NotoSansCham/googlefonts/ttf/NotoSansCham-Bold.ttf', 'fonts/NotoSansCham/googlefonts/ttf/NotoSansCham-ExtraBold.ttf', 'fonts/NotoSansCham/googlefonts/ttf/NotoSansCham-ExtraLight.ttf', 'fonts/NotoSansCham/googlefonts/ttf/NotoSansCham-Light.ttf', 'fonts/NotoSansCham/googlefonts/ttf/NotoSansCham-Medium.ttf', 'fonts/NotoSansCham/googlefonts/ttf/NotoSansCham-Regular.ttf', 'fonts/NotoSansCham/googlefonts/ttf/NotoSansCham-SemiBold.ttf', 'fonts/NotoSansCham/googlefonts/ttf/NotoSansCham-Thin.ttf', 'fonts/NotoSansCham/googlefonts/variable-ttf/NotoSansCham[wght].ttf']. [code: missing-os2-fsselection-bit7]
+* 💔 **ERROR** Failed with IndexError: list index out of range
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -1444,13 +1219,65 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 	* exclamdown (U+00A1): L<<122.0,354.0>--<124.0,-186.0>> 
 
 	* And exclamdown (U+00A1): L<<96.0,-186.0>--<98.0,354.0>> [code: found-semi-vertical]
+</div></details><br></div></details><details><summary><b>[8] NotoSansCham[wght].ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+
+
+* 💔 **ERROR** Failed with IndexError: list index out of range
+</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
+
+
+* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1368, but got 1117 instead [code: ascent]
+* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 645, but got 351 instead. [code: descent]
+</div></details><details><summary>🔥 <b>FAIL:</b> Validates that when an instance record is included for the default instance, its subfamilyNameID value is set to either 2 or 17, and its postScriptNameID value is set to 6. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/fvar.html#com.adobe.fonts/check/varfont/valid_default_instance_nameids">com.adobe.fonts/check/varfont/valid_default_instance_nameids</a>)</summary><div>
+
+
+* 🔥 **FAIL** 'Regular' instance has the same coordinates as the default instance; its subfamilyNameID should be either 2 or 17, instead of 269. [code: invalid-default-instance-subfamily-nameid:269]
+</div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
+
+
+* ⚠ **WARN** This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
+</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
+
+
+* ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
+
+	- laMedial_cham + waMedial_cham
+
+	- waMedial_cham + uSign_cham
+
+	- uSign_cham + waMedial_cham
+
+	- waMedial_cham + ueSign_cham
+
+	- ueSign_cham + uSign_cham
+
+	- uSign_cham + ueSign_cham
+
+	- ueSign_cham + waMedial_cham 
+
+	- And laMedial_cham.narrow + uSign_cham [code: lacks-kern-info]
+</div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
+
+
+* ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
+</div></details><details><summary>⚠ <b>WARN:</b> Font has **proper** whitespace glyph names? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_glyphnames">com.google.fonts/check/whitespace_glyphnames</a>)</summary><div>
+
+
+* ⚠ **WARN** Glyph 0x00A0 is called "nbspace": Change to "uni00A0" [code: not-recommended-00a0]
+</div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
+
+
+* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
+	 acutecomb (U+0301), brevecomb (U+0306), caroncomb (U+030C), cedillacomb (U+0327), circumflexcomb (U+0302), commaaccentcomb (U+0326), commaturnedabovecomb (U+0312), dieresiscomb (U+0308), dotaccentcomb (U+0307), gravecomb (U+0300) and 5 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 </div></details><br></div></details>
 ### Summary
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 48 | 91 | 1223 | 78 | 995 | 0 |
-| 0% | 2% | 4% | 50% | 3% | 41% | 0% |
+| 10 | 13 | 86 | 1101 | 62 | 943 | 0 |
+| 0% | 1% | 4% | 50% | 3% | 43% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
