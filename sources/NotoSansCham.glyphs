@@ -273,7 +273,7 @@ name = clig;
 },
 {
 code = "lookupflag UseMarkFilteringSet @markFilteringSet1;\012\012sub laMedial_cham waMedial_cham uSign_cham by laMed_waMed_uSign_cham;\012sub laMedial_cham waMedial_cham ueSign_cham by laMed_waMed_ueSign_cham;\012sub laMedial_cham uSign_cham by laMedial_uSign_cham;\012sub laMedial_cham ueSign_cham by laMedial_ueSign_cham;\012sub laMedial_cham waMedial_cham by laMedial_waMedial_cham;\012\012sub laMedial_cham.narrow waMedial_cham uSign_cham by laMed_waMed_uSign_cham;\012sub laMedial_cham.narrow waMedial_cham ueSign_cham by laMed_waMed_ueSign_cham;\012sub laMedial_cham.narrow uSign_cham by laMedial_uSign_cham;\012sub laMedial_cham.narrow ueSign_cham by laMedial_ueSign_cham;\012sub laMedial_cham.narrow waMedial_cham by laMedial_waMedial_cham;\012\012sub waMedial_cham uSign_cham by waMedial_uSign_cham;\012sub waMedial_cham ueSign_cham by waMedial_ueSign_cham;\012\012sub waMedial_cham.narrow uSign_cham by waMedial_uSign_cham;\012sub waMedial_cham.narrow ueSign_cham by waMedial_ueSign_cham;\012";
-name = liga;
+name = rlig;
 },
 {
 code = "";
