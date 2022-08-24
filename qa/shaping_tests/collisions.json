@@ -1,0 +1,23 @@
+{
+    "configuration": {
+        "collidoscope": {
+            "faraway": true,
+            "marks": true,
+            "adjacentmarks": false,
+            "bases": false
+        },
+        "ingredients": {
+            "consonant": "[\uaa06-\uaa28]",
+            "consonant_group": "[ꨌꨨꨖꨖꨆꨈ]",
+            "medialWa": "ꨶ",
+            "medialLa": "ꨵ",
+            "belowVowel": "[ꨭꨲ]"
+        }
+    },
+    "tests": [
+        {
+            "input_type": "pattern",
+            "input": "consonant_group medialLa? medialWa? belowVowel? consonant_group"
+        }
+    ]
+}
