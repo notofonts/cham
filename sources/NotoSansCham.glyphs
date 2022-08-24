@@ -1,7 +1,7 @@
 {
 .appVersion = "3109";
 DisplayStrings = (
-"/uSign_cham.narrow/ha_cham"
+"/uSign_cham.narrow/doubleDanda_cham/doubleDanda_cham.dotless/ha_cham"
 );
 classes = (
 {
@@ -302,6 +302,11 @@ name = mkmk;
 {
 code = "# Automatic Code Start\012lookup ChainedContextualGPOS54 {\012    pos ba_cham @class6' lookup SinglePositioning20 yaMedial_cham;\012    pos bba_cham @class6' lookup SinglePositioning21 yaMedial_cham;\012    pos bha_cham @class6' lookup SinglePositioning22 yaMedial_cham;\012    pos cha_cham @class6' lookup SinglePositioning23 yaMedial_cham;\012    pos chha_cham @class6' lookup SinglePositioning24 yaMedial_cham;\012    pos da_cham @class6' lookup SinglePositioning25 yaMedial_cham;\012    pos dda_cham @class6' lookup SinglePositioning26 yaMedial_cham;\012    pos dha_cham @class6' lookup SinglePositioning27 yaMedial_cham;\012    pos ga_cham @class6' lookup SinglePositioning28 yaMedial_cham;\012    pos gha_cham @class6' lookup SinglePositioning29 yaMedial_cham;\012    pos ja_cham @class6' lookup SinglePositioning30 yaMedial_cham;\012    pos jha_cham @class6' lookup SinglePositioning31 yaMedial_cham;\012    pos ka_cham @class6' lookup SinglePositioning32 yaMedial_cham;\012    pos kha_cham @class6' lookup SinglePositioning33 yaMedial_cham;\012    pos la_cham @class6' lookup SinglePositioning34 yaMedial_cham;\012    pos ma_cham @class6' lookup SinglePositioning35 yaMedial_cham;\012    pos mue_cham @class6' lookup SinglePositioning36 yaMedial_cham;\012    pos na_cham @class6' lookup SinglePositioning37 yaMedial_cham;\012    pos nga_cham @class6' lookup SinglePositioning38 yaMedial_cham;\012    pos ngue_cham @class6' lookup SinglePositioning39 yaMedial_cham;\012    pos nha_cham @class6' lookup SinglePositioning40 yaMedial_cham;\012    pos nhja_cham @class6' lookup SinglePositioning41 yaMedial_cham;\012    pos nhue_cham @class6' lookup SinglePositioning42 yaMedial_cham;\012    pos nue_cham @class6' lookup SinglePositioning43 yaMedial_cham;\012    pos pa_cham @class6' lookup SinglePositioning44 yaMedial_cham;\012    pos pha_cham @class6' lookup SinglePositioning45 yaMedial_cham;\012    pos ppa_cham @class6' lookup SinglePositioning46 yaMedial_cham;\012    pos ra_cham @class6' lookup SinglePositioning47 yaMedial_cham;\012    pos sa_cham @class6' lookup SinglePositioning48 yaMedial_cham;\012    pos ssa_cham @class6' lookup SinglePositioning49 yaMedial_cham;\012    pos ta_cham @class6' lookup SinglePositioning50 yaMedial_cham;\012    pos tha_cham @class6' lookup SinglePositioning51 yaMedial_cham;\012    pos va_cham @class6' lookup SinglePositioning52 yaMedial_cham;\012    pos ya_cham @class6' lookup SinglePositioning53 yaMedial_cham;\012} ChainedContextualGPOS54;\012\012lookup ChainedContextualGPOS10 {\012    pos eiSign_cham' lookup SinglePositioning9 space [raMedial_cham raMedial_cham_pre raMedial_cham_pre.low raMedial_cham_pre.low.alt];\012    pos [oeSign_cham oeSign_ngSignFinal_cham oeSign_mSignFinal_cham]' lookup SinglePositioning8 space [raMedial_cham raMedial_cham_pre raMedial_cham_pre.low raMedial_cham_pre.low.alt];\012    pos iSign_mSignFinal_cham' lookup SinglePositioning7 space [raMedial_cham raMedial_cham_pre raMedial_cham_pre.low raMedial_cham_pre.low.alt];\012    pos [iSign_cham iiSign_cham]' lookup SinglePositioning6 space [raMedial_cham raMedial_cham_pre raMedial_cham_pre.low raMedial_cham_pre.low.alt];\012    pos [auSign_cham oeSign_auSign_cham auSign_mSignFinal_cham]' lookup SinglePositioning5 space [raMedial_cham raMedial_cham_pre raMedial_cham_pre.low raMedial_cham_pre.low.alt];\012    pos ngSignFinal_cham' lookup SinglePositioning4 space [raMedial_cham raMedial_cham_pre raMedial_cham_pre.low raMedial_cham_pre.low.alt];\012    pos aaSign_cham' lookup SinglePositioning3 space [raMedial_cham raMedial_cham_pre raMedial_cham_pre.low raMedial_cham_pre.low.alt];\012    pos aaSign_oeSign_cham' lookup SinglePositioning2 space [raMedial_cham raMedial_cham_pre raMedial_cham_pre.low raMedial_cham_pre.low.alt];\012} ChainedContextualGPOS10;\012";
 name = dist;
+},
+{
+code = "sub doubleDanda_cham by doubleDanda_cham.dotless;";
+name = ss01;
+notes = "Name: Dotless double danda";
 }
 );
 fontMaster = (
@@ -36042,49 +36047,16 @@ source = "danda-cham";
 {
 glyphname = doubleDanda_cham;
 production = uniAA5E;
-lastChange = "2017-04-21 12:40:23 +0000";
+lastChange = "2022-08-24 08:26:04 +0000";
 layers = (
 {
+components = (
+{
+name = doubleDanda_cham.dotless;
+}
+);
 layerId = "9FF96064-8718-4A86-A5C8-73C592101F67";
 paths = (
-{
-closed = 1;
-nodes = (
-"264 423 OFFCURVE",
-"247 502 OFFCURVE",
-"219 558 CURVE",
-"144 524 LINE",
-"167 480 OFFCURVE",
-"179 413 OFFCURVE",
-"179 336 CURVE SMOOTH",
-"179 232 OFFCURVE",
-"157 102 OFFCURVE",
-"116 -24 CURVE",
-"197 -44 LINE",
-"240 95 OFFCURVE",
-"264 232 OFFCURVE",
-"264 337 CURVE SMOOTH"
-);
-},
-{
-closed = 1;
-nodes = (
-"501 435 OFFCURVE",
-"482 529 OFFCURVE",
-"449 591 CURVE",
-"370 555 LINE",
-"396 503 OFFCURVE",
-"411 421 OFFCURVE",
-"411 328 CURVE SMOOTH",
-"411 203 OFFCURVE",
-"385 47 OFFCURVE",
-"338 -103 CURVE",
-"423 -125 LINE",
-"473 36 OFFCURVE",
-"501 200 OFFCURVE",
-"501 330 CURVE SMOOTH"
-);
-},
 {
 closed = 1;
 nodes = (
@@ -36145,46 +36117,13 @@ verticalShift = -124;
 width = 658;
 },
 {
+components = (
+{
+name = doubleDanda_cham.dotless;
+}
+);
 layerId = "134B12F2-BF5D-48E3-8003-C7502B438C7E";
 paths = (
-{
-closed = 1;
-nodes = (
-"284 433 OFFCURVE",
-"267 518 OFFCURVE",
-"237 581 CURVE",
-"108 525 LINE",
-"129 479 OFFCURVE",
-"141 413 OFFCURVE",
-"141 340 CURVE SMOOTH",
-"141 238 OFFCURVE",
-"119 113 OFFCURVE",
-"80 -6 CURVE",
-"218 -40 LINE",
-"260 101 OFFCURVE",
-"284 239 OFFCURVE",
-"284 344 CURVE SMOOTH"
-);
-},
-{
-closed = 1;
-nodes = (
-"555 452 OFFCURVE",
-"534 552 OFFCURVE",
-"498 620 CURVE",
-"362 561 LINE",
-"387 503 OFFCURVE",
-"401 421 OFFCURVE",
-"401 331 CURVE SMOOTH",
-"401 210 OFFCURVE",
-"375 55 OFFCURVE",
-"328 -95 CURVE",
-"473 -130 LINE",
-"525 36 OFFCURVE",
-"555 206 OFFCURVE",
-"555 341 CURVE SMOOTH"
-);
-},
 {
 closed = 1;
 nodes = (
@@ -36245,46 +36184,13 @@ verticalShift = -98;
 width = 697;
 },
 {
+components = (
+{
+name = doubleDanda_cham.dotless;
+}
+);
 layerId = "0A718E2F-231D-484E-9433-16A5230D2CE8";
 paths = (
-{
-closed = 1;
-nodes = (
-"297 440 OFFCURVE",
-"279 528 OFFCURVE",
-"248 595 CURVE",
-"85 526 LINE",
-"105 479 OFFCURVE",
-"116 413 OFFCURVE",
-"116 342 CURVE SMOOTH",
-"116 242 OFFCURVE",
-"95 120 OFFCURVE",
-"57 5 CURVE",
-"231 -37 LINE",
-"273 105 OFFCURVE",
-"297 244 OFFCURVE",
-"297 349 CURVE SMOOTH"
-);
-},
-{
-closed = 1;
-nodes = (
-"589 463 OFFCURVE",
-"568 567 OFFCURVE",
-"530 638 CURVE",
-"357 565 LINE",
-"381 503 OFFCURVE",
-"395 421 OFFCURVE",
-"395 333 CURVE SMOOTH",
-"395 214 OFFCURVE",
-"369 60 OFFCURVE",
-"322 -90 CURVE",
-"505 -134 LINE",
-"559 36 OFFCURVE",
-"589 210 OFFCURVE",
-"589 348 CURVE SMOOTH"
-);
-},
 {
 closed = 1;
 nodes = (
@@ -36345,7 +36251,7 @@ verticalShift = -82;
 width = 722;
 },
 {
-layerId = "AB666A95-3AF9-4DE8-B258-097FFCFE8A59";
+background = {
 paths = (
 {
 closed = 1;
@@ -36385,6 +36291,66 @@ nodes = (
 "445 319 CURVE SMOOTH"
 );
 },
+{
+closed = 1;
+nodes = (
+"205 653 OFFCURVE",
+"221 669 OFFCURVE",
+"221 696 CURVE SMOOTH",
+"221 722 OFFCURVE",
+"205 738 OFFCURVE",
+"178 738 CURVE SMOOTH",
+"152 738 OFFCURVE",
+"136 722 OFFCURVE",
+"136 696 CURVE SMOOTH",
+"136 669 OFFCURVE",
+"152 653 OFFCURVE",
+"178 653 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"356 681 OFFCURVE",
+"372 697 OFFCURVE",
+"372 724 CURVE SMOOTH",
+"372 750 OFFCURVE",
+"356 766 OFFCURVE",
+"329 766 CURVE SMOOTH",
+"303 766 OFFCURVE",
+"287 750 OFFCURVE",
+"287 724 CURVE SMOOTH",
+"287 697 OFFCURVE",
+"303 681 OFFCURVE",
+"329 681 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"252 799 OFFCURVE",
+"268 815 OFFCURVE",
+"268 842 CURVE SMOOTH",
+"268 868 OFFCURVE",
+"252 884 OFFCURVE",
+"225 884 CURVE SMOOTH",
+"199 884 OFFCURVE",
+"183 868 OFFCURVE",
+"183 842 CURVE SMOOTH",
+"183 815 OFFCURVE",
+"199 799 OFFCURVE",
+"225 799 CURVE SMOOTH"
+);
+}
+);
+};
+components = (
+{
+name = doubleDanda_cham.dotless;
+}
+);
+layerId = "AB666A95-3AF9-4DE8-B258-097FFCFE8A59";
+paths = (
 {
 closed = 1;
 nodes = (
@@ -40512,6 +40478,189 @@ RMXScaler = {
 source = "laMedial_waMedial-cham";
 };
 };
+},
+{
+glyphname = doubleDanda_cham.dotless;
+lastChange = "2022-08-24 08:24:52 +0000";
+layers = (
+{
+layerId = "AB666A95-3AF9-4DE8-B258-097FFCFE8A59";
+paths = (
+{
+closed = 1;
+nodes = (
+"242 412 OFFCURVE",
+"227 486 OFFCURVE",
+"201 534 CURVE",
+"181 523 LINE",
+"206 481 OFFCURVE",
+"219 413 OFFCURVE",
+"219 332 CURVE SMOOTH",
+"219 225 OFFCURVE",
+"196 90 OFFCURVE",
+"154 -42 CURVE",
+"175 -49 LINE",
+"218 88 OFFCURVE",
+"242 224 OFFCURVE",
+"242 329 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"445 418 OFFCURVE",
+"428 505 OFFCURVE",
+"398 561 CURVE",
+"378 549 LINE",
+"406 503 OFFCURVE",
+"421 422 OFFCURVE",
+"421 324 CURVE SMOOTH",
+"421 195 OFFCURVE",
+"395 38 OFFCURVE",
+"348 -112 CURVE",
+"370 -119 LINE",
+"418 36 OFFCURVE",
+"445 194 OFFCURVE",
+"445 319 CURVE SMOOTH"
+);
+}
+);
+width = 618;
+},
+{
+layerId = "9FF96064-8718-4A86-A5C8-73C592101F67";
+paths = (
+{
+closed = 1;
+nodes = (
+"264 423 OFFCURVE",
+"247 502 OFFCURVE",
+"219 558 CURVE",
+"144 524 LINE",
+"167 480 OFFCURVE",
+"179 413 OFFCURVE",
+"179 336 CURVE SMOOTH",
+"179 232 OFFCURVE",
+"157 102 OFFCURVE",
+"116 -24 CURVE",
+"197 -44 LINE",
+"240 95 OFFCURVE",
+"264 232 OFFCURVE",
+"264 337 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"501 435 OFFCURVE",
+"482 529 OFFCURVE",
+"449 591 CURVE",
+"370 555 LINE",
+"396 503 OFFCURVE",
+"411 421 OFFCURVE",
+"411 328 CURVE SMOOTH",
+"411 203 OFFCURVE",
+"385 47 OFFCURVE",
+"338 -103 CURVE",
+"423 -125 LINE",
+"473 36 OFFCURVE",
+"501 200 OFFCURVE",
+"501 330 CURVE SMOOTH"
+);
+}
+);
+width = 658;
+},
+{
+layerId = "134B12F2-BF5D-48E3-8003-C7502B438C7E";
+paths = (
+{
+closed = 1;
+nodes = (
+"284 433 OFFCURVE",
+"267 518 OFFCURVE",
+"237 581 CURVE",
+"108 525 LINE",
+"129 479 OFFCURVE",
+"141 413 OFFCURVE",
+"141 340 CURVE SMOOTH",
+"141 238 OFFCURVE",
+"119 113 OFFCURVE",
+"80 -6 CURVE",
+"218 -40 LINE",
+"260 101 OFFCURVE",
+"284 239 OFFCURVE",
+"284 344 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"555 452 OFFCURVE",
+"534 552 OFFCURVE",
+"498 620 CURVE",
+"362 561 LINE",
+"387 503 OFFCURVE",
+"401 421 OFFCURVE",
+"401 331 CURVE SMOOTH",
+"401 210 OFFCURVE",
+"375 55 OFFCURVE",
+"328 -95 CURVE",
+"473 -130 LINE",
+"525 36 OFFCURVE",
+"555 206 OFFCURVE",
+"555 341 CURVE SMOOTH"
+);
+}
+);
+width = 697;
+},
+{
+layerId = "0A718E2F-231D-484E-9433-16A5230D2CE8";
+paths = (
+{
+closed = 1;
+nodes = (
+"297 440 OFFCURVE",
+"279 528 OFFCURVE",
+"248 595 CURVE",
+"85 526 LINE",
+"105 479 OFFCURVE",
+"116 413 OFFCURVE",
+"116 342 CURVE SMOOTH",
+"116 242 OFFCURVE",
+"95 120 OFFCURVE",
+"57 5 CURVE",
+"231 -37 LINE",
+"273 105 OFFCURVE",
+"297 244 OFFCURVE",
+"297 349 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"589 463 OFFCURVE",
+"568 567 OFFCURVE",
+"530 638 CURVE",
+"357 565 LINE",
+"381 503 OFFCURVE",
+"395 421 OFFCURVE",
+"395 333 CURVE SMOOTH",
+"395 214 OFFCURVE",
+"369 60 OFFCURVE",
+"322 -90 CURVE",
+"505 -134 LINE",
+"559 36 OFFCURVE",
+"589 210 OFFCURVE",
+"589 348 CURVE SMOOTH"
+);
+}
+);
+width = 722;
+}
+);
+rightMetricsKey = tripleDanda_cham;
 }
 );
 instances = (
