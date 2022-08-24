@@ -1,6 +1,12 @@
 {
     "tests": [
         {
+            "input": "ꨆꨩ ꨆꨴ ꨆꨩꨆꨴ",
+            "expectation": "ka_cham=0+855|aaSign_cham=0@-12,0+1|space=2+260|raMedial_cham_pre=3+400|ka_cham=3+855|space=5+260|ka_cham=6+855|aaSign_cham=6@-12,0+130|raMedial_cham_pre=8+400|ka_cham=8+855",
+            "note": "#5",
+            "only": "NotoSansCham-Regular.ttf"
+        },
+        {
             "expectation": "raMedial_cham_pre=0+400|ka_cham=0+855",
             "input": "ꨆꨴ",
             "note": "fontdiff-specimen-Cham.html",
