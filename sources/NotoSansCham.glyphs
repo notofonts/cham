@@ -1,5 +1,8 @@
 {
 .appVersion = "3109";
+DisplayStrings = (
+"/uSign_cham.narrow/ha_cham"
+);
 classes = (
 {
 code = "dda_cham na_cham na_cham.calt nga_cham nha_cham nhja_cham";
@@ -10,7 +13,7 @@ code = "bba_cham bba_cham.calt ma_cham ma_cham.calt va_cham va_cham.calt";
 name = class2;
 },
 {
-code = "laMedial_cham waMedial_cham uSign_cham ueSign_cham";
+code = "laMedial_cham laMedial_cham.narrow waMedial_cham waMedial_cham.narrow uSign_cham ueSign_cham\012";
 name = markFilteringSet1;
 },
 {
@@ -269,7 +272,7 @@ code = "sub @class3 [comma hyphen period]' by [comma.cham hyphen.cham period.cha
 name = clig;
 },
 {
-code = "lookupflag UseMarkFilteringSet @markFilteringSet1;\012\012sub laMedial_cham waMedial_cham uSign_cham by laMed_waMed_uSign_cham;\012sub laMedial_cham waMedial_cham ueSign_cham by laMed_waMed_ueSign_cham;\012sub laMedial_cham uSign_cham by laMedial_uSign_cham;\012sub laMedial_cham ueSign_cham by laMedial_ueSign_cham;\012sub laMedial_cham waMedial_cham by laMedial_waMedial_cham;\012sub laMedial_cham.narrow uSign_cham by laMedial_uSign_cham;\012sub laMedial_cham.narrow ueSign_cham by laMedial_ueSign_cham;\012sub waMedial_cham uSign_cham by waMedial_uSign_cham;\012sub waMedial_cham ueSign_cham by waMedial_ueSign_cham;\012";
+code = "lookupflag UseMarkFilteringSet @markFilteringSet1;\012\012sub laMedial_cham waMedial_cham uSign_cham by laMed_waMed_uSign_cham;\012sub laMedial_cham waMedial_cham ueSign_cham by laMed_waMed_ueSign_cham;\012sub laMedial_cham uSign_cham by laMedial_uSign_cham;\012sub laMedial_cham ueSign_cham by laMedial_ueSign_cham;\012sub laMedial_cham waMedial_cham by laMedial_waMedial_cham;\012\012sub laMedial_cham.narrow waMedial_cham uSign_cham by laMed_waMed_uSign_cham;\012sub laMedial_cham.narrow waMedial_cham ueSign_cham by laMed_waMed_ueSign_cham;\012sub laMedial_cham.narrow uSign_cham by laMedial_uSign_cham;\012sub laMedial_cham.narrow ueSign_cham by laMedial_ueSign_cham;\012sub laMedial_cham.narrow waMedial_cham by laMedial_waMedial_cham;\012\012sub waMedial_cham uSign_cham by waMedial_uSign_cham;\012sub waMedial_cham ueSign_cham by waMedial_ueSign_cham;\012\012sub waMedial_cham.narrow uSign_cham by waMedial_uSign_cham;\012sub waMedial_cham.narrow ueSign_cham by waMedial_ueSign_cham;\012";
 name = liga;
 },
 {
@@ -5832,7 +5835,7 @@ source = "nine-cham";
 {
 glyphname = ka_cham;
 production = uniAA06;
-lastChange = "2017-04-21 12:56:16 +0000";
+lastChange = "2022-08-24 07:59:17 +0000";
 layers = (
 {
 anchors = (
@@ -6612,7 +6615,7 @@ subCategory = Spacing;
 {
 glyphname = ga_cham;
 production = uniAA08;
-lastChange = "2017-04-21 12:56:16 +0000";
+lastChange = "2022-08-24 08:11:17 +0000";
 layers = (
 {
 anchors = (
@@ -14052,7 +14055,7 @@ source = "da-cham";
 {
 glyphname = dha_cham;
 production = uniAA16;
-lastChange = "2017-04-21 12:56:16 +0000";
+lastChange = "2022-08-24 07:46:11 +0000";
 layers = (
 {
 anchors = (
@@ -22187,7 +22190,7 @@ source = "sa-cham";
 {
 glyphname = ha_cham;
 production = uniAA28;
-lastChange = "2017-04-21 12:56:17 +0000";
+lastChange = "2022-08-24 08:13:50 +0000";
 layers = (
 {
 anchors = (
@@ -29031,7 +29034,7 @@ source = "e-cham";
 {
 glyphname = ai_cham;
 production = uniAA04;
-lastChange = "2017-04-21 12:56:17 +0000";
+lastChange = "2022-08-24 07:29:24 +0000";
 layers = (
 {
 anchors = (
@@ -30550,7 +30553,7 @@ source = "raMedial-cham";
 {
 glyphname = laMedial_cham;
 production = uniAA35;
-lastChange = "2017-04-21 12:55:57 +0000";
+lastChange = "2022-08-24 07:56:03 +0000";
 layers = (
 {
 anchors = (
@@ -31586,7 +31589,7 @@ source = "laMedial_waMedial-cham";
 },
 {
 glyphname = laMedial_uSign_cham;
-lastChange = "2017-04-21 12:55:57 +0000";
+lastChange = "2022-08-24 07:52:54 +0000";
 layers = (
 {
 anchors = (
@@ -31668,12 +31671,13 @@ layerId = "0A718E2F-231D-484E-9433-16A5230D2CE8";
 width = 0;
 }
 );
+rightKerningGroup = wavowel;
 category = Mark;
 subCategory = Nonspacing;
 },
 {
 glyphname = laMedial_ueSign_cham;
-lastChange = "2017-04-21 12:55:57 +0000";
+lastChange = "2022-08-24 07:53:06 +0000";
 layers = (
 {
 anchors = (
@@ -31751,12 +31755,13 @@ layerId = "0A718E2F-231D-484E-9433-16A5230D2CE8";
 width = 0;
 }
 );
+rightKerningGroup = wavowel;
 category = Mark;
 subCategory = Nonspacing;
 },
 {
 glyphname = waMedial_uSign_cham;
-lastChange = "2017-04-21 12:55:57 +0000";
+lastChange = "2022-08-24 07:52:09 +0000";
 layers = (
 {
 anchors = (
@@ -31839,12 +31844,13 @@ layerId = "0A718E2F-231D-484E-9433-16A5230D2CE8";
 width = 0;
 }
 );
+rightKerningGroup = wavowel;
 category = Mark;
 subCategory = Nonspacing;
 },
 {
 glyphname = waMedial_ueSign_cham;
-lastChange = "2017-04-21 12:55:57 +0000";
+lastChange = "2022-08-24 07:51:50 +0000";
 layers = (
 {
 anchors = (
@@ -31927,6 +31933,7 @@ layerId = "0A718E2F-231D-484E-9433-16A5230D2CE8";
 width = 0;
 }
 );
+rightKerningGroup = wavowel;
 category = Mark;
 subCategory = Nonspacing;
 },
@@ -40288,7 +40295,7 @@ source = "raMedial-cham";
 },
 {
 glyphname = laMed_waMed_uSign_cham;
-lastChange = "2017-04-21 12:55:55 +0000";
+lastChange = "2022-08-24 07:42:13 +0000";
 layers = (
 {
 anchors = (
@@ -40387,6 +40394,7 @@ verticalShift = -82;
 width = 0;
 }
 );
+rightKerningGroup = lawavowel;
 category = Mark;
 subCategory = Nonspacing;
 userData = {
@@ -40397,7 +40405,7 @@ source = "laMedial_waMedial-cham";
 },
 {
 glyphname = laMed_waMed_ueSign_cham;
-lastChange = "2017-04-21 12:55:55 +0000";
+lastChange = "2022-08-24 07:41:40 +0000";
 layers = (
 {
 anchors = (
@@ -40496,6 +40504,7 @@ verticalShift = -82;
 width = 0;
 }
 );
+rightKerningGroup = lawavowel;
 category = Mark;
 subCategory = Nonspacing;
 userData = {
@@ -40804,6 +40813,16 @@ weightClass = Black;
 );
 kerning = {
 "AB666A95-3AF9-4DE8-B258-097FFCFE8A59" = {
+"@MMK_L_lawavowel" = {
+"@MMK_R_cha" = 140;
+"@MMK_R_dha" = 80;
+"@MMK_R_gFinal" = 90;
+"@MMK_R_ha" = 300;
+"@MMK_R_ka" = 240;
+};
+"@MMK_L_wavowel" = {
+"@MMK_R_ha" = 30;
+};
 a_cham = {
 ha_cham = -76;
 jha_cham = -76;
@@ -41346,6 +41365,19 @@ ra_cham = -22;
 sa_cham = -22;
 seven_cham = -22;
 six_cham = -22;
+};
+laMed_waMed_ueSign_cham = {
+"@MMK_R_gFinal" = 170;
+};
+laMedial_cham = {
+"@MMK_R_ha" = 60;
+};
+laMedial_cham.narrow = {
+"@MMK_R_ha" = 40;
+};
+laMedial_waMedial_cham = {
+"@MMK_R_ha" = 90;
+"@MMK_R_ka" = 20;
 };
 la_cham = {
 ha_cham = -76;
@@ -41892,6 +41924,12 @@ sa_cham = -22;
 seven_cham = -22;
 six_cham = -22;
 };
+uSign_cham = {
+"@MMK_R_ha" = 90;
+};
+uSign_cham.narrow = {
+"@MMK_R_ha" = 40;
+};
 u_cham = {
 ha_cham = -15;
 jha_cham = -15;
@@ -42013,6 +42051,17 @@ six_cham = -76;
 };
 };
 "9FF96064-8718-4A86-A5C8-73C592101F67" = {
+"@MMK_L_lawavowel" = {
+"@MMK_R_cha" = 220;
+"@MMK_R_dha" = 120;
+"@MMK_R_gFinal" = 180;
+"@MMK_R_ha" = 400;
+"@MMK_R_ka" = 350;
+};
+"@MMK_L_wavowel" = {
+"@MMK_R_ha" = 60;
+"@MMK_R_ka" = 90;
+};
 a_cham = {
 ha_cham = -78;
 jha_cham = -78;
@@ -42555,6 +42604,22 @@ ra_cham = -27;
 sa_cham = -27;
 seven_cham = -27;
 six_cham = -27;
+};
+laMed_waMed_ueSign_cham = {
+"@MMK_R_gFinal" = 210;
+};
+laMedial_cham = {
+"@MMK_R_ha" = 80;
+};
+laMedial_cham.narrow = {
+"@MMK_R_ha" = 80;
+};
+laMedial_ueSign_cham = {
+"@MMK_R_ka" = 40;
+};
+laMedial_waMedial_cham = {
+"@MMK_R_ha" = 140;
+"@MMK_R_ka" = 60;
 };
 la_cham = {
 ha_cham = -78;
@@ -43101,6 +43166,12 @@ sa_cham = -27;
 seven_cham = -27;
 six_cham = -27;
 };
+uSign_cham = {
+"@MMK_R_ha" = 100;
+};
+uSign_cham.narrow = {
+"@MMK_R_ha" = 80;
+};
 u_cham = {
 ha_cham = -11;
 jha_cham = -11;
@@ -43222,6 +43293,17 @@ six_cham = -78;
 };
 };
 "134B12F2-BF5D-48E3-8003-C7502B438C7E" = {
+"@MMK_L_lawavowel" = {
+"@MMK_R_cha" = 300;
+"@MMK_R_dha" = 190;
+"@MMK_R_gFinal" = 240;
+"@MMK_R_ha" = 475;
+"@MMK_R_ka" = 450;
+};
+"@MMK_L_wavowel" = {
+"@MMK_R_ha" = 90;
+"@MMK_R_ka" = 120;
+};
 a_cham = {
 ha_cham = -78;
 jha_cham = -78;
@@ -43764,6 +43846,22 @@ ra_cham = -25;
 sa_cham = -25;
 seven_cham = -25;
 six_cham = -25;
+};
+laMed_waMed_ueSign_cham = {
+"@MMK_R_gFinal" = 280;
+};
+laMedial_cham = {
+"@MMK_R_ha" = 80;
+};
+laMedial_cham.narrow = {
+"@MMK_R_ha" = 120;
+};
+laMedial_ueSign_cham = {
+"@MMK_R_ka" = 80;
+};
+laMedial_waMedial_cham = {
+"@MMK_R_ha" = 180;
+"@MMK_R_ka" = 90;
 };
 la_cham = {
 ha_cham = -78;
@@ -44310,6 +44408,12 @@ sa_cham = -25;
 seven_cham = -25;
 six_cham = -25;
 };
+uSign_cham = {
+"@MMK_R_ha" = 120;
+};
+uSign_cham.narrow = {
+"@MMK_R_ha" = 120;
+};
 u_cham = {
 ha_cham = -13;
 jha_cham = -13;
@@ -44431,6 +44535,17 @@ six_cham = -78;
 };
 };
 "0A718E2F-231D-484E-9433-16A5230D2CE8" = {
+"@MMK_L_lawavowel" = {
+"@MMK_R_cha" = 400;
+"@MMK_R_dha" = 250;
+"@MMK_R_gFinal" = 280;
+"@MMK_R_ha" = 550;
+"@MMK_R_ka" = 550;
+};
+"@MMK_L_wavowel" = {
+"@MMK_R_ha" = 120;
+"@MMK_R_ka" = 150;
+};
 a_cham = {
 ha_cham = -78;
 jha_cham = -78;
@@ -44973,6 +45088,22 @@ ra_cham = -22;
 sa_cham = -22;
 seven_cham = -22;
 six_cham = -22;
+};
+laMed_waMed_ueSign_cham = {
+"@MMK_R_gFinal" = 400;
+};
+laMedial_cham = {
+"@MMK_R_ha" = 120;
+};
+laMedial_cham.narrow = {
+"@MMK_R_ha" = 160;
+};
+laMedial_ueSign_cham = {
+"@MMK_R_ka" = 100;
+};
+laMedial_waMedial_cham = {
+"@MMK_R_ha" = 220;
+"@MMK_R_ka" = 120;
 };
 la_cham = {
 ha_cham = -78;
@@ -45518,6 +45649,12 @@ ra_cham = -22;
 sa_cham = -22;
 seven_cham = -22;
 six_cham = -22;
+};
+uSign_cham = {
+"@MMK_R_ha" = 120;
+};
+uSign_cham.narrow = {
+"@MMK_R_ha" = 160;
 };
 u_cham = {
 ha_cham = -21;
