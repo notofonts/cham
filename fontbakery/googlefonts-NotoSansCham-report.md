@@ -6,29 +6,24 @@ Fontbakery version: 0.8.9
 
 
 * 🔥 **FAIL** Not all fonts passed in the command line are in the same directory. This may lead to bad results as the tool will interpret all font files as belonging to a single font family. The detected directories are: ['fonts/NotoSansCham/googlefonts/ttf', 'fonts/NotoSansCham/googlefonts/variable-ttf'] [code: single-directory]
-</div></details><br></div></details><details><summary><b>[11] NotoSansCham-Black.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[9] NotoSansCham-Black.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1368, but got 1117 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 645, but got 351 instead. [code: descent]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* chFinal_cham
-	* three_cham
-	* ta_cham
+	* nue_cham
+	* pha_cham
+	* five_cham
+	* ai_cham
+	* da_cham
+	* raMedial_cham
+	* ka_cham
 	* dda_cham
 	* ngue_cham
-	* ma_cham.calt
-	* bba_cham
-	* chha_cham
-	* da_cham
-	* o_cham and 52 more.
+	* na_cham.calt and 52 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
@@ -59,19 +54,19 @@ Use -F or --full-lists to disable shortening of long lists.
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
-</div></details><details><summary>⚠ <b>WARN:</b> Font has **proper** whitespace glyph names? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_glyphnames">com.google.fonts/check/whitespace_glyphnames</a>)</summary><div>
+</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
 
 
-* ⚠ **WARN** Glyph 0x00A0 is called "nbspace": Change to "uni00A0" [code: not-recommended-00a0]
+* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+
+	- nbspace
+ [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
-* ⚠ **WARN** This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]
 * ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
 
 The following glyphs do not have the recommended number of contours:
-
-	- Glyph name: softhyphen	Contours detected: 1	Expected: 0
 
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
@@ -81,13 +76,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
-
-
-* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), brevecomb (U+0306), caroncomb (U+030C), cedillacomb (U+0327), circumflexcomb (U+0302), commaaccentcomb (U+0326), commaturnedabovecomb (U+0312), dieresiscomb (U+0308), dotaccentcomb (U+0307), gravecomb (U+0300) and 5 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
 
@@ -144,29 +132,24 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 	* And 6 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[12] NotoSansCham-Bold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[10] NotoSansCham-Bold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1368, but got 1117 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 645, but got 351 instead. [code: descent]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* chFinal_cham
-	* ta_cham
+	* nue_cham
+	* pha_cham
+	* da_cham
+	* ka_cham
 	* dda_cham
 	* ngue_cham
-	* ma_cham.calt
-	* bba_cham
-	* chha_cham
-	* da_cham
-	* o_cham
-	* nhue_cham and 40 more.
+	* na_cham.calt
+	* a_cham
+	* ppa_cham
+	* eight_cham and 40 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
@@ -197,19 +180,19 @@ Use -F or --full-lists to disable shortening of long lists.
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
-</div></details><details><summary>⚠ <b>WARN:</b> Font has **proper** whitespace glyph names? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_glyphnames">com.google.fonts/check/whitespace_glyphnames</a>)</summary><div>
+</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
 
 
-* ⚠ **WARN** Glyph 0x00A0 is called "nbspace": Change to "uni00A0" [code: not-recommended-00a0]
+* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+
+	- nbspace
+ [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
-* ⚠ **WARN** This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]
 * ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
 
 The following glyphs do not have the recommended number of contours:
-
-	- Glyph name: softhyphen	Contours detected: 1	Expected: 0
 
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
@@ -219,13 +202,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
-
-
-* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), brevecomb (U+0306), caroncomb (U+030C), cedillacomb (U+0327), circumflexcomb (U+0302), commaaccentcomb (U+0326), commaturnedabovecomb (U+0312), dieresiscomb (U+0308), dotaccentcomb (U+0307), gravecomb (U+0300) and 5 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
 
@@ -288,28 +264,23 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 	* And 5 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[12] NotoSansCham-ExtraBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[10] NotoSansCham-ExtraBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1368, but got 1117 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 645, but got 351 instead. [code: descent]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* chFinal_cham
-	* ta_cham
+	* nue_cham
+	* pha_cham
+	* da_cham
+	* ka_cham
 	* dda_cham
 	* ngue_cham
-	* ma_cham.calt
-	* bba_cham
-	* chha_cham
-	* da_cham
-	* o_cham
+	* na_cham.calt
+	* a_cham
+	* ppa_cham
 	* ssFinal_cham and 44 more.
 
 Use -F or --full-lists to disable shortening of long lists.
@@ -348,19 +319,19 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
-</div></details><details><summary>⚠ <b>WARN:</b> Font has **proper** whitespace glyph names? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_glyphnames">com.google.fonts/check/whitespace_glyphnames</a>)</summary><div>
+</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
 
 
-* ⚠ **WARN** Glyph 0x00A0 is called "nbspace": Change to "uni00A0" [code: not-recommended-00a0]
+* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+
+	- nbspace
+ [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
-* ⚠ **WARN** This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]
 * ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
 
 The following glyphs do not have the recommended number of contours:
-
-	- Glyph name: softhyphen	Contours detected: 1	Expected: 0
 
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
@@ -370,13 +341,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
-
-
-* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), brevecomb (U+0306), caroncomb (U+030C), cedillacomb (U+0327), circumflexcomb (U+0302), commaaccentcomb (U+0326), commaturnedabovecomb (U+0312), dieresiscomb (U+0308), dotaccentcomb (U+0307), gravecomb (U+0300) and 5 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
 
@@ -431,15 +395,10 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 	* Wgrave (U+1E80): B<<283.5,211.5>-<290.0,175.0>-<293.0,151.0>>/B<<293.0,151.0>-<297.0,183.0>-<305.0,226.5>> = 14.25003269780357 
 
 	* And Wgrave (U+1E80): B<<506.5,475.5>-<502.0,500.0>-<501.0,516.0>>/B<<501.0,516.0>-<499.0,500.0>-<494.5,475.5>> = 10.701350723899111 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[10] NotoSansCham-ExtraLight.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[8] NotoSansCham-ExtraLight.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1368, but got 1117 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 645, but got 351 instead. [code: descent]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
 
@@ -475,19 +434,19 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
-</div></details><details><summary>⚠ <b>WARN:</b> Font has **proper** whitespace glyph names? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_glyphnames">com.google.fonts/check/whitespace_glyphnames</a>)</summary><div>
+</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
 
 
-* ⚠ **WARN** Glyph 0x00A0 is called "nbspace": Change to "uni00A0" [code: not-recommended-00a0]
+* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+
+	- nbspace
+ [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
-* ⚠ **WARN** This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]
 * ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
 
 The following glyphs do not have the recommended number of contours:
-
-	- Glyph name: softhyphen	Contours detected: 1	Expected: 0
 
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
@@ -497,13 +456,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
-
-
-* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), brevecomb (U+0306), caroncomb (U+030C), cedillacomb (U+0327), circumflexcomb (U+0302), commaaccentcomb (U+0326), commaturnedabovecomb (U+0312), dieresiscomb (U+0308), dotaccentcomb (U+0307), gravecomb (U+0300) and 5 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
 
@@ -532,15 +484,10 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 	* And 80 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
-</div></details><br></div></details><details><summary><b>[9] NotoSansCham-Light.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[7] NotoSansCham-Light.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1368, but got 1117 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 645, but got 351 instead. [code: descent]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
 
@@ -569,19 +516,19 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
-</div></details><details><summary>⚠ <b>WARN:</b> Font has **proper** whitespace glyph names? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_glyphnames">com.google.fonts/check/whitespace_glyphnames</a>)</summary><div>
+</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
 
 
-* ⚠ **WARN** Glyph 0x00A0 is called "nbspace": Change to "uni00A0" [code: not-recommended-00a0]
+* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+
+	- nbspace
+ [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
-* ⚠ **WARN** This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]
 * ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
 
 The following glyphs do not have the recommended number of contours:
-
-	- Glyph name: softhyphen	Contours detected: 1	Expected: 0
 
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
@@ -591,13 +538,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
-
-
-* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), brevecomb (U+0306), caroncomb (U+030C), cedillacomb (U+0327), circumflexcomb (U+0302), commaaccentcomb (U+0326), commaturnedabovecomb (U+0312), dieresiscomb (U+0308), dotaccentcomb (U+0307), gravecomb (U+0300) and 5 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
 
@@ -626,29 +566,24 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 	* And 67 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
-</div></details><br></div></details><details><summary><b>[12] NotoSansCham-Medium.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[10] NotoSansCham-Medium.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1368, but got 1117 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 645, but got 351 instead. [code: descent]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* ta_cham
+	* nue_cham
 	* dda_cham
 	* ngue_cham
-	* bba_cham
+	* na_cham.calt
+	* ppa_cham
+	* eight_cham
+	* ja_cham
 	* chha_cham
-	* nhue_cham
-	* bba_cham.calt
-	* na_cham
-	* gFinal_cham
-	* nhja_cham and 16 more.
+	* jha_cham
+	* ngFinal_cham and 16 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
@@ -686,19 +621,19 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
-</div></details><details><summary>⚠ <b>WARN:</b> Font has **proper** whitespace glyph names? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_glyphnames">com.google.fonts/check/whitespace_glyphnames</a>)</summary><div>
+</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
 
 
-* ⚠ **WARN** Glyph 0x00A0 is called "nbspace": Change to "uni00A0" [code: not-recommended-00a0]
+* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+
+	- nbspace
+ [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
-* ⚠ **WARN** This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]
 * ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
 
 The following glyphs do not have the recommended number of contours:
-
-	- Glyph name: softhyphen	Contours detected: 1	Expected: 0
 
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
@@ -708,13 +643,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
-
-
-* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), brevecomb (U+0306), caroncomb (U+030C), cedillacomb (U+0327), circumflexcomb (U+0302), commaaccentcomb (U+0326), commaturnedabovecomb (U+0312), dieresiscomb (U+0308), dotaccentcomb (U+0307), gravecomb (U+0300) and 5 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -729,15 +657,10 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 	* nhja_cham (U+AA12): B<<349.5,-51.5>-<362.0,-22.0>-<381.0,-6.0>>/B<<381.0,-6.0>-<352.0,-21.0>-<313.0,-21.0>> = 12.751031766142344 
 
 	* And nhja_cham (U+AA12): B<<437.0,86.0>-<437.0,35.0>-<400.0,6.0>>/B<<400.0,6.0>-<418.0,14.0>-<443.0,17.5>> = 14.126283906397104 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[11] NotoSansCham-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[9] NotoSansCham-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1368, but got 1117 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 645, but got 351 instead. [code: descent]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check that texts shape as per expectation (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/shaping/regression">com.google.fonts/check/shaping/regression</a>)</summary><div>
 
 
@@ -866,6 +789,106 @@ Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 62
 </div>
 <div class="shaping">
 
+<li>Shaping did not match: <span class="tf">ꩍ꩖ꨤꨭꨵꨲ</span> (Added by SIESTA)</li>
+
+
+<pre>Expected: uni25CC=0+594|hSignFinal_cham=0+487|six_cham=1+864|la_cham=2+881|uSign_cham.narrow=2@-44,0+0|uni25CC=2+594|laMedial_ueSign_cham=2@-85,-235+0</pre>
+
+
+
+<pre>Got     : uni25CC=0+594|hSignFinal_cham=0+487|six_cham=1+864|la_cham=2+881|uSign_cham.narrow=2@-44,0+0|uni25CC=2+594|laMedial_ueSign_cham=2@-206,-235+0</pre>
+
+
+
+<pre>                                                                                                                                             ^^
+</pre>
+
+
+Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3420 2468" transform="matrix(1 0 0 -1 0 0)">
+<path d="M297.0,537.0Q308.0,537.0 315.5,529.5Q323.0,522.0 323.0,511.0Q323.0,501.0 315.5,493.0Q308.0,485.0 297.0,485.0Q287.0,485.0 279.0,493.0Q271.0,501.0 271.0,511.0Q271.0,522.0 279.0,529.5Q287.0,537.0 297.0,537.0ZM213.0,519.0Q224.0,519.0 231.5,511.5Q239.0,504.0 239.0,493.0Q239.0,483.0 231.5,475.0Q224.0,467.0 213.0,467.0Q203.0,467.0 195.0,475.0Q187.0,483.0 187.0,493.0Q187.0,504.0 195.0,511.5Q203.0,519.0 213.0,519.0ZM381.0,519.0Q392.0,519.0 399.5,511.5Q407.0,504.0 407.0,493.0Q407.0,483.0 399.5,475.0Q392.0,467.0 381.0,467.0Q371.0,467.0 363.0,475.0Q355.0,483.0 355.0,493.0Q355.0,504.0 363.0,511.5Q371.0,519.0 381.0,519.0ZM113.0,446.0Q113.0,457.0 121.0,464.5Q129.0,472.0 139.0,472.0Q150.0,472.0 157.5,464.5Q165.0,457.0 165.0,446.0Q165.0,436.0 157.5,428.0Q150.0,420.0 139.0,420.0Q129.0,420.0 121.0,428.0Q113.0,436.0 113.0,446.0ZM429.0,446.0Q429.0,457.0 437.0,464.5Q445.0,472.0 455.0,472.0Q466.0,472.0 473.5,464.5Q481.0,457.0 481.0,446.0Q481.0,436.0 473.5,428.0Q466.0,420.0 455.0,420.0Q445.0,420.0 437.0,428.0Q429.0,436.0 429.0,446.0ZM66.0,372.0Q66.0,383.0 74.0,390.5Q82.0,398.0 92.0,398.0Q103.0,398.0 110.5,390.5Q118.0,383.0 118.0,372.0Q118.0,362.0 110.5,354.0Q103.0,346.0 92.0,346.0Q82.0,346.0 74.0,354.0Q66.0,362.0 66.0,372.0ZM476.0,372.0Q476.0,383.0 484.0,390.5Q492.0,398.0 502.0,398.0Q513.0,398.0 520.5,390.5Q528.0,383.0 528.0,372.0Q528.0,362.0 520.5,354.0Q513.0,346.0 502.0,346.0Q492.0,346.0 484.0,354.0Q476.0,362.0 476.0,372.0ZM48.0,288.0Q48.0,299.0 56.0,306.5Q64.0,314.0 74.0,314.0Q85.0,314.0 92.5,306.5Q100.0,299.0 100.0,288.0Q100.0,278.0 92.5,270.0Q85.0,262.0 74.0,262.0Q64.0,262.0 56.0,270.0Q48.0,278.0 48.0,288.0ZM494.0,288.0Q494.0,299.0 502.0,306.5Q510.0,314.0 520.0,314.0Q531.0,314.0 538.5,306.5Q546.0,299.0 546.0,288.0Q546.0,278.0 538.5,270.0Q531.0,262.0 520.0,262.0Q510.0,262.0 502.0,270.0Q494.0,278.0 494.0,288.0ZM66.0,204.0Q66.0,215.0 74.0,222.5Q82.0,230.0 92.0,230.0Q103.0,230.0 110.5,222.5Q118.0,215.0 118.0,204.0Q118.0,194.0 110.5,186.0Q103.0,178.0 92.0,178.0Q82.0,178.0 74.0,186.0Q66.0,194.0 66.0,204.0ZM476.0,204.0Q476.0,215.0 484.0,222.5Q492.0,230.0 502.0,230.0Q513.0,230.0 520.5,222.5Q528.0,215.0 528.0,204.0Q528.0,194.0 520.5,186.0Q513.0,178.0 502.0,178.0Q492.0,178.0 484.0,186.0Q476.0,194.0 476.0,204.0ZM113.0,130.0Q113.0,141.0 121.0,148.5Q129.0,156.0 139.0,156.0Q150.0,156.0 157.5,148.5Q165.0,141.0 165.0,130.0Q165.0,120.0 157.5,112.0Q150.0,104.0 139.0,104.0Q129.0,104.0 121.0,112.0Q113.0,120.0 113.0,130.0ZM429.0,130.0Q429.0,141.0 437.0,148.5Q445.0,156.0 455.0,156.0Q466.0,156.0 473.5,148.5Q481.0,141.0 481.0,130.0Q481.0,120.0 473.5,112.0Q466.0,104.0 455.0,104.0Q445.0,104.0 437.0,112.0Q429.0,120.0 429.0,130.0ZM213.0,109.0Q224.0,109.0 231.5,101.5Q239.0,94.0 239.0,83.0Q239.0,73.0 231.5,65.0Q224.0,57.0 213.0,57.0Q203.0,57.0 195.0,65.0Q187.0,73.0 187.0,83.0Q187.0,94.0 195.0,101.5Q203.0,109.0 213.0,109.0ZM381.0,109.0Q392.0,109.0 399.5,101.5Q407.0,94.0 407.0,83.0Q407.0,73.0 399.5,65.0Q392.0,57.0 381.0,57.0Q371.0,57.0 363.0,65.0Q355.0,73.0 355.0,83.0Q355.0,94.0 363.0,101.5Q371.0,109.0 381.0,109.0ZM297.0,91.0Q308.0,91.0 315.5,83.5Q323.0,76.0 323.0,65.0Q323.0,55.0 315.5,47.0Q308.0,39.0 297.0,39.0Q287.0,39.0 279.0,47.0Q271.0,55.0 271.0,65.0Q271.0,76.0 279.0,83.5Q287.0,91.0 297.0,91.0Z"  transform="translate(0, 851)"/>
+<path d="M512.0,392.0Q512.0,268.0 404.0,198.0L362.0,171.0Q340.0,157.0 333.0,144.5Q326.0,132.0 326.0,109.0L326.0,-282.0L239.0,-282.0L239.0,118.0Q239.0,147.0 245.5,166.5Q252.0,186.0 284.0,205.0L331.0,234.0Q384.0,266.0 405.0,305.5Q426.0,345.0 426.0,387.0Q426.0,455.0 385.0,490.0Q344.0,525.0 278.0,525.0Q211.0,525.0 170.5,491.5Q130.0,458.0 130.0,396.0Q130.0,374.0 133.0,355.0Q162.0,384.0 203.0,384.0Q238.0,384.0 260.5,364.5Q283.0,345.0 283.0,311.0Q283.0,277.0 258.5,255.5Q234.0,234.0 196.0,234.0Q136.0,234.0 94.5,279.5Q53.0,325.0 53.0,401.0Q53.0,459.0 82.0,502.0Q111.0,545.0 163.0,569.5Q215.0,594.0 283.0,594.0Q350.0,594.0 401.5,570.0Q453.0,546.0 482.5,500.5Q512.0,455.0 512.0,392.0ZM199.0,346.0Q166.0,346.0 148.0,308.0Q167.0,275.0 201.0,275.0Q221.0,275.0 230.0,285.0Q239.0,295.0 239.0,311.0Q239.0,328.0 227.5,337.0Q216.0,346.0 199.0,346.0Z"  transform="translate(594, 851)"/>
+<path d="M811.0,415.0Q811.0,376.0 796.5,338.0Q782.0,300.0 751.0,272.0L689.0,320.0Q706.0,338.0 716.0,363.5Q726.0,389.0 726.0,417.0Q726.0,467.0 696.5,496.0Q667.0,525.0 613.0,525.0Q560.0,525.0 530.0,495.5Q500.0,466.0 500.0,418.0Q500.0,381.0 510.0,346.5Q520.0,312.0 530.0,275.0Q540.0,238.0 540.0,191.0Q540.0,97.0 478.0,40.0Q416.0,-17.0 304.0,-17.0Q228.0,-17.0 171.5,6.0Q115.0,29.0 84.0,70.0Q53.0,111.0 53.0,165.0Q53.0,230.0 96.0,273.5Q139.0,317.0 214.0,317.0Q285.0,317.0 329.5,275.5Q374.0,234.0 374.0,163.0Q374.0,131.0 365.5,102.5Q357.0,74.0 348.0,54.0Q400.0,66.0 427.5,102.0Q455.0,138.0 455.0,196.0Q455.0,237.0 445.0,272.5Q435.0,308.0 425.0,344.5Q415.0,381.0 415.0,424.0Q415.0,501.0 469.5,547.5Q524.0,594.0 612.0,594.0Q702.0,594.0 756.5,544.5Q811.0,495.0 811.0,415.0ZM132.0,166.0Q132.0,116.0 172.0,84.0Q212.0,52.0 279.0,48.0Q288.0,69.0 295.5,98.0Q303.0,127.0 303.0,152.0Q303.0,199.0 280.0,225.0Q257.0,251.0 217.0,251.0Q177.0,251.0 154.5,227.5Q132.0,204.0 132.0,166.0Z"  transform="translate(1081, 851)"/>
+<path d="M828.0,421.0Q828.0,381.0 814.5,344.0Q801.0,307.0 769.0,274.0L706.0,320.0Q744.0,361.0 744.0,416.0Q744.0,465.0 717.5,491.5Q691.0,518.0 653.0,518.0Q622.0,518.0 602.0,506.0Q582.0,494.0 564.5,477.5Q547.0,461.0 525.0,449.0Q503.0,437.0 470.0,437.0Q437.0,437.0 415.0,449.0Q393.0,461.0 375.5,477.5Q358.0,494.0 338.0,506.0Q318.0,518.0 287.0,518.0Q235.0,518.0 200.5,463.5Q166.0,409.0 166.0,309.0Q166.0,237.0 182.0,183.0Q198.0,129.0 226.0,95.0Q242.0,135.0 273.0,158.5Q304.0,182.0 347.0,182.0Q395.0,182.0 426.0,155.0Q457.0,128.0 457.0,82.0Q457.0,38.0 425.5,9.5Q394.0,-19.0 339.0,-19.0Q265.0,-19.0 206.0,20.5Q147.0,60.0 113.5,133.5Q80.0,207.0 80.0,308.0Q80.0,397.0 104.0,461.0Q128.0,525.0 171.0,559.5Q214.0,594.0 271.0,594.0Q314.0,594.0 342.0,582.0Q370.0,570.0 390.5,553.5Q411.0,537.0 429.5,525.0Q448.0,513.0 470.0,513.0Q493.0,513.0 510.5,525.0Q528.0,537.0 548.0,553.5Q568.0,570.0 596.0,582.0Q624.0,594.0 667.0,594.0Q739.0,594.0 783.5,548.0Q828.0,502.0 828.0,421.0ZM346.0,131.0Q314.0,131.0 294.0,109.5Q274.0,88.0 267.0,57.0Q302.0,35.0 344.0,35.0Q370.0,35.0 385.0,48.0Q400.0,61.0 400.0,83.0Q400.0,108.0 384.5,119.5Q369.0,131.0 346.0,131.0Z"  transform="translate(1945, 851)"/>
+<path d="M66.0,114.0Q69.0,53.0 46.5,26.5Q24.0,0.0 -11.0,0.0Q-36.0,0.0 -54.0,12.5Q-72.0,25.0 -87.0,37.5Q-102.0,50.0 -119.0,50.0Q-134.0,50.0 -145.0,40.0Q-156.0,30.0 -155.0,-4.0L-203.0,-4.0Q-206.0,58.0 -183.0,84.5Q-160.0,111.0 -126.0,111.0Q-101.0,111.0 -83.0,98.0Q-65.0,85.0 -49.5,72.5Q-34.0,60.0 -18.0,60.0Q-3.0,60.0 8.0,70.5Q19.0,81.0 19.0,114.0L66.0,114.0Z"  transform="translate(2782, 851)"/>
+<path d="M297.0,537.0Q308.0,537.0 315.5,529.5Q323.0,522.0 323.0,511.0Q323.0,501.0 315.5,493.0Q308.0,485.0 297.0,485.0Q287.0,485.0 279.0,493.0Q271.0,501.0 271.0,511.0Q271.0,522.0 279.0,529.5Q287.0,537.0 297.0,537.0ZM213.0,519.0Q224.0,519.0 231.5,511.5Q239.0,504.0 239.0,493.0Q239.0,483.0 231.5,475.0Q224.0,467.0 213.0,467.0Q203.0,467.0 195.0,475.0Q187.0,483.0 187.0,493.0Q187.0,504.0 195.0,511.5Q203.0,519.0 213.0,519.0ZM381.0,519.0Q392.0,519.0 399.5,511.5Q407.0,504.0 407.0,493.0Q407.0,483.0 399.5,475.0Q392.0,467.0 381.0,467.0Q371.0,467.0 363.0,475.0Q355.0,483.0 355.0,493.0Q355.0,504.0 363.0,511.5Q371.0,519.0 381.0,519.0ZM113.0,446.0Q113.0,457.0 121.0,464.5Q129.0,472.0 139.0,472.0Q150.0,472.0 157.5,464.5Q165.0,457.0 165.0,446.0Q165.0,436.0 157.5,428.0Q150.0,420.0 139.0,420.0Q129.0,420.0 121.0,428.0Q113.0,436.0 113.0,446.0ZM429.0,446.0Q429.0,457.0 437.0,464.5Q445.0,472.0 455.0,472.0Q466.0,472.0 473.5,464.5Q481.0,457.0 481.0,446.0Q481.0,436.0 473.5,428.0Q466.0,420.0 455.0,420.0Q445.0,420.0 437.0,428.0Q429.0,436.0 429.0,446.0ZM66.0,372.0Q66.0,383.0 74.0,390.5Q82.0,398.0 92.0,398.0Q103.0,398.0 110.5,390.5Q118.0,383.0 118.0,372.0Q118.0,362.0 110.5,354.0Q103.0,346.0 92.0,346.0Q82.0,346.0 74.0,354.0Q66.0,362.0 66.0,372.0ZM476.0,372.0Q476.0,383.0 484.0,390.5Q492.0,398.0 502.0,398.0Q513.0,398.0 520.5,390.5Q528.0,383.0 528.0,372.0Q528.0,362.0 520.5,354.0Q513.0,346.0 502.0,346.0Q492.0,346.0 484.0,354.0Q476.0,362.0 476.0,372.0ZM48.0,288.0Q48.0,299.0 56.0,306.5Q64.0,314.0 74.0,314.0Q85.0,314.0 92.5,306.5Q100.0,299.0 100.0,288.0Q100.0,278.0 92.5,270.0Q85.0,262.0 74.0,262.0Q64.0,262.0 56.0,270.0Q48.0,278.0 48.0,288.0ZM494.0,288.0Q494.0,299.0 502.0,306.5Q510.0,314.0 520.0,314.0Q531.0,314.0 538.5,306.5Q546.0,299.0 546.0,288.0Q546.0,278.0 538.5,270.0Q531.0,262.0 520.0,262.0Q510.0,262.0 502.0,270.0Q494.0,278.0 494.0,288.0ZM66.0,204.0Q66.0,215.0 74.0,222.5Q82.0,230.0 92.0,230.0Q103.0,230.0 110.5,222.5Q118.0,215.0 118.0,204.0Q118.0,194.0 110.5,186.0Q103.0,178.0 92.0,178.0Q82.0,178.0 74.0,186.0Q66.0,194.0 66.0,204.0ZM476.0,204.0Q476.0,215.0 484.0,222.5Q492.0,230.0 502.0,230.0Q513.0,230.0 520.5,222.5Q528.0,215.0 528.0,204.0Q528.0,194.0 520.5,186.0Q513.0,178.0 502.0,178.0Q492.0,178.0 484.0,186.0Q476.0,194.0 476.0,204.0ZM113.0,130.0Q113.0,141.0 121.0,148.5Q129.0,156.0 139.0,156.0Q150.0,156.0 157.5,148.5Q165.0,141.0 165.0,130.0Q165.0,120.0 157.5,112.0Q150.0,104.0 139.0,104.0Q129.0,104.0 121.0,112.0Q113.0,120.0 113.0,130.0ZM429.0,130.0Q429.0,141.0 437.0,148.5Q445.0,156.0 455.0,156.0Q466.0,156.0 473.5,148.5Q481.0,141.0 481.0,130.0Q481.0,120.0 473.5,112.0Q466.0,104.0 455.0,104.0Q445.0,104.0 437.0,112.0Q429.0,120.0 429.0,130.0ZM213.0,109.0Q224.0,109.0 231.5,101.5Q239.0,94.0 239.0,83.0Q239.0,73.0 231.5,65.0Q224.0,57.0 213.0,57.0Q203.0,57.0 195.0,65.0Q187.0,73.0 187.0,83.0Q187.0,94.0 195.0,101.5Q203.0,109.0 213.0,109.0ZM381.0,109.0Q392.0,109.0 399.5,101.5Q407.0,94.0 407.0,83.0Q407.0,73.0 399.5,65.0Q392.0,57.0 381.0,57.0Q371.0,57.0 363.0,65.0Q355.0,73.0 355.0,83.0Q355.0,94.0 363.0,101.5Q371.0,109.0 381.0,109.0ZM297.0,91.0Q308.0,91.0 315.5,83.5Q323.0,76.0 323.0,65.0Q323.0,55.0 315.5,47.0Q308.0,39.0 297.0,39.0Q287.0,39.0 279.0,47.0Q271.0,55.0 271.0,65.0Q271.0,76.0 279.0,83.5Q287.0,91.0 297.0,91.0Z"  transform="translate(2826, 851)"/>
+<path d="M-134.0,150.0Q-144.0,101.0 -166.0,74.0Q-188.0,47.0 -224.0,47.0Q-248.0,47.0 -267.0,55.0Q-286.0,63.0 -309.0,63.0Q-355.0,63.0 -370.0,7.0Q-365.0,7.0 -360.0,7.0Q-298.0,7.0 -257.5,-21.5Q-217.0,-50.0 -217.0,-103.0Q-217.0,-148.0 -244.5,-173.5Q-272.0,-199.0 -313.0,-199.0Q-365.0,-199.0 -402.5,-161.5Q-440.0,-124.0 -440.0,-44.0Q-440.0,30.0 -409.5,80.5Q-379.0,131.0 -321.0,131.0Q-297.0,131.0 -280.0,123.5Q-263.0,116.0 -244.0,116.0Q-224.0,116.0 -214.0,131.0Q-204.0,146.0 -199.0,172.0L-134.0,150.0ZM-357.0,-46.0Q-366.0,-46.0 -376.0,-48.0Q-375.0,-98.0 -356.5,-119.5Q-338.0,-141.0 -316.0,-141.0Q-281.0,-141.0 -281.0,-102.0Q-281.0,-75.0 -301.5,-60.5Q-322.0,-46.0 -357.0,-46.0ZM-59.0,108.0Q-45.0,91.0 -36.0,61.0Q-27.0,31.0 -27.0,-6.0Q-27.0,-53.0 -41.5,-101.0Q-56.0,-149.0 -78.0,-190.0L-149.0,-166.0Q-129.0,-128.0 -117.0,-88.0Q-105.0,-48.0 -105.0,-11.0Q-105.0,43.0 -128.0,80.0L-59.0,108.0Z"  transform="translate(3214, 616)"/>
+</svg>
+ Expected: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3420 2468" transform="matrix(1 0 0 -1 0 0)">
+<path d="M297.0,537.0Q308.0,537.0 315.5,529.5Q323.0,522.0 323.0,511.0Q323.0,501.0 315.5,493.0Q308.0,485.0 297.0,485.0Q287.0,485.0 279.0,493.0Q271.0,501.0 271.0,511.0Q271.0,522.0 279.0,529.5Q287.0,537.0 297.0,537.0ZM213.0,519.0Q224.0,519.0 231.5,511.5Q239.0,504.0 239.0,493.0Q239.0,483.0 231.5,475.0Q224.0,467.0 213.0,467.0Q203.0,467.0 195.0,475.0Q187.0,483.0 187.0,493.0Q187.0,504.0 195.0,511.5Q203.0,519.0 213.0,519.0ZM381.0,519.0Q392.0,519.0 399.5,511.5Q407.0,504.0 407.0,493.0Q407.0,483.0 399.5,475.0Q392.0,467.0 381.0,467.0Q371.0,467.0 363.0,475.0Q355.0,483.0 355.0,493.0Q355.0,504.0 363.0,511.5Q371.0,519.0 381.0,519.0ZM113.0,446.0Q113.0,457.0 121.0,464.5Q129.0,472.0 139.0,472.0Q150.0,472.0 157.5,464.5Q165.0,457.0 165.0,446.0Q165.0,436.0 157.5,428.0Q150.0,420.0 139.0,420.0Q129.0,420.0 121.0,428.0Q113.0,436.0 113.0,446.0ZM429.0,446.0Q429.0,457.0 437.0,464.5Q445.0,472.0 455.0,472.0Q466.0,472.0 473.5,464.5Q481.0,457.0 481.0,446.0Q481.0,436.0 473.5,428.0Q466.0,420.0 455.0,420.0Q445.0,420.0 437.0,428.0Q429.0,436.0 429.0,446.0ZM66.0,372.0Q66.0,383.0 74.0,390.5Q82.0,398.0 92.0,398.0Q103.0,398.0 110.5,390.5Q118.0,383.0 118.0,372.0Q118.0,362.0 110.5,354.0Q103.0,346.0 92.0,346.0Q82.0,346.0 74.0,354.0Q66.0,362.0 66.0,372.0ZM476.0,372.0Q476.0,383.0 484.0,390.5Q492.0,398.0 502.0,398.0Q513.0,398.0 520.5,390.5Q528.0,383.0 528.0,372.0Q528.0,362.0 520.5,354.0Q513.0,346.0 502.0,346.0Q492.0,346.0 484.0,354.0Q476.0,362.0 476.0,372.0ZM48.0,288.0Q48.0,299.0 56.0,306.5Q64.0,314.0 74.0,314.0Q85.0,314.0 92.5,306.5Q100.0,299.0 100.0,288.0Q100.0,278.0 92.5,270.0Q85.0,262.0 74.0,262.0Q64.0,262.0 56.0,270.0Q48.0,278.0 48.0,288.0ZM494.0,288.0Q494.0,299.0 502.0,306.5Q510.0,314.0 520.0,314.0Q531.0,314.0 538.5,306.5Q546.0,299.0 546.0,288.0Q546.0,278.0 538.5,270.0Q531.0,262.0 520.0,262.0Q510.0,262.0 502.0,270.0Q494.0,278.0 494.0,288.0ZM66.0,204.0Q66.0,215.0 74.0,222.5Q82.0,230.0 92.0,230.0Q103.0,230.0 110.5,222.5Q118.0,215.0 118.0,204.0Q118.0,194.0 110.5,186.0Q103.0,178.0 92.0,178.0Q82.0,178.0 74.0,186.0Q66.0,194.0 66.0,204.0ZM476.0,204.0Q476.0,215.0 484.0,222.5Q492.0,230.0 502.0,230.0Q513.0,230.0 520.5,222.5Q528.0,215.0 528.0,204.0Q528.0,194.0 520.5,186.0Q513.0,178.0 502.0,178.0Q492.0,178.0 484.0,186.0Q476.0,194.0 476.0,204.0ZM113.0,130.0Q113.0,141.0 121.0,148.5Q129.0,156.0 139.0,156.0Q150.0,156.0 157.5,148.5Q165.0,141.0 165.0,130.0Q165.0,120.0 157.5,112.0Q150.0,104.0 139.0,104.0Q129.0,104.0 121.0,112.0Q113.0,120.0 113.0,130.0ZM429.0,130.0Q429.0,141.0 437.0,148.5Q445.0,156.0 455.0,156.0Q466.0,156.0 473.5,148.5Q481.0,141.0 481.0,130.0Q481.0,120.0 473.5,112.0Q466.0,104.0 455.0,104.0Q445.0,104.0 437.0,112.0Q429.0,120.0 429.0,130.0ZM213.0,109.0Q224.0,109.0 231.5,101.5Q239.0,94.0 239.0,83.0Q239.0,73.0 231.5,65.0Q224.0,57.0 213.0,57.0Q203.0,57.0 195.0,65.0Q187.0,73.0 187.0,83.0Q187.0,94.0 195.0,101.5Q203.0,109.0 213.0,109.0ZM381.0,109.0Q392.0,109.0 399.5,101.5Q407.0,94.0 407.0,83.0Q407.0,73.0 399.5,65.0Q392.0,57.0 381.0,57.0Q371.0,57.0 363.0,65.0Q355.0,73.0 355.0,83.0Q355.0,94.0 363.0,101.5Q371.0,109.0 381.0,109.0ZM297.0,91.0Q308.0,91.0 315.5,83.5Q323.0,76.0 323.0,65.0Q323.0,55.0 315.5,47.0Q308.0,39.0 297.0,39.0Q287.0,39.0 279.0,47.0Q271.0,55.0 271.0,65.0Q271.0,76.0 279.0,83.5Q287.0,91.0 297.0,91.0Z"  transform="translate(0, 851)"/>
+<path d="M512.0,392.0Q512.0,268.0 404.0,198.0L362.0,171.0Q340.0,157.0 333.0,144.5Q326.0,132.0 326.0,109.0L326.0,-282.0L239.0,-282.0L239.0,118.0Q239.0,147.0 245.5,166.5Q252.0,186.0 284.0,205.0L331.0,234.0Q384.0,266.0 405.0,305.5Q426.0,345.0 426.0,387.0Q426.0,455.0 385.0,490.0Q344.0,525.0 278.0,525.0Q211.0,525.0 170.5,491.5Q130.0,458.0 130.0,396.0Q130.0,374.0 133.0,355.0Q162.0,384.0 203.0,384.0Q238.0,384.0 260.5,364.5Q283.0,345.0 283.0,311.0Q283.0,277.0 258.5,255.5Q234.0,234.0 196.0,234.0Q136.0,234.0 94.5,279.5Q53.0,325.0 53.0,401.0Q53.0,459.0 82.0,502.0Q111.0,545.0 163.0,569.5Q215.0,594.0 283.0,594.0Q350.0,594.0 401.5,570.0Q453.0,546.0 482.5,500.5Q512.0,455.0 512.0,392.0ZM199.0,346.0Q166.0,346.0 148.0,308.0Q167.0,275.0 201.0,275.0Q221.0,275.0 230.0,285.0Q239.0,295.0 239.0,311.0Q239.0,328.0 227.5,337.0Q216.0,346.0 199.0,346.0Z"  transform="translate(594, 851)"/>
+<path d="M811.0,415.0Q811.0,376.0 796.5,338.0Q782.0,300.0 751.0,272.0L689.0,320.0Q706.0,338.0 716.0,363.5Q726.0,389.0 726.0,417.0Q726.0,467.0 696.5,496.0Q667.0,525.0 613.0,525.0Q560.0,525.0 530.0,495.5Q500.0,466.0 500.0,418.0Q500.0,381.0 510.0,346.5Q520.0,312.0 530.0,275.0Q540.0,238.0 540.0,191.0Q540.0,97.0 478.0,40.0Q416.0,-17.0 304.0,-17.0Q228.0,-17.0 171.5,6.0Q115.0,29.0 84.0,70.0Q53.0,111.0 53.0,165.0Q53.0,230.0 96.0,273.5Q139.0,317.0 214.0,317.0Q285.0,317.0 329.5,275.5Q374.0,234.0 374.0,163.0Q374.0,131.0 365.5,102.5Q357.0,74.0 348.0,54.0Q400.0,66.0 427.5,102.0Q455.0,138.0 455.0,196.0Q455.0,237.0 445.0,272.5Q435.0,308.0 425.0,344.5Q415.0,381.0 415.0,424.0Q415.0,501.0 469.5,547.5Q524.0,594.0 612.0,594.0Q702.0,594.0 756.5,544.5Q811.0,495.0 811.0,415.0ZM132.0,166.0Q132.0,116.0 172.0,84.0Q212.0,52.0 279.0,48.0Q288.0,69.0 295.5,98.0Q303.0,127.0 303.0,152.0Q303.0,199.0 280.0,225.0Q257.0,251.0 217.0,251.0Q177.0,251.0 154.5,227.5Q132.0,204.0 132.0,166.0Z"  transform="translate(1081, 851)"/>
+<path d="M828.0,421.0Q828.0,381.0 814.5,344.0Q801.0,307.0 769.0,274.0L706.0,320.0Q744.0,361.0 744.0,416.0Q744.0,465.0 717.5,491.5Q691.0,518.0 653.0,518.0Q622.0,518.0 602.0,506.0Q582.0,494.0 564.5,477.5Q547.0,461.0 525.0,449.0Q503.0,437.0 470.0,437.0Q437.0,437.0 415.0,449.0Q393.0,461.0 375.5,477.5Q358.0,494.0 338.0,506.0Q318.0,518.0 287.0,518.0Q235.0,518.0 200.5,463.5Q166.0,409.0 166.0,309.0Q166.0,237.0 182.0,183.0Q198.0,129.0 226.0,95.0Q242.0,135.0 273.0,158.5Q304.0,182.0 347.0,182.0Q395.0,182.0 426.0,155.0Q457.0,128.0 457.0,82.0Q457.0,38.0 425.5,9.5Q394.0,-19.0 339.0,-19.0Q265.0,-19.0 206.0,20.5Q147.0,60.0 113.5,133.5Q80.0,207.0 80.0,308.0Q80.0,397.0 104.0,461.0Q128.0,525.0 171.0,559.5Q214.0,594.0 271.0,594.0Q314.0,594.0 342.0,582.0Q370.0,570.0 390.5,553.5Q411.0,537.0 429.5,525.0Q448.0,513.0 470.0,513.0Q493.0,513.0 510.5,525.0Q528.0,537.0 548.0,553.5Q568.0,570.0 596.0,582.0Q624.0,594.0 667.0,594.0Q739.0,594.0 783.5,548.0Q828.0,502.0 828.0,421.0ZM346.0,131.0Q314.0,131.0 294.0,109.5Q274.0,88.0 267.0,57.0Q302.0,35.0 344.0,35.0Q370.0,35.0 385.0,48.0Q400.0,61.0 400.0,83.0Q400.0,108.0 384.5,119.5Q369.0,131.0 346.0,131.0Z"  transform="translate(1945, 851)"/>
+<path d="M66.0,114.0Q69.0,53.0 46.5,26.5Q24.0,0.0 -11.0,0.0Q-36.0,0.0 -54.0,12.5Q-72.0,25.0 -87.0,37.5Q-102.0,50.0 -119.0,50.0Q-134.0,50.0 -145.0,40.0Q-156.0,30.0 -155.0,-4.0L-203.0,-4.0Q-206.0,58.0 -183.0,84.5Q-160.0,111.0 -126.0,111.0Q-101.0,111.0 -83.0,98.0Q-65.0,85.0 -49.5,72.5Q-34.0,60.0 -18.0,60.0Q-3.0,60.0 8.0,70.5Q19.0,81.0 19.0,114.0L66.0,114.0Z"  transform="translate(2782, 851)"/>
+<path d="M297.0,537.0Q308.0,537.0 315.5,529.5Q323.0,522.0 323.0,511.0Q323.0,501.0 315.5,493.0Q308.0,485.0 297.0,485.0Q287.0,485.0 279.0,493.0Q271.0,501.0 271.0,511.0Q271.0,522.0 279.0,529.5Q287.0,537.0 297.0,537.0ZM213.0,519.0Q224.0,519.0 231.5,511.5Q239.0,504.0 239.0,493.0Q239.0,483.0 231.5,475.0Q224.0,467.0 213.0,467.0Q203.0,467.0 195.0,475.0Q187.0,483.0 187.0,493.0Q187.0,504.0 195.0,511.5Q203.0,519.0 213.0,519.0ZM381.0,519.0Q392.0,519.0 399.5,511.5Q407.0,504.0 407.0,493.0Q407.0,483.0 399.5,475.0Q392.0,467.0 381.0,467.0Q371.0,467.0 363.0,475.0Q355.0,483.0 355.0,493.0Q355.0,504.0 363.0,511.5Q371.0,519.0 381.0,519.0ZM113.0,446.0Q113.0,457.0 121.0,464.5Q129.0,472.0 139.0,472.0Q150.0,472.0 157.5,464.5Q165.0,457.0 165.0,446.0Q165.0,436.0 157.5,428.0Q150.0,420.0 139.0,420.0Q129.0,420.0 121.0,428.0Q113.0,436.0 113.0,446.0ZM429.0,446.0Q429.0,457.0 437.0,464.5Q445.0,472.0 455.0,472.0Q466.0,472.0 473.5,464.5Q481.0,457.0 481.0,446.0Q481.0,436.0 473.5,428.0Q466.0,420.0 455.0,420.0Q445.0,420.0 437.0,428.0Q429.0,436.0 429.0,446.0ZM66.0,372.0Q66.0,383.0 74.0,390.5Q82.0,398.0 92.0,398.0Q103.0,398.0 110.5,390.5Q118.0,383.0 118.0,372.0Q118.0,362.0 110.5,354.0Q103.0,346.0 92.0,346.0Q82.0,346.0 74.0,354.0Q66.0,362.0 66.0,372.0ZM476.0,372.0Q476.0,383.0 484.0,390.5Q492.0,398.0 502.0,398.0Q513.0,398.0 520.5,390.5Q528.0,383.0 528.0,372.0Q528.0,362.0 520.5,354.0Q513.0,346.0 502.0,346.0Q492.0,346.0 484.0,354.0Q476.0,362.0 476.0,372.0ZM48.0,288.0Q48.0,299.0 56.0,306.5Q64.0,314.0 74.0,314.0Q85.0,314.0 92.5,306.5Q100.0,299.0 100.0,288.0Q100.0,278.0 92.5,270.0Q85.0,262.0 74.0,262.0Q64.0,262.0 56.0,270.0Q48.0,278.0 48.0,288.0ZM494.0,288.0Q494.0,299.0 502.0,306.5Q510.0,314.0 520.0,314.0Q531.0,314.0 538.5,306.5Q546.0,299.0 546.0,288.0Q546.0,278.0 538.5,270.0Q531.0,262.0 520.0,262.0Q510.0,262.0 502.0,270.0Q494.0,278.0 494.0,288.0ZM66.0,204.0Q66.0,215.0 74.0,222.5Q82.0,230.0 92.0,230.0Q103.0,230.0 110.5,222.5Q118.0,215.0 118.0,204.0Q118.0,194.0 110.5,186.0Q103.0,178.0 92.0,178.0Q82.0,178.0 74.0,186.0Q66.0,194.0 66.0,204.0ZM476.0,204.0Q476.0,215.0 484.0,222.5Q492.0,230.0 502.0,230.0Q513.0,230.0 520.5,222.5Q528.0,215.0 528.0,204.0Q528.0,194.0 520.5,186.0Q513.0,178.0 502.0,178.0Q492.0,178.0 484.0,186.0Q476.0,194.0 476.0,204.0ZM113.0,130.0Q113.0,141.0 121.0,148.5Q129.0,156.0 139.0,156.0Q150.0,156.0 157.5,148.5Q165.0,141.0 165.0,130.0Q165.0,120.0 157.5,112.0Q150.0,104.0 139.0,104.0Q129.0,104.0 121.0,112.0Q113.0,120.0 113.0,130.0ZM429.0,130.0Q429.0,141.0 437.0,148.5Q445.0,156.0 455.0,156.0Q466.0,156.0 473.5,148.5Q481.0,141.0 481.0,130.0Q481.0,120.0 473.5,112.0Q466.0,104.0 455.0,104.0Q445.0,104.0 437.0,112.0Q429.0,120.0 429.0,130.0ZM213.0,109.0Q224.0,109.0 231.5,101.5Q239.0,94.0 239.0,83.0Q239.0,73.0 231.5,65.0Q224.0,57.0 213.0,57.0Q203.0,57.0 195.0,65.0Q187.0,73.0 187.0,83.0Q187.0,94.0 195.0,101.5Q203.0,109.0 213.0,109.0ZM381.0,109.0Q392.0,109.0 399.5,101.5Q407.0,94.0 407.0,83.0Q407.0,73.0 399.5,65.0Q392.0,57.0 381.0,57.0Q371.0,57.0 363.0,65.0Q355.0,73.0 355.0,83.0Q355.0,94.0 363.0,101.5Q371.0,109.0 381.0,109.0ZM297.0,91.0Q308.0,91.0 315.5,83.5Q323.0,76.0 323.0,65.0Q323.0,55.0 315.5,47.0Q308.0,39.0 297.0,39.0Q287.0,39.0 279.0,47.0Q271.0,55.0 271.0,65.0Q271.0,76.0 279.0,83.5Q287.0,91.0 297.0,91.0Z"  transform="translate(2826, 851)"/>
+<path d="M-134.0,150.0Q-144.0,101.0 -166.0,74.0Q-188.0,47.0 -224.0,47.0Q-248.0,47.0 -267.0,55.0Q-286.0,63.0 -309.0,63.0Q-355.0,63.0 -370.0,7.0Q-365.0,7.0 -360.0,7.0Q-298.0,7.0 -257.5,-21.5Q-217.0,-50.0 -217.0,-103.0Q-217.0,-148.0 -244.5,-173.5Q-272.0,-199.0 -313.0,-199.0Q-365.0,-199.0 -402.5,-161.5Q-440.0,-124.0 -440.0,-44.0Q-440.0,30.0 -409.5,80.5Q-379.0,131.0 -321.0,131.0Q-297.0,131.0 -280.0,123.5Q-263.0,116.0 -244.0,116.0Q-224.0,116.0 -214.0,131.0Q-204.0,146.0 -199.0,172.0L-134.0,150.0ZM-357.0,-46.0Q-366.0,-46.0 -376.0,-48.0Q-375.0,-98.0 -356.5,-119.5Q-338.0,-141.0 -316.0,-141.0Q-281.0,-141.0 -281.0,-102.0Q-281.0,-75.0 -301.5,-60.5Q-322.0,-46.0 -357.0,-46.0ZM-59.0,108.0Q-45.0,91.0 -36.0,61.0Q-27.0,31.0 -27.0,-6.0Q-27.0,-53.0 -41.5,-101.0Q-56.0,-149.0 -78.0,-190.0L-149.0,-166.0Q-129.0,-128.0 -117.0,-88.0Q-105.0,-48.0 -105.0,-11.0Q-105.0,43.0 -128.0,80.0L-59.0,108.0Z"  transform="translate(3335, 616)"/>
+</svg>
+
+
+</div>
+<div class="shaping">
+
+<li>Shaping did not match: <span class="tf">ꨒꨇꨵꨶꨲ</span> (Added by SIESTA)</li>
+
+
+<pre>Expected: nhja_cham=0+1327|kha_cham=1+1309|laMed_waMed_ueSign_cham=1@49,-1+0</pre>
+
+
+
+<pre>Got     : nhja_cham=0+1327|kha_cham=1+1309|laMed_waMed_ueSign_cham=1@-263,-1+0</pre>
+
+
+
+<pre>                                                                     ^^
+</pre>
+
+
+Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2636 2468" transform="matrix(1 0 0 -1 0 0)">
+<path d="M1298.0,417.0Q1298.0,377.0 1284.5,342.0Q1271.0,307.0 1240.0,274.0L1176.0,320.0Q1214.0,361.0 1214.0,418.0Q1214.0,468.0 1186.0,496.5Q1158.0,525.0 1110.0,525.0Q1066.0,525.0 1040.0,497.5Q1014.0,470.0 1005.0,418.0Q997.0,370.0 980.5,341.0Q964.0,312.0 934.5,295.0Q905.0,278.0 858.0,266.0Q855.0,181.0 827.5,112.0Q800.0,43.0 731.0,-5.0Q663.0,-52.0 627.0,-83.5Q591.0,-115.0 578.0,-136.5Q565.0,-158.0 565.0,-177.0Q565.0,-196.0 577.0,-210.0Q589.0,-224.0 611.0,-224.0Q631.0,-224.0 647.0,-209.0Q663.0,-194.0 678.5,-172.0Q694.0,-150.0 712.5,-128.0Q731.0,-106.0 756.5,-91.0Q782.0,-76.0 819.0,-76.0Q863.0,-76.0 891.5,-104.0Q920.0,-132.0 920.0,-172.0Q920.0,-189.0 913.5,-211.5Q907.0,-234.0 893.0,-253.0L825.0,-222.0Q839.0,-202.0 839.0,-183.0Q839.0,-149.0 804.0,-149.0Q785.0,-149.0 770.0,-164.0Q755.0,-179.0 740.0,-201.5Q725.0,-224.0 706.5,-246.5Q688.0,-269.0 662.5,-284.0Q637.0,-299.0 600.0,-299.0Q551.0,-299.0 516.0,-266.5Q481.0,-234.0 481.0,-184.0Q481.0,-152.0 502.0,-117.5Q523.0,-83.0 573.0,-39.0L536.0,-39.0Q495.0,-39.0 474.0,-48.0Q453.0,-57.0 442.5,-81.5Q432.0,-106.0 422.0,-154.0Q409.0,-215.0 391.5,-246.5Q374.0,-278.0 342.0,-288.5Q310.0,-299.0 254.0,-299.0L212.0,-299.0L212.0,-246.0L233.0,-246.0Q275.0,-246.0 296.5,-237.0Q318.0,-228.0 328.5,-203.5Q339.0,-179.0 349.0,-131.0Q362.0,-69.0 379.5,-38.0Q397.0,-7.0 428.5,3.5Q460.0,14.0 516.0,14.0L584.0,14.0Q538.0,45.0 538.0,109.0Q538.0,186.0 599.5,239.5Q661.0,293.0 767.0,311.0L774.0,312.0Q769.0,412.0 734.0,465.0Q699.0,518.0 653.0,518.0Q622.0,518.0 602.0,506.0Q582.0,494.0 564.5,477.5Q547.0,461.0 525.0,449.0Q503.0,437.0 470.0,437.0Q437.0,437.0 415.0,449.0Q393.0,461.0 375.5,477.5Q358.0,494.0 338.0,506.0Q318.0,518.0 287.0,518.0Q235.0,518.0 200.5,463.0Q166.0,408.0 166.0,308.0Q166.0,245.0 176.5,196.5Q187.0,148.0 204.0,113.0Q222.0,146.0 250.5,164.0Q279.0,182.0 317.0,182.0Q365.0,182.0 396.0,155.0Q427.0,128.0 427.0,82.0Q427.0,38.0 395.5,9.5Q364.0,-19.0 309.0,-19.0Q243.0,-19.0 191.5,20.5Q140.0,60.0 110.0,133.5Q80.0,207.0 80.0,308.0Q80.0,397.0 104.0,461.0Q128.0,525.0 171.0,559.5Q214.0,594.0 271.0,594.0Q314.0,594.0 342.0,582.0Q370.0,570.0 390.5,553.5Q411.0,537.0 429.5,525.0Q448.0,513.0 470.0,513.0Q493.0,513.0 510.5,525.0Q528.0,537.0 548.5,553.5Q569.0,570.0 597.5,582.0Q626.0,594.0 669.0,594.0Q745.0,594.0 796.5,525.5Q848.0,457.0 856.0,333.0Q889.0,346.0 906.5,371.5Q924.0,397.0 933.0,449.0Q947.0,525.0 996.0,559.5Q1045.0,594.0 1115.0,594.0Q1198.0,594.0 1248.0,545.5Q1298.0,497.0 1298.0,417.0ZM610.0,115.0Q610.0,87.0 622.5,69.0Q635.0,51.0 660.0,51.0Q706.0,51.0 736.5,103.5Q767.0,156.0 773.0,248.0Q681.0,227.0 645.5,192.0Q610.0,157.0 610.0,115.0ZM316.0,131.0Q286.0,131.0 267.0,112.5Q248.0,94.0 239.0,66.0Q272.0,35.0 314.0,35.0Q340.0,35.0 355.0,48.0Q370.0,61.0 370.0,83.0Q370.0,108.0 354.5,119.5Q339.0,131.0 316.0,131.0Z"  transform="translate(0, 851)"/>
+<path d="M1256.0,417.0Q1256.0,377.0 1242.5,342.0Q1229.0,307.0 1198.0,274.0L1134.0,320.0Q1172.0,359.0 1172.0,418.0Q1172.0,468.0 1143.5,496.5Q1115.0,525.0 1065.0,525.0Q1023.0,525.0 997.5,497.5Q972.0,470.0 963.0,418.0Q955.0,370.0 938.5,341.0Q922.0,312.0 892.5,295.0Q863.0,278.0 815.0,266.0Q810.0,180.0 784.0,116.5Q758.0,53.0 715.5,18.0Q673.0,-17.0 618.0,-17.0Q557.0,-17.0 521.0,17.0Q485.0,51.0 485.0,112.0Q485.0,192.0 550.5,243.0Q616.0,294.0 725.0,312.0L732.0,313.0Q731.0,418.0 699.0,471.5Q667.0,525.0 607.0,525.0Q558.0,525.0 524.5,490.0Q491.0,455.0 493.0,379.0L418.0,379.0Q420.0,453.0 387.5,489.0Q355.0,525.0 302.0,525.0Q252.0,525.0 223.0,496.0Q194.0,467.0 194.0,420.0Q194.0,382.0 209.5,343.0Q225.0,304.0 240.5,261.0Q256.0,218.0 256.0,168.0Q256.0,84.0 204.5,27.0Q153.0,-30.0 64.0,-45.0L48.0,27.0Q104.0,38.0 137.0,75.5Q170.0,113.0 170.0,173.0Q170.0,214.0 154.5,254.0Q139.0,294.0 123.5,335.5Q108.0,377.0 108.0,424.0Q108.0,474.0 131.0,512.5Q154.0,551.0 194.5,572.5Q235.0,594.0 289.0,594.0Q345.0,594.0 388.0,570.0Q431.0,546.0 455.0,501.0Q479.0,546.0 521.5,570.0Q564.0,594.0 618.0,594.0Q706.0,594.0 758.0,526.5Q810.0,459.0 815.0,333.0Q848.0,346.0 865.0,372.0Q882.0,398.0 891.0,449.0Q905.0,525.0 953.5,559.5Q1002.0,594.0 1072.0,594.0Q1156.0,594.0 1206.0,545.5Q1256.0,497.0 1256.0,417.0ZM568.0,115.0Q568.0,87.0 580.5,69.0Q593.0,51.0 618.0,51.0Q662.0,51.0 692.0,103.0Q722.0,155.0 730.0,248.0Q638.0,227.0 603.0,191.5Q568.0,156.0 568.0,115.0Z"  transform="translate(1327, 851)"/>
+<path d="M155.0,108.0Q169.0,91.0 178.0,61.0Q187.0,31.0 187.0,-6.0Q187.0,-53.0 172.5,-101.0Q158.0,-149.0 136.0,-190.0L65.0,-166.0Q85.0,-128.0 97.0,-88.0Q109.0,-48.0 109.0,-11.0Q109.0,43.0 86.0,80.0L155.0,108.0ZM-140.0,150.0Q-150.0,101.0 -172.0,74.0Q-194.0,47.0 -230.0,47.0Q-254.0,47.0 -273.0,55.0Q-292.0,63.0 -315.0,63.0Q-361.0,63.0 -376.0,7.0Q-371.0,7.0 -366.0,7.0Q-304.0,7.0 -263.5,-21.5Q-223.0,-50.0 -223.0,-103.0Q-223.0,-148.0 -250.5,-173.5Q-278.0,-199.0 -319.0,-199.0Q-371.0,-199.0 -408.5,-161.5Q-446.0,-124.0 -446.0,-44.0Q-446.0,30.0 -415.5,80.5Q-385.0,131.0 -327.0,131.0Q-303.0,131.0 -286.0,123.5Q-269.0,116.0 -250.0,116.0Q-230.0,116.0 -220.0,131.0Q-210.0,146.0 -205.0,172.0L-140.0,150.0ZM-363.0,-46.0Q-372.0,-46.0 -382.0,-48.0Q-381.0,-98.0 -362.5,-119.5Q-344.0,-141.0 -322.0,-141.0Q-287.0,-141.0 -287.0,-102.0Q-287.0,-75.0 -307.5,-60.5Q-328.0,-46.0 -363.0,-46.0ZM30.0,-76.0Q30.0,-131.0 0.5,-165.0Q-29.0,-199.0 -76.0,-199.0Q-123.0,-199.0 -152.5,-162.5Q-182.0,-126.0 -182.0,-68.0Q-182.0,-5.0 -139.5,57.0Q-97.0,119.0 -15.0,159.0L19.0,110.0Q-12.0,94.0 -37.0,75.0Q30.0,6.0 30.0,-76.0ZM-119.0,-66.0Q-119.0,-100.0 -106.5,-119.0Q-94.0,-138.0 -75.0,-138.0Q-35.0,-138.0 -35.0,-77.0Q-35.0,-51.0 -46.0,-23.5Q-57.0,4.0 -82.0,30.0Q-102.0,5.0 -110.5,-19.5Q-119.0,-44.0 -119.0,-66.0Z"  transform="translate(2373, 850)"/>
+</svg>
+ Expected: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2636 2468" transform="matrix(1 0 0 -1 0 0)">
+<path d="M1298.0,417.0Q1298.0,377.0 1284.5,342.0Q1271.0,307.0 1240.0,274.0L1176.0,320.0Q1214.0,361.0 1214.0,418.0Q1214.0,468.0 1186.0,496.5Q1158.0,525.0 1110.0,525.0Q1066.0,525.0 1040.0,497.5Q1014.0,470.0 1005.0,418.0Q997.0,370.0 980.5,341.0Q964.0,312.0 934.5,295.0Q905.0,278.0 858.0,266.0Q855.0,181.0 827.5,112.0Q800.0,43.0 731.0,-5.0Q663.0,-52.0 627.0,-83.5Q591.0,-115.0 578.0,-136.5Q565.0,-158.0 565.0,-177.0Q565.0,-196.0 577.0,-210.0Q589.0,-224.0 611.0,-224.0Q631.0,-224.0 647.0,-209.0Q663.0,-194.0 678.5,-172.0Q694.0,-150.0 712.5,-128.0Q731.0,-106.0 756.5,-91.0Q782.0,-76.0 819.0,-76.0Q863.0,-76.0 891.5,-104.0Q920.0,-132.0 920.0,-172.0Q920.0,-189.0 913.5,-211.5Q907.0,-234.0 893.0,-253.0L825.0,-222.0Q839.0,-202.0 839.0,-183.0Q839.0,-149.0 804.0,-149.0Q785.0,-149.0 770.0,-164.0Q755.0,-179.0 740.0,-201.5Q725.0,-224.0 706.5,-246.5Q688.0,-269.0 662.5,-284.0Q637.0,-299.0 600.0,-299.0Q551.0,-299.0 516.0,-266.5Q481.0,-234.0 481.0,-184.0Q481.0,-152.0 502.0,-117.5Q523.0,-83.0 573.0,-39.0L536.0,-39.0Q495.0,-39.0 474.0,-48.0Q453.0,-57.0 442.5,-81.5Q432.0,-106.0 422.0,-154.0Q409.0,-215.0 391.5,-246.5Q374.0,-278.0 342.0,-288.5Q310.0,-299.0 254.0,-299.0L212.0,-299.0L212.0,-246.0L233.0,-246.0Q275.0,-246.0 296.5,-237.0Q318.0,-228.0 328.5,-203.5Q339.0,-179.0 349.0,-131.0Q362.0,-69.0 379.5,-38.0Q397.0,-7.0 428.5,3.5Q460.0,14.0 516.0,14.0L584.0,14.0Q538.0,45.0 538.0,109.0Q538.0,186.0 599.5,239.5Q661.0,293.0 767.0,311.0L774.0,312.0Q769.0,412.0 734.0,465.0Q699.0,518.0 653.0,518.0Q622.0,518.0 602.0,506.0Q582.0,494.0 564.5,477.5Q547.0,461.0 525.0,449.0Q503.0,437.0 470.0,437.0Q437.0,437.0 415.0,449.0Q393.0,461.0 375.5,477.5Q358.0,494.0 338.0,506.0Q318.0,518.0 287.0,518.0Q235.0,518.0 200.5,463.0Q166.0,408.0 166.0,308.0Q166.0,245.0 176.5,196.5Q187.0,148.0 204.0,113.0Q222.0,146.0 250.5,164.0Q279.0,182.0 317.0,182.0Q365.0,182.0 396.0,155.0Q427.0,128.0 427.0,82.0Q427.0,38.0 395.5,9.5Q364.0,-19.0 309.0,-19.0Q243.0,-19.0 191.5,20.5Q140.0,60.0 110.0,133.5Q80.0,207.0 80.0,308.0Q80.0,397.0 104.0,461.0Q128.0,525.0 171.0,559.5Q214.0,594.0 271.0,594.0Q314.0,594.0 342.0,582.0Q370.0,570.0 390.5,553.5Q411.0,537.0 429.5,525.0Q448.0,513.0 470.0,513.0Q493.0,513.0 510.5,525.0Q528.0,537.0 548.5,553.5Q569.0,570.0 597.5,582.0Q626.0,594.0 669.0,594.0Q745.0,594.0 796.5,525.5Q848.0,457.0 856.0,333.0Q889.0,346.0 906.5,371.5Q924.0,397.0 933.0,449.0Q947.0,525.0 996.0,559.5Q1045.0,594.0 1115.0,594.0Q1198.0,594.0 1248.0,545.5Q1298.0,497.0 1298.0,417.0ZM610.0,115.0Q610.0,87.0 622.5,69.0Q635.0,51.0 660.0,51.0Q706.0,51.0 736.5,103.5Q767.0,156.0 773.0,248.0Q681.0,227.0 645.5,192.0Q610.0,157.0 610.0,115.0ZM316.0,131.0Q286.0,131.0 267.0,112.5Q248.0,94.0 239.0,66.0Q272.0,35.0 314.0,35.0Q340.0,35.0 355.0,48.0Q370.0,61.0 370.0,83.0Q370.0,108.0 354.5,119.5Q339.0,131.0 316.0,131.0Z"  transform="translate(0, 851)"/>
+<path d="M1256.0,417.0Q1256.0,377.0 1242.5,342.0Q1229.0,307.0 1198.0,274.0L1134.0,320.0Q1172.0,359.0 1172.0,418.0Q1172.0,468.0 1143.5,496.5Q1115.0,525.0 1065.0,525.0Q1023.0,525.0 997.5,497.5Q972.0,470.0 963.0,418.0Q955.0,370.0 938.5,341.0Q922.0,312.0 892.5,295.0Q863.0,278.0 815.0,266.0Q810.0,180.0 784.0,116.5Q758.0,53.0 715.5,18.0Q673.0,-17.0 618.0,-17.0Q557.0,-17.0 521.0,17.0Q485.0,51.0 485.0,112.0Q485.0,192.0 550.5,243.0Q616.0,294.0 725.0,312.0L732.0,313.0Q731.0,418.0 699.0,471.5Q667.0,525.0 607.0,525.0Q558.0,525.0 524.5,490.0Q491.0,455.0 493.0,379.0L418.0,379.0Q420.0,453.0 387.5,489.0Q355.0,525.0 302.0,525.0Q252.0,525.0 223.0,496.0Q194.0,467.0 194.0,420.0Q194.0,382.0 209.5,343.0Q225.0,304.0 240.5,261.0Q256.0,218.0 256.0,168.0Q256.0,84.0 204.5,27.0Q153.0,-30.0 64.0,-45.0L48.0,27.0Q104.0,38.0 137.0,75.5Q170.0,113.0 170.0,173.0Q170.0,214.0 154.5,254.0Q139.0,294.0 123.5,335.5Q108.0,377.0 108.0,424.0Q108.0,474.0 131.0,512.5Q154.0,551.0 194.5,572.5Q235.0,594.0 289.0,594.0Q345.0,594.0 388.0,570.0Q431.0,546.0 455.0,501.0Q479.0,546.0 521.5,570.0Q564.0,594.0 618.0,594.0Q706.0,594.0 758.0,526.5Q810.0,459.0 815.0,333.0Q848.0,346.0 865.0,372.0Q882.0,398.0 891.0,449.0Q905.0,525.0 953.5,559.5Q1002.0,594.0 1072.0,594.0Q1156.0,594.0 1206.0,545.5Q1256.0,497.0 1256.0,417.0ZM568.0,115.0Q568.0,87.0 580.5,69.0Q593.0,51.0 618.0,51.0Q662.0,51.0 692.0,103.0Q722.0,155.0 730.0,248.0Q638.0,227.0 603.0,191.5Q568.0,156.0 568.0,115.0Z"  transform="translate(1327, 851)"/>
+<path d="M155.0,108.0Q169.0,91.0 178.0,61.0Q187.0,31.0 187.0,-6.0Q187.0,-53.0 172.5,-101.0Q158.0,-149.0 136.0,-190.0L65.0,-166.0Q85.0,-128.0 97.0,-88.0Q109.0,-48.0 109.0,-11.0Q109.0,43.0 86.0,80.0L155.0,108.0ZM-140.0,150.0Q-150.0,101.0 -172.0,74.0Q-194.0,47.0 -230.0,47.0Q-254.0,47.0 -273.0,55.0Q-292.0,63.0 -315.0,63.0Q-361.0,63.0 -376.0,7.0Q-371.0,7.0 -366.0,7.0Q-304.0,7.0 -263.5,-21.5Q-223.0,-50.0 -223.0,-103.0Q-223.0,-148.0 -250.5,-173.5Q-278.0,-199.0 -319.0,-199.0Q-371.0,-199.0 -408.5,-161.5Q-446.0,-124.0 -446.0,-44.0Q-446.0,30.0 -415.5,80.5Q-385.0,131.0 -327.0,131.0Q-303.0,131.0 -286.0,123.5Q-269.0,116.0 -250.0,116.0Q-230.0,116.0 -220.0,131.0Q-210.0,146.0 -205.0,172.0L-140.0,150.0ZM-363.0,-46.0Q-372.0,-46.0 -382.0,-48.0Q-381.0,-98.0 -362.5,-119.5Q-344.0,-141.0 -322.0,-141.0Q-287.0,-141.0 -287.0,-102.0Q-287.0,-75.0 -307.5,-60.5Q-328.0,-46.0 -363.0,-46.0ZM30.0,-76.0Q30.0,-131.0 0.5,-165.0Q-29.0,-199.0 -76.0,-199.0Q-123.0,-199.0 -152.5,-162.5Q-182.0,-126.0 -182.0,-68.0Q-182.0,-5.0 -139.5,57.0Q-97.0,119.0 -15.0,159.0L19.0,110.0Q-12.0,94.0 -37.0,75.0Q30.0,6.0 30.0,-76.0ZM-119.0,-66.0Q-119.0,-100.0 -106.5,-119.0Q-94.0,-138.0 -75.0,-138.0Q-35.0,-138.0 -35.0,-77.0Q-35.0,-51.0 -46.0,-23.5Q-57.0,4.0 -82.0,30.0Q-102.0,5.0 -110.5,-19.5Q-119.0,-44.0 -119.0,-66.0Z"  transform="translate(2685, 850)"/>
+</svg>
+
+
+</div>
+<div class="shaping">
+
+<li>Shaping did not match: <span class="tf">ꨐꩀ꩐ꨵꨶ</span> (Added by SIESTA)</li>
+
+
+<pre>Expected: nhue_cham=0+1328|kFinal_cham=1+898|zero_cham=2+634|laMedial_waMedial_cham=2@-157,-292+0</pre>
+
+
+
+<pre>Got     : nhue_cham=0+1328|kFinal_cham=1+898|zero_cham=2+634|laMedial_waMedial_cham=2@-241,-292+0</pre>
+
+
+
+<pre>                                                                                        ++
+</pre>
+
+
+Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2860 2468" transform="matrix(1 0 0 -1 0 0)">
+<path d="M1299.0,417.0Q1299.0,377.0 1285.5,342.0Q1272.0,307.0 1240.0,274.0L1177.0,320.0Q1215.0,361.0 1215.0,418.0Q1215.0,468.0 1187.0,496.5Q1159.0,525.0 1110.0,525.0Q1066.0,525.0 1040.0,497.5Q1014.0,470.0 1005.0,418.0Q997.0,370.0 980.5,341.0Q964.0,312.0 934.5,295.0Q905.0,278.0 858.0,266.0Q855.0,180.0 829.5,116.5Q804.0,53.0 760.5,18.0Q717.0,-17.0 660.0,-17.0Q599.0,-17.0 563.0,17.0Q527.0,51.0 527.0,112.0Q527.0,192.0 592.5,243.0Q658.0,294.0 767.0,312.0L774.0,313.0Q769.0,412.0 734.0,465.0Q699.0,518.0 653.0,518.0Q622.0,518.0 602.0,506.0Q582.0,494.0 564.5,477.5Q547.0,461.0 525.0,449.0Q503.0,437.0 470.0,437.0Q437.0,437.0 415.0,449.0Q393.0,461.0 375.5,477.5Q358.0,494.0 338.0,506.0Q318.0,518.0 287.0,518.0Q235.0,518.0 200.5,463.0Q166.0,408.0 166.0,308.0Q166.0,245.0 176.5,196.5Q187.0,148.0 204.0,113.0Q222.0,146.0 250.5,164.0Q279.0,182.0 317.0,182.0Q365.0,182.0 396.0,155.0Q427.0,128.0 427.0,82.0Q427.0,38.0 395.5,9.5Q364.0,-19.0 309.0,-19.0Q243.0,-19.0 191.5,20.5Q140.0,60.0 110.0,133.5Q80.0,207.0 80.0,308.0Q80.0,397.0 104.0,461.0Q128.0,525.0 171.0,559.5Q214.0,594.0 271.0,594.0Q314.0,594.0 342.0,582.0Q370.0,570.0 390.5,553.5Q411.0,537.0 429.5,525.0Q448.0,513.0 470.0,513.0Q493.0,513.0 510.5,525.0Q528.0,537.0 548.5,553.5Q569.0,570.0 597.5,582.0Q626.0,594.0 669.0,594.0Q745.0,594.0 796.5,525.5Q848.0,457.0 856.0,333.0Q889.0,346.0 906.5,371.5Q924.0,397.0 933.0,449.0Q947.0,525.0 996.0,559.5Q1045.0,594.0 1115.0,594.0Q1199.0,594.0 1249.0,545.5Q1299.0,497.0 1299.0,417.0ZM610.0,115.0Q610.0,87.0 622.5,69.0Q635.0,51.0 660.0,51.0Q706.0,51.0 736.5,103.5Q767.0,156.0 773.0,248.0Q681.0,227.0 645.5,192.0Q610.0,157.0 610.0,115.0ZM316.0,131.0Q286.0,131.0 267.0,112.5Q248.0,94.0 239.0,66.0Q272.0,35.0 314.0,35.0Q340.0,35.0 355.0,48.0Q370.0,61.0 370.0,83.0Q370.0,108.0 354.5,119.5Q339.0,131.0 316.0,131.0Z"  transform="translate(0, 851)"/>
+<path d="M818.0,327.0Q818.0,242.0 789.0,158.5Q760.0,75.0 707.0,3.0Q654.0,-69.0 581.0,-122.0L523.0,-66.0Q588.0,-19.0 634.5,44.0Q681.0,107.0 706.5,179.5Q732.0,252.0 732.0,328.0Q732.0,421.0 700.0,473.0Q668.0,525.0 607.0,525.0Q558.0,525.0 524.5,490.0Q491.0,455.0 493.0,379.0L418.0,379.0Q420.0,453.0 387.5,489.0Q355.0,525.0 302.0,525.0Q252.0,525.0 223.0,496.0Q194.0,467.0 194.0,420.0Q194.0,382.0 209.5,343.0Q225.0,304.0 240.5,261.0Q256.0,218.0 256.0,168.0Q256.0,84.0 204.5,27.0Q153.0,-30.0 64.0,-45.0L48.0,27.0Q104.0,38.0 137.0,75.5Q170.0,113.0 170.0,173.0Q170.0,214.0 154.5,254.0Q139.0,294.0 123.5,335.5Q108.0,377.0 108.0,424.0Q108.0,474.0 131.0,512.5Q154.0,551.0 194.5,572.5Q235.0,594.0 289.0,594.0Q344.0,594.0 387.5,571.0Q431.0,548.0 455.0,504.0Q480.0,548.0 522.0,571.0Q564.0,594.0 618.0,594.0Q712.0,594.0 765.0,522.5Q818.0,451.0 818.0,327.0Z"  transform="translate(1328, 851)"/>
+<path d="M580.0,288.0Q580.0,197.0 550.5,128.0Q521.0,59.0 462.5,20.5Q404.0,-18.0 317.0,-18.0Q235.0,-18.0 176.5,20.0Q118.0,58.0 86.5,127.0Q55.0,196.0 55.0,288.0Q55.0,432.0 126.0,513.0Q197.0,594.0 322.0,594.0Q406.0,594.0 463.5,555.5Q521.0,517.0 550.5,448.0Q580.0,379.0 580.0,288.0ZM143.0,288.0Q143.0,180.0 185.5,115.5Q228.0,51.0 318.0,51.0Q410.0,51.0 451.0,116.0Q492.0,181.0 492.0,288.0Q492.0,358.0 475.0,411.5Q458.0,465.0 420.5,495.0Q383.0,525.0 321.0,525.0Q233.0,525.0 188.0,463.0Q143.0,401.0 143.0,288.0Z"  transform="translate(2226, 851)"/>
+<path d="M-140.0,150.0Q-150.0,101.0 -172.0,74.0Q-194.0,47.0 -230.0,47.0Q-254.0,47.0 -273.0,55.0Q-292.0,63.0 -315.0,63.0Q-361.0,63.0 -376.0,7.0Q-371.0,7.0 -366.0,7.0Q-304.0,7.0 -263.5,-21.5Q-223.0,-50.0 -223.0,-103.0Q-223.0,-148.0 -250.5,-173.5Q-278.0,-199.0 -319.0,-199.0Q-371.0,-199.0 -408.5,-161.5Q-446.0,-124.0 -446.0,-44.0Q-446.0,30.0 -415.5,80.5Q-385.0,131.0 -327.0,131.0Q-303.0,131.0 -286.0,123.5Q-269.0,116.0 -250.0,116.0Q-230.0,116.0 -220.0,131.0Q-210.0,146.0 -205.0,172.0L-140.0,150.0ZM-363.0,-46.0Q-372.0,-46.0 -382.0,-48.0Q-381.0,-98.0 -362.5,-119.5Q-344.0,-141.0 -322.0,-141.0Q-287.0,-141.0 -287.0,-102.0Q-287.0,-75.0 -307.5,-60.5Q-328.0,-46.0 -363.0,-46.0ZM30.0,-76.0Q30.0,-131.0 0.5,-165.0Q-29.0,-199.0 -76.0,-199.0Q-123.0,-199.0 -152.5,-162.5Q-182.0,-126.0 -182.0,-68.0Q-182.0,-5.0 -139.5,57.0Q-97.0,119.0 -15.0,159.0L19.0,110.0Q-12.0,94.0 -37.0,75.0Q30.0,6.0 30.0,-76.0ZM-119.0,-66.0Q-119.0,-100.0 -106.5,-119.0Q-94.0,-138.0 -75.0,-138.0Q-35.0,-138.0 -35.0,-77.0Q-35.0,-51.0 -46.0,-23.5Q-57.0,4.0 -82.0,30.0Q-102.0,5.0 -110.5,-19.5Q-119.0,-44.0 -119.0,-66.0Z"  transform="translate(2619, 559)"/>
+</svg>
+ Expected: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2860 2468" transform="matrix(1 0 0 -1 0 0)">
+<path d="M1299.0,417.0Q1299.0,377.0 1285.5,342.0Q1272.0,307.0 1240.0,274.0L1177.0,320.0Q1215.0,361.0 1215.0,418.0Q1215.0,468.0 1187.0,496.5Q1159.0,525.0 1110.0,525.0Q1066.0,525.0 1040.0,497.5Q1014.0,470.0 1005.0,418.0Q997.0,370.0 980.5,341.0Q964.0,312.0 934.5,295.0Q905.0,278.0 858.0,266.0Q855.0,180.0 829.5,116.5Q804.0,53.0 760.5,18.0Q717.0,-17.0 660.0,-17.0Q599.0,-17.0 563.0,17.0Q527.0,51.0 527.0,112.0Q527.0,192.0 592.5,243.0Q658.0,294.0 767.0,312.0L774.0,313.0Q769.0,412.0 734.0,465.0Q699.0,518.0 653.0,518.0Q622.0,518.0 602.0,506.0Q582.0,494.0 564.5,477.5Q547.0,461.0 525.0,449.0Q503.0,437.0 470.0,437.0Q437.0,437.0 415.0,449.0Q393.0,461.0 375.5,477.5Q358.0,494.0 338.0,506.0Q318.0,518.0 287.0,518.0Q235.0,518.0 200.5,463.0Q166.0,408.0 166.0,308.0Q166.0,245.0 176.5,196.5Q187.0,148.0 204.0,113.0Q222.0,146.0 250.5,164.0Q279.0,182.0 317.0,182.0Q365.0,182.0 396.0,155.0Q427.0,128.0 427.0,82.0Q427.0,38.0 395.5,9.5Q364.0,-19.0 309.0,-19.0Q243.0,-19.0 191.5,20.5Q140.0,60.0 110.0,133.5Q80.0,207.0 80.0,308.0Q80.0,397.0 104.0,461.0Q128.0,525.0 171.0,559.5Q214.0,594.0 271.0,594.0Q314.0,594.0 342.0,582.0Q370.0,570.0 390.5,553.5Q411.0,537.0 429.5,525.0Q448.0,513.0 470.0,513.0Q493.0,513.0 510.5,525.0Q528.0,537.0 548.5,553.5Q569.0,570.0 597.5,582.0Q626.0,594.0 669.0,594.0Q745.0,594.0 796.5,525.5Q848.0,457.0 856.0,333.0Q889.0,346.0 906.5,371.5Q924.0,397.0 933.0,449.0Q947.0,525.0 996.0,559.5Q1045.0,594.0 1115.0,594.0Q1199.0,594.0 1249.0,545.5Q1299.0,497.0 1299.0,417.0ZM610.0,115.0Q610.0,87.0 622.5,69.0Q635.0,51.0 660.0,51.0Q706.0,51.0 736.5,103.5Q767.0,156.0 773.0,248.0Q681.0,227.0 645.5,192.0Q610.0,157.0 610.0,115.0ZM316.0,131.0Q286.0,131.0 267.0,112.5Q248.0,94.0 239.0,66.0Q272.0,35.0 314.0,35.0Q340.0,35.0 355.0,48.0Q370.0,61.0 370.0,83.0Q370.0,108.0 354.5,119.5Q339.0,131.0 316.0,131.0Z"  transform="translate(0, 851)"/>
+<path d="M818.0,327.0Q818.0,242.0 789.0,158.5Q760.0,75.0 707.0,3.0Q654.0,-69.0 581.0,-122.0L523.0,-66.0Q588.0,-19.0 634.5,44.0Q681.0,107.0 706.5,179.5Q732.0,252.0 732.0,328.0Q732.0,421.0 700.0,473.0Q668.0,525.0 607.0,525.0Q558.0,525.0 524.5,490.0Q491.0,455.0 493.0,379.0L418.0,379.0Q420.0,453.0 387.5,489.0Q355.0,525.0 302.0,525.0Q252.0,525.0 223.0,496.0Q194.0,467.0 194.0,420.0Q194.0,382.0 209.5,343.0Q225.0,304.0 240.5,261.0Q256.0,218.0 256.0,168.0Q256.0,84.0 204.5,27.0Q153.0,-30.0 64.0,-45.0L48.0,27.0Q104.0,38.0 137.0,75.5Q170.0,113.0 170.0,173.0Q170.0,214.0 154.5,254.0Q139.0,294.0 123.5,335.5Q108.0,377.0 108.0,424.0Q108.0,474.0 131.0,512.5Q154.0,551.0 194.5,572.5Q235.0,594.0 289.0,594.0Q344.0,594.0 387.5,571.0Q431.0,548.0 455.0,504.0Q480.0,548.0 522.0,571.0Q564.0,594.0 618.0,594.0Q712.0,594.0 765.0,522.5Q818.0,451.0 818.0,327.0Z"  transform="translate(1328, 851)"/>
+<path d="M580.0,288.0Q580.0,197.0 550.5,128.0Q521.0,59.0 462.5,20.5Q404.0,-18.0 317.0,-18.0Q235.0,-18.0 176.5,20.0Q118.0,58.0 86.5,127.0Q55.0,196.0 55.0,288.0Q55.0,432.0 126.0,513.0Q197.0,594.0 322.0,594.0Q406.0,594.0 463.5,555.5Q521.0,517.0 550.5,448.0Q580.0,379.0 580.0,288.0ZM143.0,288.0Q143.0,180.0 185.5,115.5Q228.0,51.0 318.0,51.0Q410.0,51.0 451.0,116.0Q492.0,181.0 492.0,288.0Q492.0,358.0 475.0,411.5Q458.0,465.0 420.5,495.0Q383.0,525.0 321.0,525.0Q233.0,525.0 188.0,463.0Q143.0,401.0 143.0,288.0Z"  transform="translate(2226, 851)"/>
+<path d="M-140.0,150.0Q-150.0,101.0 -172.0,74.0Q-194.0,47.0 -230.0,47.0Q-254.0,47.0 -273.0,55.0Q-292.0,63.0 -315.0,63.0Q-361.0,63.0 -376.0,7.0Q-371.0,7.0 -366.0,7.0Q-304.0,7.0 -263.5,-21.5Q-223.0,-50.0 -223.0,-103.0Q-223.0,-148.0 -250.5,-173.5Q-278.0,-199.0 -319.0,-199.0Q-371.0,-199.0 -408.5,-161.5Q-446.0,-124.0 -446.0,-44.0Q-446.0,30.0 -415.5,80.5Q-385.0,131.0 -327.0,131.0Q-303.0,131.0 -286.0,123.5Q-269.0,116.0 -250.0,116.0Q-230.0,116.0 -220.0,131.0Q-210.0,146.0 -205.0,172.0L-140.0,150.0ZM-363.0,-46.0Q-372.0,-46.0 -382.0,-48.0Q-381.0,-98.0 -362.5,-119.5Q-344.0,-141.0 -322.0,-141.0Q-287.0,-141.0 -287.0,-102.0Q-287.0,-75.0 -307.5,-60.5Q-328.0,-46.0 -363.0,-46.0ZM30.0,-76.0Q30.0,-131.0 0.5,-165.0Q-29.0,-199.0 -76.0,-199.0Q-123.0,-199.0 -152.5,-162.5Q-182.0,-126.0 -182.0,-68.0Q-182.0,-5.0 -139.5,57.0Q-97.0,119.0 -15.0,159.0L19.0,110.0Q-12.0,94.0 -37.0,75.0Q30.0,6.0 30.0,-76.0ZM-119.0,-66.0Q-119.0,-100.0 -106.5,-119.0Q-94.0,-138.0 -75.0,-138.0Q-35.0,-138.0 -35.0,-77.0Q-35.0,-51.0 -46.0,-23.5Q-57.0,4.0 -82.0,30.0Q-102.0,5.0 -110.5,-19.5Q-119.0,-44.0 -119.0,-66.0Z"  transform="translate(2703, 559)"/>
+</svg>
+
+
+</div>
+<div class="shaping">
+
 <li>Shaping did not match: <span class="tf">꩑ꩀꨇ,ꨮꨇꨵꨳꨝ,</span> (Added by SIESTA)</li>
 
 
@@ -913,16 +936,16 @@ Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 61
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
+	* nue_cham
 	* dda_cham
 	* ngue_cham
-	* bba_cham
+	* na_cham.calt
+	* ja_cham
 	* chha_cham
-	* nhue_cham
-	* bba_cham.calt
-	* na_cham
-	* nhja_cham
-	* nFinal_cham
-	* kha_cham and 8 more.
+	* jha_cham
+	* ngFinal_cham
+	* nga_cham
+	* nhue_cham and 8 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
@@ -953,19 +976,19 @@ Use -F or --full-lists to disable shortening of long lists.
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
-</div></details><details><summary>⚠ <b>WARN:</b> Font has **proper** whitespace glyph names? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_glyphnames">com.google.fonts/check/whitespace_glyphnames</a>)</summary><div>
+</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
 
 
-* ⚠ **WARN** Glyph 0x00A0 is called "nbspace": Change to "uni00A0" [code: not-recommended-00a0]
+* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+
+	- nbspace
+ [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
-* ⚠ **WARN** This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]
 * ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
 
 The following glyphs do not have the recommended number of contours:
-
-	- Glyph name: softhyphen	Contours detected: 1	Expected: 0
 
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
@@ -975,42 +998,30 @@ The following glyphs do not have the recommended number of contours:
 
 	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
-
-
-* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), brevecomb (U+0306), caroncomb (U+030C), cedillacomb (U+0327), circumflexcomb (U+0302), commaaccentcomb (U+0326), commaturnedabovecomb (U+0312), dieresiscomb (U+0308), dotaccentcomb (U+0307), gravecomb (U+0300) and 5 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have colinear vectors:
 
 	* jha_cham (U+AA0F): L<<674.0,161.0>--<674.0,163.0>> -> L<<674.0,163.0>--<674.0,165.0>> [code: found-colinear-vectors]
-</div></details><br></div></details><details><summary><b>[13] NotoSansCham-SemiBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[11] NotoSansCham-SemiBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1368, but got 1117 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 645, but got 351 instead. [code: descent]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* chFinal_cham
-	* ta_cham
+	* nue_cham
+	* pha_cham
+	* da_cham
 	* dda_cham
 	* ngue_cham
-	* ma_cham.calt
-	* bba_cham
-	* chha_cham
-	* da_cham
-	* nhue_cham
-	* bba_cham.calt and 27 more.
+	* na_cham.calt
+	* ppa_cham
+	* eight_cham
+	* ja_cham
+	* chha_cham and 27 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
@@ -1048,19 +1059,19 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
-</div></details><details><summary>⚠ <b>WARN:</b> Font has **proper** whitespace glyph names? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_glyphnames">com.google.fonts/check/whitespace_glyphnames</a>)</summary><div>
+</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
 
 
-* ⚠ **WARN** Glyph 0x00A0 is called "nbspace": Change to "uni00A0" [code: not-recommended-00a0]
+* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+
+	- nbspace
+ [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
-* ⚠ **WARN** This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]
 * ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
 
 The following glyphs do not have the recommended number of contours:
-
-	- Glyph name: softhyphen	Contours detected: 1	Expected: 0
 
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
@@ -1070,13 +1081,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
-
-
-* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), brevecomb (U+0306), caroncomb (U+030C), cedillacomb (U+0327), circumflexcomb (U+0302), commaaccentcomb (U+0326), commaturnedabovecomb (U+0312), dieresiscomb (U+0308), dotaccentcomb (U+0307), gravecomb (U+0300) and 5 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
 
@@ -1135,15 +1139,10 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 	* Wgrave (U+1E80): B<<257.0,182.5>-<263.0,150.0>-<266.0,126.0>>/B<<266.0,126.0>-<269.0,151.0>-<275.0,184.0>> = 13.967789761532726 
 
 	* And Wgrave (U+1E80): B<<678.0,182.0>-<684.0,150.0>-<687.0,126.0>>/B<<687.0,126.0>-<690.0,151.0>-<695.5,183.0>> = 13.967789761532726 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[10] NotoSansCham-Thin.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[8] NotoSansCham-Thin.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1368, but got 1117 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 645, but got 351 instead. [code: descent]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
 
@@ -1172,19 +1171,19 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
-</div></details><details><summary>⚠ <b>WARN:</b> Font has **proper** whitespace glyph names? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_glyphnames">com.google.fonts/check/whitespace_glyphnames</a>)</summary><div>
+</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
 
 
-* ⚠ **WARN** Glyph 0x00A0 is called "nbspace": Change to "uni00A0" [code: not-recommended-00a0]
+* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+
+	- nbspace
+ [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
-* ⚠ **WARN** This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]
 * ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
 
 The following glyphs do not have the recommended number of contours:
-
-	- Glyph name: softhyphen	Contours detected: 1	Expected: 0
 
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
@@ -1194,13 +1193,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
-
-
-* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), brevecomb (U+0306), caroncomb (U+030C), cedillacomb (U+0327), circumflexcomb (U+0302), commaaccentcomb (U+0326), commaturnedabovecomb (U+0312), dieresiscomb (U+0308), dotaccentcomb (U+0307), gravecomb (U+0300) and 5 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -1219,15 +1211,10 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 	* exclamdown (U+00A1): L<<122.0,354.0>--<124.0,-186.0>> 
 
 	* And exclamdown (U+00A1): L<<96.0,-186.0>--<98.0,354.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[8] NotoSansCham[wght].ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[6] NotoSansCham[wght].ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1368, but got 1117 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 645, but got 351 instead. [code: descent]
 </div></details><details><summary>🔥 <b>FAIL:</b> Validates that when an instance record is included for the default instance, its subfamilyNameID value is set to either 2 or 17, and its postScriptNameID value is set to 6. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/fvar.html#com.adobe.fonts/check/varfont/valid_default_instance_nameids">com.adobe.fonts/check/varfont/valid_default_instance_nameids</a>)</summary><div>
 
 
@@ -1260,24 +1247,20 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
-</div></details><details><summary>⚠ <b>WARN:</b> Font has **proper** whitespace glyph names? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_glyphnames">com.google.fonts/check/whitespace_glyphnames</a>)</summary><div>
+</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
 
 
-* ⚠ **WARN** Glyph 0x00A0 is called "nbspace": Change to "uni00A0" [code: not-recommended-00a0]
-</div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
+* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-
-* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), brevecomb (U+0306), caroncomb (U+030C), cedillacomb (U+0327), circumflexcomb (U+0302), commaaccentcomb (U+0326), commaturnedabovecomb (U+0312), dieresiscomb (U+0308), dotaccentcomb (U+0307), gravecomb (U+0300) and 5 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
+	- nbspace
+ [code: unreachable-glyphs]
 </div></details><br></div></details>
 ### Summary
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 10 | 13 | 86 | 1101 | 62 | 943 | 0 |
-| 0% | 1% | 4% | 50% | 3% | 43% | 0% |
+| 10 | 3 | 76 | 1101 | 62 | 963 | 0 |
+| 0% | 0% | 3% | 50% | 3% | 43% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
