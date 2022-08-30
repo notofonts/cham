@@ -1,16 +1,12 @@
 ## Fontbakery report
 
-Fontbakery version: 0.8.9
+Fontbakery version: 0.8.10
 
 <details><summary><b>[1] Family checks</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking all files are in the same directory. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/single_directory">com.google.fonts/check/family/single_directory</a>)</summary><div>
 
 
 * 🔥 **FAIL** Not all fonts passed in the command line are in the same directory. This may lead to bad results as the tool will interpret all font files as belonging to a single font family. The detected directories are: ['fonts/NotoSansCham/googlefonts/ttf', 'fonts/NotoSansCham/googlefonts/variable-ttf'] [code: single-directory]
-</div></details><br></div></details><details><summary><b>[8] NotoSansCham-Black.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Check that no collisions are found while shaping (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/shaping/collides">com.google.fonts/check/shaping/collides</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[7] NotoSansCham-Black.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check that no collisions are found while shaping (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/shaping/collides">com.google.fonts/check/shaping/collides</a>)</summary><div>
 
 
 * 🔥 **FAIL** qa/shaping_tests/collisions.json: 21 collisions found while shaping.
@@ -319,16 +315,16 @@ Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* e_cham
-	* eiSign_cham
-	* waMedial_cham
-	* ma_cham
-	* ssFinal_cham
-	* gFinal_cham
-	* kFinal_cham
-	* four_cham
 	* a_cham
-	* jha_cham and 52 more.
+	* ai_cham
+	* bba_cham
+	* bba_cham.calt
+	* bha_cham
+	* chFinal_cham
+	* cha_cham
+	* chha_cham
+	* da_cham
+	* dda_cham and 52 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
@@ -413,11 +409,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 	* And 6 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[9] NotoSansCham-Bold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Check that no collisions are found while shaping (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/shaping/collides">com.google.fonts/check/shaping/collides</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[8] NotoSansCham-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check that no collisions are found while shaping (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/shaping/collides">com.google.fonts/check/shaping/collides</a>)</summary><div>
 
 
 * 🔥 **FAIL** qa/shaping_tests/collisions.json: 15 collisions found while shaping.
@@ -551,16 +543,16 @@ Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* e_cham
-	* eiSign_cham
-	* waMedial_cham
-	* ma_cham
-	* gFinal_cham
-	* kFinal_cham
 	* a_cham
-	* jha_cham
+	* bba_cham
+	* bba_cham.calt
+	* bha_cham
+	* chFinal_cham
+	* cha_cham
+	* chha_cham
+	* da_cham
 	* dda_cham
-	* ka_cham and 40 more.
+	* e_cham and 40 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
@@ -651,11 +643,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 	* And 5 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[9] NotoSansCham-ExtraBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Check that no collisions are found while shaping (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/shaping/collides">com.google.fonts/check/shaping/collides</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[8] NotoSansCham-ExtraBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check that no collisions are found while shaping (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/shaping/collides">com.google.fonts/check/shaping/collides</a>)</summary><div>
 
 
 * 🔥 **FAIL** qa/shaping_tests/collisions.json: 17 collisions found while shaping.
@@ -839,16 +827,16 @@ Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* e_cham
-	* eiSign_cham
-	* waMedial_cham
-	* ma_cham
-	* ssFinal_cham
-	* gFinal_cham
-	* kFinal_cham
-	* four_cham
 	* a_cham
-	* jha_cham and 44 more.
+	* bba_cham
+	* bba_cham.calt
+	* bha_cham
+	* chFinal_cham
+	* cha_cham
+	* chha_cham
+	* da_cham
+	* dda_cham
+	* e_cham and 44 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -938,11 +926,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 	* Wgrave (U+1E80): B<<283.5,211.5>-<290.0,175.0>-<293.0,151.0>>/B<<293.0,151.0>-<297.0,183.0>-<305.0,226.5>> = 14.25003269780357 
 
 	* And Wgrave (U+1E80): B<<506.5,475.5>-<502.0,500.0>-<501.0,516.0>>/B<<501.0,516.0>-<499.0,500.0>-<494.5,475.5>> = 10.701350723899111 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[6] NotoSansCham-ExtraLight.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[5] NotoSansCham-ExtraLight.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
 * ⚠ **WARN** The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
@@ -1003,11 +987,7 @@ The following glyphs do not have the recommended number of contours:
 	* And 80 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
-</div></details><br></div></details><details><summary><b>[5] NotoSansCham-Light.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[4] NotoSansCham-Light.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
@@ -1061,24 +1041,20 @@ The following glyphs do not have the recommended number of contours:
 	* And 67 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
-</div></details><br></div></details><details><summary><b>[8] NotoSansCham-Medium.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[7] NotoSansCham-Medium.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* gFinal_cham
-	* jha_cham
-	* dda_cham
-	* kha_cham
-	* tFinal_cham
-	* ga_cham
+	* bba_cham
+	* bba_cham.calt
 	* chha_cham
+	* dda_cham
 	* eight_cham
-	* nhja_cham
-	* na_cham and 16 more.
+	* gFinal_cham
+	* ga_cham
+	* ha_cham
+	* ja_cham
+	* jha_cham and 16 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -1128,11 +1104,7 @@ The following glyphs do not have the recommended number of contours:
 	* nhja_cham (U+AA12): B<<349.5,-51.5>-<362.0,-22.0>-<381.0,-6.0>>/B<<381.0,-6.0>-<352.0,-21.0>-<313.0,-21.0>> = 12.751031766142344 
 
 	* And nhja_cham (U+AA12): B<<437.0,86.0>-<437.0,35.0>-<400.0,6.0>>/B<<400.0,6.0>-<418.0,14.0>-<443.0,17.5>> = 14.126283906397104 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[7] NotoSansCham-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Check that texts shape as per expectation (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/shaping/regression">com.google.fonts/check/shaping/regression</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[6] NotoSansCham-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check that texts shape as per expectation (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/shaping/regression">com.google.fonts/check/shaping/regression</a>)</summary><div>
 
 
 * 🔥 **FAIL** qa/shaping_tests/cham.json: Expected and actual shaping not matching
@@ -3574,16 +3546,16 @@ Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 29
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* jha_cham
-	* dda_cham
-	* kha_cham
-	* tFinal_cham
-	* chha_cham
-	* nhja_cham
-	* na_cham
 	* bba_cham
+	* bba_cham.calt
+	* chha_cham
+	* dda_cham
 	* ja_cham
-	* nhue_cham and 8 more.
+	* jha_cham
+	* kha_cham
+	* nFinal_cham
+	* na_cham
+	* na_cham.calt and 8 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
@@ -3618,24 +3590,20 @@ The following glyphs do not have the recommended number of contours:
 * ⚠ **WARN** The following glyphs have colinear vectors:
 
 	* jha_cham (U+AA0F): L<<674.0,161.0>--<674.0,163.0>> -> L<<674.0,163.0>--<674.0,165.0>> [code: found-colinear-vectors]
-</div></details><br></div></details><details><summary><b>[9] NotoSansCham-SemiBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[8] NotoSansCham-SemiBold.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
+	* bba_cham
+	* bba_cham.calt
+	* chFinal_cham
+	* cha_cham
+	* chha_cham
+	* da_cham
+	* dda_cham
 	* e_cham
 	* eiSign_cham
-	* ma_cham
-	* gFinal_cham
-	* jha_cham
-	* dda_cham
-	* kha_cham
-	* tFinal_cham
-	* ga_cham
-	* chha_cham and 27 more.
+	* eight_cham and 27 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -3729,11 +3697,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 	* Wgrave (U+1E80): B<<257.0,182.5>-<263.0,150.0>-<266.0,126.0>>/B<<266.0,126.0>-<269.0,151.0>-<275.0,184.0>> = 13.967789761532726 
 
 	* And Wgrave (U+1E80): B<<678.0,182.0>-<684.0,150.0>-<687.0,126.0>>/B<<687.0,126.0>-<690.0,151.0>-<695.5,183.0>> = 13.967789761532726 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[6] NotoSansCham-Thin.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[5] NotoSansCham-Thin.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
@@ -3777,14 +3741,18 @@ The following glyphs do not have the recommended number of contours:
 	* exclamdown (U+00A1): L<<122.0,354.0>--<124.0,-186.0>> 
 
 	* And exclamdown (U+00A1): L<<96.0,-186.0>--<98.0,354.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[4] NotoSansCham[wght].ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[5] NotoSansCham[wght].ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
 
 
-* 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Validates that when an instance record is included for the default instance, its subfamilyNameID value is set to either 2 or 17, and its postScriptNameID value is set to 6. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/fvar.html#com.adobe.fonts/check/varfont/valid_default_instance_nameids">com.adobe.fonts/check/varfont/valid_default_instance_nameids</a>)</summary><div>
+* 💔 **ERROR** The condition <FontBakeryCondition:expected_font_names> had an error: KeyError: 'fvar'
+</div></details><details><summary>💔 <b>ERROR:</b> Check a font's STAT table contains compulsory Axis Values. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/STAT">com.google.fonts/check/STAT</a>)</summary><div>
 
 
-* 🔥 **FAIL** 'Regular' instance has the same coordinates as the default instance; its subfamilyNameID should be either 2 or 17, instead of 270. [code: invalid-default-instance-subfamily-nameid:270]
+* 💔 **ERROR** The condition <FontBakeryCondition:expected_font_names> had an error: KeyError: 'fvar'
+</div></details><details><summary>💔 <b>ERROR:</b> Check variable font instances (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fvar_instances">com.google.fonts/check/fvar_instances</a>)</summary><div>
+
+
+* 💔 **ERROR** The condition <FontBakeryCondition:expected_font_names> had an error: KeyError: 'fvar'
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -3801,8 +3769,8 @@ The following glyphs do not have the recommended number of contours:
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 10 | 6 | 56 | 1111 | 62 | 970 | 0 |
-| 0% | 0% | 3% | 50% | 3% | 44% | 0% |
+| 3 | 5 | 56 | 1079 | 62 | 930 | 0 |
+| 0% | 0% | 3% | 51% | 3% | 44% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
