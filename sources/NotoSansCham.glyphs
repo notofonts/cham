@@ -1,5 +1,5 @@
 {
-.appVersion = "3109";
+.appVersion = "3180";
 DisplayStrings = (
 "/laMedial_cham.narrow"
 );
@@ -268,16 +268,16 @@ name = PositioningRules;
 );
 features = (
 {
-code = "sub @class4 [laMedial_cham waMedial_cham uSign_cham]' lookup SingleSubstitution11;\012sub @class5 [laMedial_cham waMedial_cham uSign_cham]' lookup SingleSubstitution11 yaMedial_cham;\012sub [na_cham ma_cham bba_cham va_cham]' lookup SingleSubstitution11 [laMedial_waMedial_cham laMedial_uSign_cham laMedial_ueSign_cham waMedial_uSign_cham waMedial_ueSign_cham];\012";
-name = calt;
-},
-{
 code = "sub iSign_cham mSignFinal_cham by iSign_mSignFinal_cham;\012sub auSign_cham mSignFinal_cham by auSign_mSignFinal_cham;\012sub oeSign_cham aaSign_cham by aaSign_oeSign_cham;\012sub oeSign_cham auSign_cham by oeSign_auSign_cham;\012sub oeSign_cham mSignFinal_cham by oeSign_mSignFinal_cham;\012sub oeSign_cham ngSignFinal_cham by oeSign_ngSignFinal_cham;\012";
 name = ccmp;
 },
 {
 code = "lookupflag UseMarkFilteringSet @markFilteringSet1;\012\012sub laMedial_cham waMedial_cham uSign_cham by laMed_waMed_uSign_cham;\012sub laMedial_cham waMedial_cham ueSign_cham by laMed_waMed_ueSign_cham;\012sub laMedial_cham uSign_cham by laMedial_uSign_cham;\012sub laMedial_cham ueSign_cham by laMedial_ueSign_cham;\012sub laMedial_cham waMedial_cham by laMedial_waMedial_cham;\012\012sub laMedial_cham.narrow waMedial_cham uSign_cham by laMed_waMed_uSign_cham;\012sub laMedial_cham.narrow waMedial_cham ueSign_cham by laMed_waMed_ueSign_cham;\012sub laMedial_cham.narrow uSign_cham by laMedial_uSign_cham;\012sub laMedial_cham.narrow ueSign_cham by laMedial_ueSign_cham;\012sub laMedial_cham.narrow waMedial_cham by laMedial_waMedial_cham;\012\012sub waMedial_cham uSign_cham by waMedial_uSign_cham;\012sub waMedial_cham ueSign_cham by waMedial_ueSign_cham;\012\012sub waMedial_cham.narrow uSign_cham by waMedial_uSign_cham;\012sub waMedial_cham.narrow ueSign_cham by waMedial_ueSign_cham;\012";
 name = rlig;
+},
+{
+code = "sub @class4 [laMedial_cham waMedial_cham uSign_cham]' lookup SingleSubstitution11;\012sub @class5 [laMedial_cham waMedial_cham uSign_cham]' lookup SingleSubstitution11 yaMedial_cham;\012sub [na_cham ma_cham bba_cham va_cham]' lookup SingleSubstitution11 [laMedial_waMedial_cham laMedial_uSign_cham laMedial_ueSign_cham waMedial_uSign_cham waMedial_ueSign_cham];\012";
+name = calt;
 },
 {
 code = "script cham;\012sub [comma hyphen period] by [comma.cham hyphen.cham period.cham];\012";
@@ -32391,9 +32391,11 @@ width = 538;
 {
 components = (
 {
+alignment = -1;
 name = oSign_cham;
 },
 {
+alignment = -1;
 name = uSign_cham;
 transform = "{1, 0, 0, 1, 495, -132}";
 }
@@ -32409,9 +32411,11 @@ width = 594;
 {
 components = (
 {
+alignment = -1;
 name = oSign_cham;
 },
 {
+alignment = -1;
 name = uSign_cham;
 transform = "{1, 0, 0, 1, 522, -147}";
 }
@@ -42032,6 +42036,7 @@ seven_cham = -78;
 six_cham = -78;
 };
 aaSign_cham = {
+"@MMK_R_raMedial" = 130;
 ha_cham = -210;
 jha_cham = -210;
 pFinal_cham = -210;
@@ -42042,7 +42047,6 @@ ra_cham = -210;
 sa_cham = -210;
 seven_cham = -210;
 six_cham = -210;
-"@MMK_R_raMedial" = 130;
 };
 aaSign_oeSign_cham = {
 raMedial_cham = 344;
