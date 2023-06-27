@@ -8,7 +8,7 @@
         },
         "ingredients": {
             "consonant": "[\uaa06-\uaa28]",
-            "consonant_group": "[ꨌꨨꨖꨖꨆꨈ]",
+            "consonant_group": "[ꨆꨇꨈꨉꨊꨋꨌꨍꨎꨏꨐꨑꨒꨓꨔꨕꨖꨗꨘꨙꨚꨛꨜꨝꨞꨟꨠꨡꨢꨣꨤꨥꨦꨧꨨ]",
             "medialWa": "ꨶ",
             "medialLa": "ꨵ",
             "belowVowel": "[ꨭꨲ]"
