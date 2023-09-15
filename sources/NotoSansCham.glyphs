@@ -1,8 +1,9 @@
 {
-.appVersion = "3202";
+.appVersion = "3217";
 DisplayStrings = (
 "/laMedial_waMedial_cham/ka_cham/space ./laMedial_cham.narrow/six_cham",
-"/laMedial_waMedial_cham/six_cham"
+"/doubleDanda_cham/doubleDanda_cham.dotless/six_cham",
+"/va_cham.calt/danda_cham"
 );
 classes = (
 {
@@ -40467,6 +40468,7 @@ nodes = (
 width = 722;
 }
 );
+leftKerningGroup = danda;
 rightMetricsKey = tripleDanda_cham;
 }
 );
@@ -40905,7 +40907,6 @@ ai_cham = 70;
 chFinal_cham = 30;
 cha_cham = 30;
 chha_cham = 30;
-danda_cham = 148;
 dda_cham = 30;
 doubleDanda_cham = 148;
 eight_cham = 30;
@@ -40947,6 +40948,7 @@ ta_cham = 70;
 three_cham = 70;
 tripleDanda_cham = 148;
 u_cham = 75;
+"@MMK_R_danda" = 148;
 };
 bha_cham = {
 ha_cham = -76;
@@ -41363,7 +41365,6 @@ ai_cham = 70;
 chFinal_cham = 30;
 cha_cham = 30;
 chha_cham = 30;
-danda_cham = 138;
 dda_cham = 30;
 doubleDanda_cham = 138;
 eight_cham = 30;
@@ -41405,6 +41406,7 @@ ta_cham = 70;
 three_cham = 70;
 tripleDanda_cham = 138;
 u_cham = 75;
+"@MMK_R_danda" = 138;
 };
 mue_cham = {
 ha_cham = -76;
@@ -41455,7 +41457,6 @@ ai_cham = 70;
 chFinal_cham = 30;
 cha_cham = 30;
 chha_cham = 30;
-danda_cham = 148;
 dda_cham = 30;
 doubleDanda_cham = 148;
 eight_cham = 30;
@@ -41497,6 +41498,7 @@ ta_cham = 70;
 three_cham = 70;
 tripleDanda_cham = 148;
 u_cham = 75;
+"@MMK_R_danda" = 148;
 };
 ngFinal_cham = {
 ha_cham = -76;
@@ -41911,7 +41913,6 @@ ai_cham = 70;
 chFinal_cham = 30;
 cha_cham = 30;
 chha_cham = 30;
-danda_cham = 148;
 dda_cham = 30;
 doubleDanda_cham = 148;
 eight_cham = 30;
@@ -41953,6 +41954,7 @@ ta_cham = 70;
 three_cham = 70;
 tripleDanda_cham = 148;
 u_cham = 75;
+"@MMK_R_danda" = 148;
 };
 yFinal_cham = {
 ha_cham = -22;
@@ -42135,7 +42137,6 @@ ai_cham = 75;
 chFinal_cham = 40;
 cha_cham = 40;
 chha_cham = 40;
-danda_cham = 180;
 dda_cham = 40;
 doubleDanda_cham = 180;
 eight_cham = 40;
@@ -42177,6 +42178,7 @@ ta_cham = 75;
 three_cham = 75;
 tripleDanda_cham = 180;
 u_cham = 95;
+"@MMK_R_danda" = 180;
 };
 bha_cham = {
 ha_cham = -78;
@@ -42593,7 +42595,6 @@ ai_cham = 90;
 chFinal_cham = 60;
 cha_cham = 60;
 chha_cham = 60;
-danda_cham = 134;
 dda_cham = 60;
 doubleDanda_cham = 134;
 eight_cham = 60;
@@ -42635,6 +42636,7 @@ ta_cham = 90;
 three_cham = 90;
 tripleDanda_cham = 134;
 u_cham = 95;
+"@MMK_R_danda" = 134;
 };
 mue_cham = {
 ha_cham = -78;
@@ -42685,7 +42687,6 @@ ai_cham = 75;
 chFinal_cham = 40;
 cha_cham = 40;
 chha_cham = 40;
-danda_cham = 180;
 dda_cham = 40;
 doubleDanda_cham = 180;
 eight_cham = 40;
@@ -42727,6 +42728,7 @@ ta_cham = 75;
 three_cham = 75;
 tripleDanda_cham = 180;
 u_cham = 95;
+"@MMK_R_danda" = 180;
 };
 ngFinal_cham = {
 ha_cham = -78;
@@ -43141,7 +43143,6 @@ ai_cham = 75;
 chFinal_cham = 40;
 cha_cham = 40;
 chha_cham = 40;
-danda_cham = 180;
 dda_cham = 40;
 doubleDanda_cham = 180;
 eight_cham = 40;
@@ -43183,6 +43184,7 @@ ta_cham = 75;
 three_cham = 75;
 tripleDanda_cham = 180;
 u_cham = 95;
+"@MMK_R_danda" = 180;
 };
 yFinal_cham = {
 ha_cham = -27;
@@ -43364,7 +43366,6 @@ ai_cham = 145;
 chFinal_cham = 65;
 cha_cham = 65;
 chha_cham = 65;
-danda_cham = 205;
 dda_cham = 65;
 doubleDanda_cham = 205;
 eight_cham = 65;
@@ -43406,6 +43407,7 @@ ta_cham = 145;
 three_cham = 145;
 tripleDanda_cham = 205;
 u_cham = 105;
+"@MMK_R_danda" = 205;
 };
 bha_cham = {
 ha_cham = -78;
@@ -43822,7 +43824,6 @@ ai_cham = 170;
 chFinal_cham = 125;
 cha_cham = 125;
 chha_cham = 125;
-danda_cham = 205;
 dda_cham = 125;
 doubleDanda_cham = 205;
 eight_cham = 125;
@@ -43864,6 +43865,7 @@ ta_cham = 170;
 three_cham = 170;
 tripleDanda_cham = 205;
 u_cham = 150;
+"@MMK_R_danda" = 205;
 };
 mue_cham = {
 ha_cham = -78;
@@ -43914,7 +43916,6 @@ ai_cham = 145;
 chFinal_cham = 65;
 cha_cham = 65;
 chha_cham = 65;
-danda_cham = 205;
 dda_cham = 65;
 doubleDanda_cham = 205;
 eight_cham = 65;
@@ -43956,6 +43957,7 @@ ta_cham = 145;
 three_cham = 145;
 tripleDanda_cham = 205;
 u_cham = 105;
+"@MMK_R_danda" = 205;
 };
 ngFinal_cham = {
 ha_cham = -78;
@@ -44370,7 +44372,6 @@ ai_cham = 145;
 chFinal_cham = 65;
 cha_cham = 65;
 chha_cham = 65;
-danda_cham = 205;
 dda_cham = 65;
 doubleDanda_cham = 205;
 eight_cham = 65;
@@ -44412,6 +44413,7 @@ ta_cham = 145;
 three_cham = 145;
 tripleDanda_cham = 205;
 u_cham = 105;
+"@MMK_R_danda" = 205;
 };
 yFinal_cham = {
 ha_cham = -25;
@@ -44593,7 +44595,6 @@ ai_cham = 170;
 chFinal_cham = 80;
 cha_cham = 80;
 chha_cham = 80;
-danda_cham = 220;
 dda_cham = 80;
 doubleDanda_cham = 220;
 eight_cham = 80;
@@ -44635,6 +44636,7 @@ ta_cham = 170;
 three_cham = 170;
 tripleDanda_cham = 220;
 u_cham = 110;
+"@MMK_R_danda" = 220;
 };
 bha_cham = {
 ha_cham = -78;
@@ -45051,7 +45053,6 @@ ai_cham = 200;
 chFinal_cham = 146;
 cha_cham = 146;
 chha_cham = 146;
-danda_cham = 230;
 dda_cham = 146;
 doubleDanda_cham = 230;
 eight_cham = 146;
@@ -45093,6 +45094,7 @@ ta_cham = 200;
 three_cham = 200;
 tripleDanda_cham = 230;
 u_cham = 180;
+"@MMK_R_danda" = 230;
 };
 mue_cham = {
 ha_cham = -78;
@@ -45143,7 +45145,6 @@ ai_cham = 170;
 chFinal_cham = 80;
 cha_cham = 80;
 chha_cham = 80;
-danda_cham = 220;
 dda_cham = 80;
 doubleDanda_cham = 220;
 eight_cham = 80;
@@ -45185,6 +45186,7 @@ ta_cham = 170;
 three_cham = 170;
 tripleDanda_cham = 220;
 u_cham = 110;
+"@MMK_R_danda" = 220;
 };
 ngFinal_cham = {
 ha_cham = -78;
@@ -45599,7 +45601,6 @@ ai_cham = 170;
 chFinal_cham = 80;
 cha_cham = 80;
 chha_cham = 80;
-danda_cham = 220;
 dda_cham = 80;
 doubleDanda_cham = 220;
 eight_cham = 80;
@@ -45641,6 +45642,7 @@ ta_cham = 170;
 three_cham = 170;
 tripleDanda_cham = 220;
 u_cham = 110;
+"@MMK_R_danda" = 220;
 };
 yFinal_cham = {
 ha_cham = -22;
