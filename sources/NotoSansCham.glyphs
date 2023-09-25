@@ -1,5 +1,5 @@
 {
-.appVersion = "3217";
+.appVersion = "3205";
 DisplayStrings = (
 "/laMedial_waMedial_cham/ka_cham/space ./laMedial_cham.narrow/six_cham",
 "/doubleDanda_cham/doubleDanda_cham.dotless/six_cham",
@@ -40526,10 +40526,6 @@ value = (
 {
 name = xHeight;
 value = "536";
-},
-{
-name = styleMapFamilyName;
-value = "Noto Sans Cham ExtLt";
 }
 );
 interpolationWeight = 39;
@@ -40560,10 +40556,6 @@ value = (
 {
 name = xHeight;
 value = "536";
-},
-{
-name = styleMapFamilyName;
-value = "Noto Sans Cham Light";
 }
 );
 interpolationWeight = 58;
@@ -40622,10 +40614,6 @@ value = (
 {
 name = xHeight;
 value = "536";
-},
-{
-name = styleMapFamilyName;
-value = "Noto Sans Cham Med";
 }
 );
 interpolationWeight = 108;
@@ -40656,10 +40644,6 @@ value = (
 {
 name = xHeight;
 value = "536";
-},
-{
-name = styleMapFamilyName;
-value = "Noto Sans Cham SemBd";
 }
 );
 interpolationWeight = 128;
@@ -40721,10 +40705,6 @@ value = (
 {
 name = xHeight;
 value = "536";
-},
-{
-name = styleMapFamilyName;
-value = "Noto Sans Cham ExtBd";
 }
 );
 interpolationWeight = 169;
@@ -40755,10 +40735,6 @@ value = (
 {
 name = xHeight;
 value = "536";
-},
-{
-name = styleMapFamilyName;
-value = "Noto Sans Cham Blk";
 }
 );
 interpolationWeight = 190;
@@ -40901,6 +40877,7 @@ seven_cham = -76;
 six_cham = -76;
 };
 bba_cham.calt = {
+"@MMK_R_danda" = 148;
 a_cham = 35;
 aiSign_cham = 25;
 ai_cham = 70;
@@ -40948,7 +40925,6 @@ ta_cham = 70;
 three_cham = 70;
 tripleDanda_cham = 148;
 u_cham = 75;
-"@MMK_R_danda" = 148;
 };
 bha_cham = {
 ha_cham = -76;
@@ -41359,6 +41335,7 @@ seven_cham = -76;
 six_cham = -76;
 };
 ma_cham.calt = {
+"@MMK_R_danda" = 138;
 a_cham = 35;
 aiSign_cham = 25;
 ai_cham = 70;
@@ -41406,7 +41383,6 @@ ta_cham = 70;
 three_cham = 70;
 tripleDanda_cham = 138;
 u_cham = 75;
-"@MMK_R_danda" = 138;
 };
 mue_cham = {
 ha_cham = -76;
@@ -41451,6 +41427,7 @@ seven_cham = -76;
 six_cham = -76;
 };
 na_cham.calt = {
+"@MMK_R_danda" = 148;
 a_cham = 35;
 aiSign_cham = 25;
 ai_cham = 70;
@@ -41498,7 +41475,6 @@ ta_cham = 70;
 three_cham = 70;
 tripleDanda_cham = 148;
 u_cham = 75;
-"@MMK_R_danda" = 148;
 };
 ngFinal_cham = {
 ha_cham = -76;
@@ -41907,6 +41883,7 @@ seven_cham = -76;
 six_cham = -76;
 };
 va_cham.calt = {
+"@MMK_R_danda" = 148;
 a_cham = 35;
 aiSign_cham = 25;
 ai_cham = 70;
@@ -41954,7 +41931,6 @@ ta_cham = 70;
 three_cham = 70;
 tripleDanda_cham = 148;
 u_cham = 75;
-"@MMK_R_danda" = 148;
 };
 yFinal_cham = {
 ha_cham = -22;
@@ -42131,6 +42107,7 @@ seven_cham = -78;
 six_cham = -78;
 };
 bba_cham.calt = {
+"@MMK_R_danda" = 180;
 a_cham = 45;
 aiSign_cham = 90;
 ai_cham = 75;
@@ -42178,7 +42155,6 @@ ta_cham = 75;
 three_cham = 75;
 tripleDanda_cham = 180;
 u_cham = 95;
-"@MMK_R_danda" = 180;
 };
 bha_cham = {
 ha_cham = -78;
@@ -42589,6 +42565,7 @@ seven_cham = -78;
 six_cham = -78;
 };
 ma_cham.calt = {
+"@MMK_R_danda" = 134;
 a_cham = 45;
 aiSign_cham = 90;
 ai_cham = 90;
@@ -42636,7 +42613,6 @@ ta_cham = 90;
 three_cham = 90;
 tripleDanda_cham = 134;
 u_cham = 95;
-"@MMK_R_danda" = 134;
 };
 mue_cham = {
 ha_cham = -78;
@@ -42681,6 +42657,7 @@ seven_cham = -78;
 six_cham = -78;
 };
 na_cham.calt = {
+"@MMK_R_danda" = 180;
 a_cham = 45;
 aiSign_cham = 90;
 ai_cham = 75;
@@ -42728,7 +42705,6 @@ ta_cham = 75;
 three_cham = 75;
 tripleDanda_cham = 180;
 u_cham = 95;
-"@MMK_R_danda" = 180;
 };
 ngFinal_cham = {
 ha_cham = -78;
@@ -43137,6 +43113,7 @@ seven_cham = -78;
 six_cham = -78;
 };
 va_cham.calt = {
+"@MMK_R_danda" = 180;
 a_cham = 45;
 aiSign_cham = 90;
 ai_cham = 75;
@@ -43184,7 +43161,6 @@ ta_cham = 75;
 three_cham = 75;
 tripleDanda_cham = 180;
 u_cham = 95;
-"@MMK_R_danda" = 180;
 };
 yFinal_cham = {
 ha_cham = -27;
@@ -43360,6 +43336,7 @@ seven_cham = -78;
 six_cham = -78;
 };
 bba_cham.calt = {
+"@MMK_R_danda" = 205;
 a_cham = 65;
 aiSign_cham = 115;
 ai_cham = 145;
@@ -43407,7 +43384,6 @@ ta_cham = 145;
 three_cham = 145;
 tripleDanda_cham = 205;
 u_cham = 105;
-"@MMK_R_danda" = 205;
 };
 bha_cham = {
 ha_cham = -78;
@@ -43818,6 +43794,7 @@ seven_cham = -78;
 six_cham = -78;
 };
 ma_cham.calt = {
+"@MMK_R_danda" = 205;
 a_cham = 80;
 aiSign_cham = 115;
 ai_cham = 170;
@@ -43865,7 +43842,6 @@ ta_cham = 170;
 three_cham = 170;
 tripleDanda_cham = 205;
 u_cham = 150;
-"@MMK_R_danda" = 205;
 };
 mue_cham = {
 ha_cham = -78;
@@ -43910,6 +43886,7 @@ seven_cham = -78;
 six_cham = -78;
 };
 na_cham.calt = {
+"@MMK_R_danda" = 205;
 a_cham = 65;
 aiSign_cham = 115;
 ai_cham = 145;
@@ -43957,7 +43934,6 @@ ta_cham = 145;
 three_cham = 145;
 tripleDanda_cham = 205;
 u_cham = 105;
-"@MMK_R_danda" = 205;
 };
 ngFinal_cham = {
 ha_cham = -78;
@@ -44366,6 +44342,7 @@ seven_cham = -78;
 six_cham = -78;
 };
 va_cham.calt = {
+"@MMK_R_danda" = 205;
 a_cham = 65;
 aiSign_cham = 115;
 ai_cham = 145;
@@ -44413,7 +44390,6 @@ ta_cham = 145;
 three_cham = 145;
 tripleDanda_cham = 205;
 u_cham = 105;
-"@MMK_R_danda" = 205;
 };
 yFinal_cham = {
 ha_cham = -25;
@@ -44589,6 +44565,7 @@ seven_cham = -78;
 six_cham = -78;
 };
 bba_cham.calt = {
+"@MMK_R_danda" = 220;
 a_cham = 95;
 aiSign_cham = 125;
 ai_cham = 170;
@@ -44636,7 +44613,6 @@ ta_cham = 170;
 three_cham = 170;
 tripleDanda_cham = 220;
 u_cham = 110;
-"@MMK_R_danda" = 220;
 };
 bha_cham = {
 ha_cham = -78;
@@ -45047,6 +45023,7 @@ seven_cham = -78;
 six_cham = -78;
 };
 ma_cham.calt = {
+"@MMK_R_danda" = 230;
 a_cham = 105;
 aiSign_cham = 135;
 ai_cham = 200;
@@ -45094,7 +45071,6 @@ ta_cham = 200;
 three_cham = 200;
 tripleDanda_cham = 230;
 u_cham = 180;
-"@MMK_R_danda" = 230;
 };
 mue_cham = {
 ha_cham = -78;
@@ -45139,6 +45115,7 @@ seven_cham = -78;
 six_cham = -78;
 };
 na_cham.calt = {
+"@MMK_R_danda" = 220;
 a_cham = 95;
 aiSign_cham = 125;
 ai_cham = 170;
@@ -45186,7 +45163,6 @@ ta_cham = 170;
 three_cham = 170;
 tripleDanda_cham = 220;
 u_cham = 110;
-"@MMK_R_danda" = 220;
 };
 ngFinal_cham = {
 ha_cham = -78;
@@ -45595,6 +45571,7 @@ seven_cham = -78;
 six_cham = -78;
 };
 va_cham.calt = {
+"@MMK_R_danda" = 220;
 a_cham = 95;
 aiSign_cham = 125;
 ai_cham = 170;
@@ -45642,7 +45619,6 @@ ta_cham = 170;
 three_cham = 170;
 tripleDanda_cham = 220;
 u_cham = 110;
-"@MMK_R_danda" = 220;
 };
 yFinal_cham = {
 ha_cham = -22;
