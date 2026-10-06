@@ -261,561 +261,561 @@ languagesystem cham dflt;
 name = Languagesystems;
 },
 {
-code = "# These are the contextual positioning rules for the regular master.
-# Master-specific rules are in the \"replace prefix\" custom parameter
-# of each master.
+code = "# These are the contextual positioning rules for all masters.
+# Positions that differ between masters use number values,
+# which are set in each master.
 lookup SinglePositioning2 {
-    pos aaSign_oeSign_cham 84;
+    pos aaSign_oeSign_cham $SP2_aaSign_oeSign;
 } SinglePositioning2;
 
 lookup SinglePositioning3 {
-    pos aaSign_cham 1;
+    pos aaSign_cham $SP3_aaSign;
 } SinglePositioning3;
 
 lookup SinglePositioning4 {
-    pos ngSignFinal_cham -235;
+    pos ngSignFinal_cham $SP4_ngSignFinal;
 } SinglePositioning4;
 
 lookup SinglePositioning5 {
-    pos [auSign_cham auSign_mSignFinal_cham oeSign_auSign_cham] -106;
+    pos [auSign_cham auSign_mSignFinal_cham oeSign_auSign_cham] $SP5_auSign;
 } SinglePositioning5;
 
 lookup SinglePositioning6 {
     lookupflag 0;
     ;
     # Original source: 5 
-    pos [iSign_cham iiSign_cham] -125;
+    pos [iSign_cham iiSign_cham] $SP6_iSign;
 } SinglePositioning6;
 
 lookup SinglePositioning7 {
     lookupflag 0;
     ;
     # Original source: 6 
-    pos iSign_mSignFinal_cham 5;
+    pos iSign_mSignFinal_cham $SP7_iSign_mSignFinal;
 } SinglePositioning7;
 
 lookup SinglePositioning8 {
     lookupflag 0;
     ;
     # Original source: 7 
-    pos [oeSign_cham oeSign_mSignFinal_cham oeSign_ngSignFinal_cham] -215;
+    pos [oeSign_cham oeSign_mSignFinal_cham oeSign_ngSignFinal_cham] $SP8_oeSign;
 } SinglePositioning8;
 
 lookup SinglePositioning9 {
     lookupflag 0;
     ;
     # Original source: 8 
-    pos eiSign_cham -45;
+    pos eiSign_cham $SP9_eiSign;
 } SinglePositioning9;
 
 lookup SinglePositioning20 {
     lookupflag 0;
     ;
     # Original source: 14 
-    pos laMedial_cham <95 -20 0 0>;
-    pos laMedial_cham.narrow <-5 -20 0 0>;
-    pos waMedial_cham <-5 -20 0 0>;
-    pos waMedial_cham.narrow <-5 -20 0 0>;
-    pos laMedial_waMedial_cham <95 -20 0 0>;
-    pos laMedial_uSign_cham <95 -20 0 0>;
-    pos laMedial_ueSign_cham <95 -20 0 0>;
-    pos waMedial_uSign_cham <95 -20 0 0>;
-    pos waMedial_ueSign_cham <95 -20 0 0>;
+    pos laMedial_cham <$SP20_laMedial_x $SP20_laMedial_y 0 0>;
+    pos laMedial_cham.narrow <$SP20_laMedial_narrow_x $SP20_laMedial_y 0 0>;
+    pos waMedial_cham <$SP20_laMedial_narrow_x $SP20_laMedial_y 0 0>;
+    pos waMedial_cham.narrow <$SP20_laMedial_narrow_x $SP20_laMedial_y 0 0>;
+    pos laMedial_waMedial_cham <$SP20_laMedial_x $SP20_laMedial_y 0 0>;
+    pos laMedial_uSign_cham <$SP20_laMedial_x $SP20_laMedial_y 0 0>;
+    pos laMedial_ueSign_cham <$SP20_laMedial_x $SP20_laMedial_y 0 0>;
+    pos waMedial_uSign_cham <$SP20_laMedial_x $SP20_laMedial_y 0 0>;
+    pos waMedial_ueSign_cham <$SP20_laMedial_x $SP20_laMedial_y 0 0>;
 } SinglePositioning20;
 
 lookup SinglePositioning21 {
     lookupflag 0;
     ;
     # Original source: 15 
-    pos laMedial_cham <137 -40 0 0>;
-    pos laMedial_cham.narrow <37 -40 0 0>;
-    pos waMedial_cham <37 -40 0 0>;
-    pos waMedial_cham.narrow <37 -40 0 0>;
-    pos laMedial_waMedial_cham <137 -40 0 0>;
-    pos laMedial_uSign_cham <137 -40 0 0>;
-    pos laMedial_ueSign_cham <137 -40 0 0>;
-    pos waMedial_uSign_cham <137 -40 0 0>;
-    pos waMedial_ueSign_cham <137 -40 0 0>;
+    pos laMedial_cham <$SP21_laMedial_x $SP21_laMedial_y 0 0>;
+    pos laMedial_cham.narrow <$SP21_laMedial_narrow_x $SP21_laMedial_y 0 0>;
+    pos waMedial_cham <$SP21_laMedial_narrow_x $SP21_laMedial_y 0 0>;
+    pos waMedial_cham.narrow <$SP21_laMedial_narrow_x $SP21_laMedial_y 0 0>;
+    pos laMedial_waMedial_cham <$SP21_laMedial_x $SP21_laMedial_y 0 0>;
+    pos laMedial_uSign_cham <$SP21_laMedial_x $SP21_laMedial_y 0 0>;
+    pos laMedial_ueSign_cham <$SP21_laMedial_x $SP21_laMedial_y 0 0>;
+    pos waMedial_uSign_cham <$SP21_laMedial_x $SP21_laMedial_y 0 0>;
+    pos waMedial_ueSign_cham <$SP21_laMedial_x $SP21_laMedial_y 0 0>;
 } SinglePositioning21;
 
 lookup SinglePositioning22 {
     lookupflag 0;
     ;
     # Original source: 16 
-    pos laMedial_cham <-10 -2 0 0>;
-    pos laMedial_cham.narrow <-110 -2 0 0>;
-    pos waMedial_cham <-110 -2 0 0>;
-    pos waMedial_cham.narrow <-110 -2 0 0>;
-    pos laMedial_waMedial_cham <-10 -2 0 0>;
-    pos laMedial_uSign_cham <-10 -2 0 0>;
-    pos laMedial_ueSign_cham <-10 -2 0 0>;
-    pos waMedial_uSign_cham <-10 -2 0 0>;
-    pos waMedial_ueSign_cham <-10 -2 0 0>;
+    pos laMedial_cham <$SP22_laMedial_x $SP22_laMedial_y 0 0>;
+    pos laMedial_cham.narrow <$SP22_laMedial_narrow_x $SP22_laMedial_y 0 0>;
+    pos waMedial_cham <$SP22_laMedial_narrow_x $SP22_laMedial_y 0 0>;
+    pos waMedial_cham.narrow <$SP22_laMedial_narrow_x $SP22_laMedial_y 0 0>;
+    pos laMedial_waMedial_cham <$SP22_laMedial_x $SP22_laMedial_y 0 0>;
+    pos laMedial_uSign_cham <$SP22_laMedial_x $SP22_laMedial_y 0 0>;
+    pos laMedial_ueSign_cham <$SP22_laMedial_x $SP22_laMedial_y 0 0>;
+    pos waMedial_uSign_cham <$SP22_laMedial_x $SP22_laMedial_y 0 0>;
+    pos waMedial_ueSign_cham <$SP22_laMedial_x $SP22_laMedial_y 0 0>;
 } SinglePositioning22;
 
 lookup SinglePositioning23 {
     lookupflag 0;
     ;
     # Original source: 17 
-    pos laMedial_cham <-11 -2 0 0>;
-    pos laMedial_cham.narrow <-111 -2 0 0>;
-    pos waMedial_cham <-111 -2 0 0>;
-    pos waMedial_cham.narrow <-111 -2 0 0>;
-    pos laMedial_waMedial_cham <-11 -2 0 0>;
-    pos laMedial_uSign_cham <-11 -2 0 0>;
-    pos laMedial_ueSign_cham <-11 -2 0 0>;
-    pos waMedial_uSign_cham <-11 -2 0 0>;
-    pos waMedial_ueSign_cham <-11 -2 0 0>;
+    pos laMedial_cham <$SP23_laMedial_x $SP23_laMedial_y 0 0>;
+    pos laMedial_cham.narrow <$SP23_laMedial_narrow_x $SP23_laMedial_y 0 0>;
+    pos waMedial_cham <$SP23_laMedial_narrow_x $SP23_laMedial_y 0 0>;
+    pos waMedial_cham.narrow <$SP23_laMedial_narrow_x $SP23_laMedial_y 0 0>;
+    pos laMedial_waMedial_cham <$SP23_laMedial_x $SP23_laMedial_y 0 0>;
+    pos laMedial_uSign_cham <$SP23_laMedial_x $SP23_laMedial_y 0 0>;
+    pos laMedial_ueSign_cham <$SP23_laMedial_x $SP23_laMedial_y 0 0>;
+    pos waMedial_uSign_cham <$SP23_laMedial_x $SP23_laMedial_y 0 0>;
+    pos waMedial_ueSign_cham <$SP23_laMedial_x $SP23_laMedial_y 0 0>;
 } SinglePositioning23;
 
 lookup SinglePositioning24 {
     lookupflag 0;
     ;
     # Original source: 18 
-    pos laMedial_cham <-6 -2 0 0>;
-    pos laMedial_cham.narrow <-106 -2 0 0>;
-    pos waMedial_cham <-106 -2 0 0>;
-    pos waMedial_cham.narrow <-106 -2 0 0>;
-    pos laMedial_waMedial_cham <-6 -2 0 0>;
-    pos laMedial_uSign_cham <-6 -2 0 0>;
-    pos laMedial_ueSign_cham <-6 -2 0 0>;
-    pos waMedial_uSign_cham <-6 -2 0 0>;
-    pos waMedial_ueSign_cham <-6 -2 0 0>;
+    pos laMedial_cham <$SP24_laMedial_x $SP24_laMedial_y 0 0>;
+    pos laMedial_cham.narrow <$SP24_laMedial_narrow_x $SP24_laMedial_y 0 0>;
+    pos waMedial_cham <$SP24_laMedial_narrow_x $SP24_laMedial_y 0 0>;
+    pos waMedial_cham.narrow <$SP24_laMedial_narrow_x $SP24_laMedial_y 0 0>;
+    pos laMedial_waMedial_cham <$SP24_laMedial_x $SP24_laMedial_y 0 0>;
+    pos laMedial_uSign_cham <$SP24_laMedial_x $SP24_laMedial_y 0 0>;
+    pos laMedial_ueSign_cham <$SP24_laMedial_x $SP24_laMedial_y 0 0>;
+    pos waMedial_uSign_cham <$SP24_laMedial_x $SP24_laMedial_y 0 0>;
+    pos waMedial_ueSign_cham <$SP24_laMedial_x $SP24_laMedial_y 0 0>;
 } SinglePositioning24;
 
 lookup SinglePositioning25 {
     lookupflag 0;
     ;
     # Original source: 19 
-    pos laMedial_cham <61 -20 0 0>;
-    pos laMedial_cham.narrow <-39 -20 0 0>;
-    pos waMedial_cham <-39 -20 0 0>;
-    pos waMedial_cham.narrow <-39 -20 0 0>;
-    pos laMedial_waMedial_cham <61 -20 0 0>;
-    pos laMedial_uSign_cham <61 -20 0 0>;
-    pos laMedial_ueSign_cham <61 -20 0 0>;
-    pos waMedial_uSign_cham <61 -20 0 0>;
-    pos waMedial_ueSign_cham <61 -20 0 0>;
+    pos laMedial_cham <$SP25_laMedial_x $SP25_laMedial_y 0 0>;
+    pos laMedial_cham.narrow <$SP25_laMedial_narrow_x $SP25_laMedial_y 0 0>;
+    pos waMedial_cham <$SP25_laMedial_narrow_x $SP25_laMedial_y 0 0>;
+    pos waMedial_cham.narrow <$SP25_laMedial_narrow_x $SP25_laMedial_y 0 0>;
+    pos laMedial_waMedial_cham <$SP25_laMedial_x $SP25_laMedial_y 0 0>;
+    pos laMedial_uSign_cham <$SP25_laMedial_x $SP25_laMedial_y 0 0>;
+    pos laMedial_ueSign_cham <$SP25_laMedial_x $SP25_laMedial_y 0 0>;
+    pos waMedial_uSign_cham <$SP25_laMedial_x $SP25_laMedial_y 0 0>;
+    pos waMedial_ueSign_cham <$SP25_laMedial_x $SP25_laMedial_y 0 0>;
 } SinglePositioning25;
 
 lookup SinglePositioning26 {
     lookupflag 0;
     ;
     # Original source: 20 
-    pos laMedial_cham <75 -2 0 0>;
-    pos laMedial_cham.narrow <-25 -2 0 0>;
-    pos waMedial_cham <-25 -2 0 0>;
-    pos waMedial_cham.narrow <-25 -2 0 0>;
-    pos laMedial_waMedial_cham <75 -2 0 0>;
-    pos laMedial_uSign_cham <75 -2 0 0>;
-    pos laMedial_ueSign_cham <75 -2 0 0>;
-    pos waMedial_uSign_cham <75 -2 0 0>;
-    pos waMedial_ueSign_cham <75 -2 0 0>;
+    pos laMedial_cham <$SP26_laMedial_x $SP26_laMedial_y 0 0>;
+    pos laMedial_cham.narrow <$SP26_laMedial_narrow_x $SP26_laMedial_y 0 0>;
+    pos waMedial_cham <$SP26_laMedial_narrow_x $SP26_laMedial_y 0 0>;
+    pos waMedial_cham.narrow <$SP26_laMedial_narrow_x $SP26_laMedial_y 0 0>;
+    pos laMedial_waMedial_cham <$SP26_laMedial_x $SP26_laMedial_y 0 0>;
+    pos laMedial_uSign_cham <$SP26_laMedial_x $SP26_laMedial_y 0 0>;
+    pos laMedial_ueSign_cham <$SP26_laMedial_x $SP26_laMedial_y 0 0>;
+    pos waMedial_uSign_cham <$SP26_laMedial_x $SP26_laMedial_y 0 0>;
+    pos waMedial_ueSign_cham <$SP26_laMedial_x $SP26_laMedial_y 0 0>;
 } SinglePositioning26;
 
 lookup SinglePositioning27 {
     lookupflag 0;
     ;
     # Original source: 21 
-    pos laMedial_cham <-15 2 0 0>;
-    pos laMedial_cham.narrow <-115 2 0 0>;
-    pos waMedial_cham <-115 2 0 0>;
-    pos waMedial_cham.narrow <-115 2 0 0>;
-    pos laMedial_waMedial_cham <-15 2 0 0>;
-    pos laMedial_uSign_cham <-15 2 0 0>;
-    pos laMedial_ueSign_cham <-15 2 0 0>;
-    pos waMedial_uSign_cham <-15 2 0 0>;
-    pos waMedial_ueSign_cham <-15 2 0 0>;
+    pos laMedial_cham <$SP27_laMedial_x $SP27_laMedial_y 0 0>;
+    pos laMedial_cham.narrow <$SP27_laMedial_narrow_x $SP27_laMedial_y 0 0>;
+    pos waMedial_cham <$SP27_laMedial_narrow_x $SP27_laMedial_y 0 0>;
+    pos waMedial_cham.narrow <$SP27_laMedial_narrow_x $SP27_laMedial_y 0 0>;
+    pos laMedial_waMedial_cham <$SP27_laMedial_x $SP27_laMedial_y 0 0>;
+    pos laMedial_uSign_cham <$SP27_laMedial_x $SP27_laMedial_y 0 0>;
+    pos laMedial_ueSign_cham <$SP27_laMedial_x $SP27_laMedial_y 0 0>;
+    pos waMedial_uSign_cham <$SP27_laMedial_x $SP27_laMedial_y 0 0>;
+    pos waMedial_ueSign_cham <$SP27_laMedial_x $SP27_laMedial_y 0 0>;
 } SinglePositioning27;
 
 lookup SinglePositioning28 {
     lookupflag 0;
     ;
     # Original source: 22 
-    pos laMedial_cham <-10 -2 0 0>;
-    pos laMedial_cham.narrow <-110 -2 0 0>;
-    pos waMedial_cham <-110 -2 0 0>;
-    pos waMedial_cham.narrow <-110 -2 0 0>;
-    pos laMedial_waMedial_cham <-10 -2 0 0>;
-    pos laMedial_uSign_cham <-10 -2 0 0>;
-    pos laMedial_ueSign_cham <-10 -2 0 0>;
-    pos waMedial_uSign_cham <-10 -2 0 0>;
-    pos waMedial_ueSign_cham <-10 -2 0 0>;
+    pos laMedial_cham <$SP28_laMedial_x $SP28_laMedial_y 0 0>;
+    pos laMedial_cham.narrow <$SP28_laMedial_narrow_x $SP28_laMedial_y 0 0>;
+    pos waMedial_cham <$SP28_laMedial_narrow_x $SP28_laMedial_y 0 0>;
+    pos waMedial_cham.narrow <$SP28_laMedial_narrow_x $SP28_laMedial_y 0 0>;
+    pos laMedial_waMedial_cham <$SP28_laMedial_x $SP28_laMedial_y 0 0>;
+    pos laMedial_uSign_cham <$SP28_laMedial_x $SP28_laMedial_y 0 0>;
+    pos laMedial_ueSign_cham <$SP28_laMedial_x $SP28_laMedial_y 0 0>;
+    pos waMedial_uSign_cham <$SP28_laMedial_x $SP28_laMedial_y 0 0>;
+    pos waMedial_ueSign_cham <$SP28_laMedial_x $SP28_laMedial_y 0 0>;
 } SinglePositioning28;
 
 lookup SinglePositioning29 {
     lookupflag 0;
     ;
     # Original source: 23 
-    pos laMedial_cham <-10 -2 0 0>;
-    pos laMedial_cham.narrow <-110 -2 0 0>;
-    pos waMedial_cham <-110 -2 0 0>;
-    pos waMedial_cham.narrow <-110 -2 0 0>;
-    pos laMedial_waMedial_cham <-10 -2 0 0>;
-    pos laMedial_uSign_cham <-10 -2 0 0>;
-    pos laMedial_ueSign_cham <-10 -2 0 0>;
-    pos waMedial_uSign_cham <-10 -2 0 0>;
-    pos waMedial_ueSign_cham <-10 -2 0 0>;
+    pos laMedial_cham <$SP29_laMedial_x $SP29_laMedial_y 0 0>;
+    pos laMedial_cham.narrow <$SP29_laMedial_narrow_x $SP29_laMedial_y 0 0>;
+    pos waMedial_cham <$SP29_laMedial_narrow_x $SP29_laMedial_y 0 0>;
+    pos waMedial_cham.narrow <$SP29_laMedial_narrow_x $SP29_laMedial_y 0 0>;
+    pos laMedial_waMedial_cham <$SP29_laMedial_x $SP29_laMedial_y 0 0>;
+    pos laMedial_uSign_cham <$SP29_laMedial_x $SP29_laMedial_y 0 0>;
+    pos laMedial_ueSign_cham <$SP29_laMedial_x $SP29_laMedial_y 0 0>;
+    pos waMedial_uSign_cham <$SP29_laMedial_x $SP29_laMedial_y 0 0>;
+    pos waMedial_ueSign_cham <$SP29_laMedial_x $SP29_laMedial_y 0 0>;
 } SinglePositioning29;
 
 lookup SinglePositioning30 {
     lookupflag 0;
     ;
     # Original source: 24 
-    pos laMedial_cham <-10 -2 0 0>;
-    pos laMedial_cham.narrow <-110 -2 0 0>;
-    pos waMedial_cham <-110 -2 0 0>;
-    pos waMedial_cham.narrow <-110 -2 0 0>;
-    pos laMedial_waMedial_cham <-10 -2 0 0>;
-    pos laMedial_uSign_cham <-10 -2 0 0>;
-    pos laMedial_ueSign_cham <-10 -2 0 0>;
-    pos waMedial_uSign_cham <-10 -2 0 0>;
-    pos waMedial_ueSign_cham <-10 -2 0 0>;
+    pos laMedial_cham <$SP30_laMedial_x $SP30_laMedial_y 0 0>;
+    pos laMedial_cham.narrow <$SP30_laMedial_narrow_x $SP30_laMedial_y 0 0>;
+    pos waMedial_cham <$SP30_laMedial_narrow_x $SP30_laMedial_y 0 0>;
+    pos waMedial_cham.narrow <$SP30_laMedial_narrow_x $SP30_laMedial_y 0 0>;
+    pos laMedial_waMedial_cham <$SP30_laMedial_x $SP30_laMedial_y 0 0>;
+    pos laMedial_uSign_cham <$SP30_laMedial_x $SP30_laMedial_y 0 0>;
+    pos laMedial_ueSign_cham <$SP30_laMedial_x $SP30_laMedial_y 0 0>;
+    pos waMedial_uSign_cham <$SP30_laMedial_x $SP30_laMedial_y 0 0>;
+    pos waMedial_ueSign_cham <$SP30_laMedial_x $SP30_laMedial_y 0 0>;
 } SinglePositioning30;
 
 lookup SinglePositioning31 {
     lookupflag 0;
     ;
     # Original source: 25 
-    pos laMedial_cham <53 -5 0 0>;
-    pos laMedial_cham.narrow <-47 -5 0 0>;
-    pos waMedial_cham <-47 -5 0 0>;
-    pos waMedial_cham.narrow <-47 -5 0 0>;
-    pos laMedial_waMedial_cham <53 -5 0 0>;
-    pos laMedial_uSign_cham <53 -5 0 0>;
-    pos laMedial_ueSign_cham <53 -5 0 0>;
-    pos waMedial_uSign_cham <53 -5 0 0>;
-    pos waMedial_ueSign_cham <53 -5 0 0>;
+    pos laMedial_cham <$SP31_laMedial_x $SP31_laMedial_y 0 0>;
+    pos laMedial_cham.narrow <$SP31_laMedial_narrow_x $SP31_laMedial_y 0 0>;
+    pos waMedial_cham <$SP31_laMedial_narrow_x $SP31_laMedial_y 0 0>;
+    pos waMedial_cham.narrow <$SP31_laMedial_narrow_x $SP31_laMedial_y 0 0>;
+    pos laMedial_waMedial_cham <$SP31_laMedial_x $SP31_laMedial_y 0 0>;
+    pos laMedial_uSign_cham <$SP31_laMedial_x $SP31_laMedial_y 0 0>;
+    pos laMedial_ueSign_cham <$SP31_laMedial_x $SP31_laMedial_y 0 0>;
+    pos waMedial_uSign_cham <$SP31_laMedial_x $SP31_laMedial_y 0 0>;
+    pos waMedial_ueSign_cham <$SP31_laMedial_x $SP31_laMedial_y 0 0>;
 } SinglePositioning31;
 
 lookup SinglePositioning32 {
     lookupflag 0;
     ;
     # Original source: 26 
-    pos laMedial_cham <-10 -2 0 0>;
-    pos laMedial_cham.narrow <-110 -2 0 0>;
-    pos waMedial_cham <-110 -2 0 0>;
-    pos waMedial_cham.narrow <-110 -2 0 0>;
-    pos laMedial_waMedial_cham <-10 -2 0 0>;
-    pos laMedial_uSign_cham <-10 -2 0 0>;
-    pos laMedial_ueSign_cham <-10 -2 0 0>;
-    pos waMedial_uSign_cham <-10 -2 0 0>;
-    pos waMedial_ueSign_cham <-10 -2 0 0>;
+    pos laMedial_cham <$SP32_laMedial_x $SP32_laMedial_y 0 0>;
+    pos laMedial_cham.narrow <$SP32_laMedial_narrow_x $SP32_laMedial_y 0 0>;
+    pos waMedial_cham <$SP32_laMedial_narrow_x $SP32_laMedial_y 0 0>;
+    pos waMedial_cham.narrow <$SP32_laMedial_narrow_x $SP32_laMedial_y 0 0>;
+    pos laMedial_waMedial_cham <$SP32_laMedial_x $SP32_laMedial_y 0 0>;
+    pos laMedial_uSign_cham <$SP32_laMedial_x $SP32_laMedial_y 0 0>;
+    pos laMedial_ueSign_cham <$SP32_laMedial_x $SP32_laMedial_y 0 0>;
+    pos waMedial_uSign_cham <$SP32_laMedial_x $SP32_laMedial_y 0 0>;
+    pos waMedial_ueSign_cham <$SP32_laMedial_x $SP32_laMedial_y 0 0>;
 } SinglePositioning32;
 
 lookup SinglePositioning33 {
     lookupflag 0;
     ;
     # Original source: 27 
-    pos laMedial_cham <-10 -2 0 0>;
-    pos laMedial_cham.narrow <-110 -2 0 0>;
-    pos waMedial_cham <-110 -2 0 0>;
-    pos waMedial_cham.narrow <-110 -2 0 0>;
-    pos laMedial_waMedial_cham <-10 -2 0 0>;
-    pos laMedial_uSign_cham <-10 -2 0 0>;
-    pos laMedial_ueSign_cham <-10 -2 0 0>;
-    pos waMedial_uSign_cham <-10 -2 0 0>;
-    pos waMedial_ueSign_cham <-10 -2 0 0>;
+    pos laMedial_cham <$SP33_laMedial_x $SP33_laMedial_y 0 0>;
+    pos laMedial_cham.narrow <$SP33_laMedial_narrow_x $SP33_laMedial_y 0 0>;
+    pos waMedial_cham <$SP33_laMedial_narrow_x $SP33_laMedial_y 0 0>;
+    pos waMedial_cham.narrow <$SP33_laMedial_narrow_x $SP33_laMedial_y 0 0>;
+    pos laMedial_waMedial_cham <$SP33_laMedial_x $SP33_laMedial_y 0 0>;
+    pos laMedial_uSign_cham <$SP33_laMedial_x $SP33_laMedial_y 0 0>;
+    pos laMedial_ueSign_cham <$SP33_laMedial_x $SP33_laMedial_y 0 0>;
+    pos waMedial_uSign_cham <$SP33_laMedial_x $SP33_laMedial_y 0 0>;
+    pos waMedial_ueSign_cham <$SP33_laMedial_x $SP33_laMedial_y 0 0>;
 } SinglePositioning33;
 
 lookup SinglePositioning34 {
     lookupflag 0;
     ;
     # Original source: 28 
-    pos laMedial_cham <20 -2 0 0>;
-    pos laMedial_cham.narrow <-80 -2 0 0>;
-    pos waMedial_cham <-80 -2 0 0>;
-    pos waMedial_cham.narrow <-80 -2 0 0>;
-    pos laMedial_waMedial_cham <20 -2 0 0>;
-    pos laMedial_uSign_cham <20 -2 0 0>;
-    pos laMedial_ueSign_cham <20 -2 0 0>;
-    pos waMedial_uSign_cham <20 -2 0 0>;
-    pos waMedial_ueSign_cham <20 -2 0 0>;
+    pos laMedial_cham <$SP34_laMedial_x $SP34_laMedial_y 0 0>;
+    pos laMedial_cham.narrow <$SP34_laMedial_narrow_x $SP34_laMedial_y 0 0>;
+    pos waMedial_cham <$SP34_laMedial_narrow_x $SP34_laMedial_y 0 0>;
+    pos waMedial_cham.narrow <$SP34_laMedial_narrow_x $SP34_laMedial_y 0 0>;
+    pos laMedial_waMedial_cham <$SP34_laMedial_x $SP34_laMedial_y 0 0>;
+    pos laMedial_uSign_cham <$SP34_laMedial_x $SP34_laMedial_y 0 0>;
+    pos laMedial_ueSign_cham <$SP34_laMedial_x $SP34_laMedial_y 0 0>;
+    pos waMedial_uSign_cham <$SP34_laMedial_x $SP34_laMedial_y 0 0>;
+    pos waMedial_ueSign_cham <$SP34_laMedial_x $SP34_laMedial_y 0 0>;
 } SinglePositioning34;
 
 lookup SinglePositioning35 {
     lookupflag 0;
     ;
     # Original source: 29 
-    pos laMedial_cham <236 -120 0 0>;
-    pos laMedial_cham.narrow <136 -120 0 0>;
-    pos waMedial_cham <136 -120 0 0>;
-    pos waMedial_cham.narrow <136 -120 0 0>;
-    pos laMedial_waMedial_cham <236 -120 0 0>;
-    pos laMedial_uSign_cham <236 -120 0 0>;
-    pos laMedial_ueSign_cham <236 -120 0 0>;
-    pos waMedial_uSign_cham <236 -120 0 0>;
-    pos waMedial_ueSign_cham <236 -120 0 0>;
+    pos laMedial_cham <$SP35_laMedial_x $SP35_laMedial_y 0 0>;
+    pos laMedial_cham.narrow <$SP35_laMedial_narrow_x $SP35_laMedial_y 0 0>;
+    pos waMedial_cham <$SP35_laMedial_narrow_x $SP35_laMedial_y 0 0>;
+    pos waMedial_cham.narrow <$SP35_laMedial_narrow_x $SP35_laMedial_y 0 0>;
+    pos laMedial_waMedial_cham <$SP35_laMedial_x $SP35_laMedial_y 0 0>;
+    pos laMedial_uSign_cham <$SP35_laMedial_x $SP35_laMedial_y 0 0>;
+    pos laMedial_ueSign_cham <$SP35_laMedial_x $SP35_laMedial_y 0 0>;
+    pos waMedial_uSign_cham <$SP35_laMedial_x $SP35_laMedial_y 0 0>;
+    pos waMedial_ueSign_cham <$SP35_laMedial_x $SP35_laMedial_y 0 0>;
 } SinglePositioning35;
 
 lookup SinglePositioning36 {
     lookupflag 0;
     ;
     # Original source: 30 
-    pos laMedial_cham <4 -7 0 0>;
-    pos laMedial_cham.narrow <-96 -7 0 0>;
-    pos waMedial_cham <-96 -7 0 0>;
-    pos waMedial_cham.narrow <-96 -7 0 0>;
-    pos laMedial_waMedial_cham <4 -7 0 0>;
-    pos laMedial_uSign_cham <4 -7 0 0>;
-    pos laMedial_ueSign_cham <4 -7 0 0>;
-    pos waMedial_uSign_cham <4 -7 0 0>;
-    pos waMedial_ueSign_cham <4 -7 0 0>;
+    pos laMedial_cham <$SP36_laMedial_x $SP36_laMedial_y 0 0>;
+    pos laMedial_cham.narrow <$SP36_laMedial_narrow_x $SP36_laMedial_y 0 0>;
+    pos waMedial_cham <$SP36_laMedial_narrow_x $SP36_laMedial_y 0 0>;
+    pos waMedial_cham.narrow <$SP36_laMedial_narrow_x $SP36_laMedial_y 0 0>;
+    pos laMedial_waMedial_cham <$SP36_laMedial_x $SP36_laMedial_y 0 0>;
+    pos laMedial_uSign_cham <$SP36_laMedial_x $SP36_laMedial_y 0 0>;
+    pos laMedial_ueSign_cham <$SP36_laMedial_x $SP36_laMedial_y 0 0>;
+    pos waMedial_uSign_cham <$SP36_laMedial_x $SP36_laMedial_y 0 0>;
+    pos waMedial_ueSign_cham <$SP36_laMedial_x $SP36_laMedial_y 0 0>;
 } SinglePositioning36;
 
 lookup SinglePositioning37 {
     lookupflag 0;
     ;
     # Original source: 31 
-    pos laMedial_cham <149 -2 0 0>;
-    pos laMedial_cham.narrow <49 -2 0 0>;
-    pos waMedial_cham <49 -2 0 0>;
-    pos waMedial_cham.narrow <49 -2 0 0>;
-    pos laMedial_waMedial_cham <149 -2 0 0>;
-    pos laMedial_uSign_cham <149 -2 0 0>;
-    pos laMedial_ueSign_cham <149 -2 0 0>;
-    pos waMedial_uSign_cham <149 -2 0 0>;
-    pos waMedial_ueSign_cham <149 -2 0 0>;
+    pos laMedial_cham <$SP37_laMedial_x $SP37_laMedial_y 0 0>;
+    pos laMedial_cham.narrow <$SP37_laMedial_narrow_x $SP37_laMedial_y 0 0>;
+    pos waMedial_cham <$SP37_laMedial_narrow_x $SP37_laMedial_y 0 0>;
+    pos waMedial_cham.narrow <$SP37_laMedial_narrow_x $SP37_laMedial_y 0 0>;
+    pos laMedial_waMedial_cham <$SP37_laMedial_x $SP37_laMedial_y 0 0>;
+    pos laMedial_uSign_cham <$SP37_laMedial_x $SP37_laMedial_y 0 0>;
+    pos laMedial_ueSign_cham <$SP37_laMedial_x $SP37_laMedial_y 0 0>;
+    pos waMedial_uSign_cham <$SP37_laMedial_x $SP37_laMedial_y 0 0>;
+    pos waMedial_ueSign_cham <$SP37_laMedial_x $SP37_laMedial_y 0 0>;
 } SinglePositioning37;
 
 lookup SinglePositioning38 {
     lookupflag 0;
     ;
     # Original source: 32 
-    pos laMedial_cham <-10 -10 0 0>;
-    pos laMedial_cham.narrow <-110 -10 0 0>;
-    pos waMedial_cham <-110 -10 0 0>;
-    pos waMedial_cham.narrow <-110 -10 0 0>;
-    pos laMedial_waMedial_cham <-10 -10 0 0>;
-    pos laMedial_uSign_cham <-10 -10 0 0>;
-    pos laMedial_ueSign_cham <-10 -10 0 0>;
-    pos waMedial_uSign_cham <-10 -10 0 0>;
-    pos waMedial_ueSign_cham <-10 -10 0 0>;
+    pos laMedial_cham <$SP38_laMedial_x $SP38_laMedial_y 0 0>;
+    pos laMedial_cham.narrow <$SP38_laMedial_narrow_x $SP38_laMedial_y 0 0>;
+    pos waMedial_cham <$SP38_laMedial_narrow_x $SP38_laMedial_y 0 0>;
+    pos waMedial_cham.narrow <$SP38_laMedial_narrow_x $SP38_laMedial_y 0 0>;
+    pos laMedial_waMedial_cham <$SP38_laMedial_x $SP38_laMedial_y 0 0>;
+    pos laMedial_uSign_cham <$SP38_laMedial_x $SP38_laMedial_y 0 0>;
+    pos laMedial_ueSign_cham <$SP38_laMedial_x $SP38_laMedial_y 0 0>;
+    pos waMedial_uSign_cham <$SP38_laMedial_x $SP38_laMedial_y 0 0>;
+    pos waMedial_ueSign_cham <$SP38_laMedial_x $SP38_laMedial_y 0 0>;
 } SinglePositioning38;
 
 lookup SinglePositioning39 {
     lookupflag 0;
     ;
     # Original source: 33 
-    pos laMedial_cham <35 -5 0 0>;
-    pos laMedial_cham.narrow <-65 -5 0 0>;
-    pos waMedial_cham <-65 -5 0 0>;
-    pos waMedial_cham.narrow <-65 -5 0 0>;
-    pos laMedial_waMedial_cham <35 -5 0 0>;
-    pos laMedial_uSign_cham <35 -5 0 0>;
-    pos laMedial_ueSign_cham <35 -5 0 0>;
-    pos waMedial_uSign_cham <35 -5 0 0>;
-    pos waMedial_ueSign_cham <35 -5 0 0>;
+    pos laMedial_cham <$SP39_laMedial_x $SP39_laMedial_y 0 0>;
+    pos laMedial_cham.narrow <$SP39_laMedial_narrow_x $SP39_laMedial_y 0 0>;
+    pos waMedial_cham <$SP39_laMedial_narrow_x $SP39_laMedial_y 0 0>;
+    pos waMedial_cham.narrow <$SP39_laMedial_narrow_x $SP39_laMedial_y 0 0>;
+    pos laMedial_waMedial_cham <$SP39_laMedial_x $SP39_laMedial_y 0 0>;
+    pos laMedial_uSign_cham <$SP39_laMedial_x $SP39_laMedial_y 0 0>;
+    pos laMedial_ueSign_cham <$SP39_laMedial_x $SP39_laMedial_y 0 0>;
+    pos waMedial_uSign_cham <$SP39_laMedial_x $SP39_laMedial_y 0 0>;
+    pos waMedial_ueSign_cham <$SP39_laMedial_x $SP39_laMedial_y 0 0>;
 } SinglePositioning39;
 
 lookup SinglePositioning40 {
     lookupflag 0;
     ;
     # Original source: 34 
-    pos laMedial_cham <-3 -20 0 0>;
-    pos laMedial_cham.narrow <-103 -20 0 0>;
-    pos waMedial_cham <-103 -20 0 0>;
-    pos waMedial_cham.narrow <-103 -20 0 0>;
-    pos laMedial_waMedial_cham <-3 -20 0 0>;
-    pos laMedial_uSign_cham <-3 -20 0 0>;
-    pos laMedial_ueSign_cham <-3 -20 0 0>;
-    pos waMedial_uSign_cham <-3 -20 0 0>;
-    pos waMedial_ueSign_cham <-3 -20 0 0>;
+    pos laMedial_cham <$SP40_laMedial_x $SP40_laMedial_y 0 0>;
+    pos laMedial_cham.narrow <$SP40_laMedial_narrow_x $SP40_laMedial_y 0 0>;
+    pos waMedial_cham <$SP40_laMedial_narrow_x $SP40_laMedial_y 0 0>;
+    pos waMedial_cham.narrow <$SP40_laMedial_narrow_x $SP40_laMedial_y 0 0>;
+    pos laMedial_waMedial_cham <$SP40_laMedial_x $SP40_laMedial_y 0 0>;
+    pos laMedial_uSign_cham <$SP40_laMedial_x $SP40_laMedial_y 0 0>;
+    pos laMedial_ueSign_cham <$SP40_laMedial_x $SP40_laMedial_y 0 0>;
+    pos waMedial_uSign_cham <$SP40_laMedial_x $SP40_laMedial_y 0 0>;
+    pos waMedial_ueSign_cham <$SP40_laMedial_x $SP40_laMedial_y 0 0>;
 } SinglePositioning40;
 
 lookup SinglePositioning41 {
     lookupflag 0;
     ;
     # Original source: 35 
-    pos laMedial_cham <3 -15 0 0>;
-    pos laMedial_cham.narrow <-97 -15 0 0>;
-    pos waMedial_cham <-97 -15 0 0>;
-    pos waMedial_cham.narrow <-97 -15 0 0>;
-    pos laMedial_waMedial_cham <3 -15 0 0>;
-    pos laMedial_uSign_cham <3 -15 0 0>;
-    pos laMedial_ueSign_cham <3 -15 0 0>;
-    pos waMedial_uSign_cham <3 -15 0 0>;
-    pos waMedial_ueSign_cham <3 -15 0 0>;
+    pos laMedial_cham <$SP41_laMedial_x $SP41_laMedial_y 0 0>;
+    pos laMedial_cham.narrow <$SP41_laMedial_narrow_x $SP41_laMedial_y 0 0>;
+    pos waMedial_cham <$SP41_laMedial_narrow_x $SP41_laMedial_y 0 0>;
+    pos waMedial_cham.narrow <$SP41_laMedial_narrow_x $SP41_laMedial_y 0 0>;
+    pos laMedial_waMedial_cham <$SP41_laMedial_x $SP41_laMedial_y 0 0>;
+    pos laMedial_uSign_cham <$SP41_laMedial_x $SP41_laMedial_y 0 0>;
+    pos laMedial_ueSign_cham <$SP41_laMedial_x $SP41_laMedial_y 0 0>;
+    pos waMedial_uSign_cham <$SP41_laMedial_x $SP41_laMedial_y 0 0>;
+    pos waMedial_ueSign_cham <$SP41_laMedial_x $SP41_laMedial_y 0 0>;
 } SinglePositioning41;
 
 lookup SinglePositioning42 {
     lookupflag 0;
     ;
     # Original source: 36 
-    pos laMedial_cham <-10 -2 0 0>;
-    pos laMedial_cham.narrow <-110 -2 0 0>;
-    pos waMedial_cham <-110 -2 0 0>;
-    pos waMedial_cham.narrow <-110 -2 0 0>;
-    pos laMedial_waMedial_cham <-10 -2 0 0>;
-    pos laMedial_uSign_cham <-10 -2 0 0>;
-    pos laMedial_ueSign_cham <-10 -2 0 0>;
-    pos waMedial_uSign_cham <-10 -2 0 0>;
-    pos waMedial_ueSign_cham <-10 -2 0 0>;
+    pos laMedial_cham <$SP42_laMedial_x $SP42_laMedial_y 0 0>;
+    pos laMedial_cham.narrow <$SP42_laMedial_narrow_x $SP42_laMedial_y 0 0>;
+    pos waMedial_cham <$SP42_laMedial_narrow_x $SP42_laMedial_y 0 0>;
+    pos waMedial_cham.narrow <$SP42_laMedial_narrow_x $SP42_laMedial_y 0 0>;
+    pos laMedial_waMedial_cham <$SP42_laMedial_x $SP42_laMedial_y 0 0>;
+    pos laMedial_uSign_cham <$SP42_laMedial_x $SP42_laMedial_y 0 0>;
+    pos laMedial_ueSign_cham <$SP42_laMedial_x $SP42_laMedial_y 0 0>;
+    pos waMedial_uSign_cham <$SP42_laMedial_x $SP42_laMedial_y 0 0>;
+    pos waMedial_ueSign_cham <$SP42_laMedial_x $SP42_laMedial_y 0 0>;
 } SinglePositioning42;
 
 lookup SinglePositioning43 {
     lookupflag 0;
     ;
     # Original source: 37 
-    pos laMedial_cham <72 -13 0 0>;
-    pos laMedial_cham.narrow <-28 -13 0 0>;
-    pos waMedial_cham <-28 -13 0 0>;
-    pos waMedial_cham.narrow <-28 -13 0 0>;
-    pos laMedial_waMedial_cham <72 -13 0 0>;
-    pos laMedial_uSign_cham <72 -13 0 0>;
-    pos laMedial_ueSign_cham <72 -13 0 0>;
-    pos waMedial_uSign_cham <72 -13 0 0>;
-    pos waMedial_ueSign_cham <72 -13 0 0>;
+    pos laMedial_cham <$SP43_laMedial_x $SP43_laMedial_y 0 0>;
+    pos laMedial_cham.narrow <$SP43_laMedial_narrow_x $SP43_laMedial_y 0 0>;
+    pos waMedial_cham <$SP43_laMedial_narrow_x $SP43_laMedial_y 0 0>;
+    pos waMedial_cham.narrow <$SP43_laMedial_narrow_x $SP43_laMedial_y 0 0>;
+    pos laMedial_waMedial_cham <$SP43_laMedial_x $SP43_laMedial_y 0 0>;
+    pos laMedial_uSign_cham <$SP43_laMedial_x $SP43_laMedial_y 0 0>;
+    pos laMedial_ueSign_cham <$SP43_laMedial_x $SP43_laMedial_y 0 0>;
+    pos waMedial_uSign_cham <$SP43_laMedial_x $SP43_laMedial_y 0 0>;
+    pos waMedial_ueSign_cham <$SP43_laMedial_x $SP43_laMedial_y 0 0>;
 } SinglePositioning43;
 
 lookup SinglePositioning44 {
     lookupflag 0;
     ;
     # Original source: 38 
-    pos laMedial_cham <-10 -2 0 0>;
-    pos laMedial_cham.narrow <-110 -2 0 0>;
-    pos waMedial_cham <-110 -2 0 0>;
-    pos waMedial_cham.narrow <-110 -2 0 0>;
-    pos laMedial_waMedial_cham <-10 -2 0 0>;
-    pos laMedial_uSign_cham <-10 -2 0 0>;
-    pos laMedial_ueSign_cham <-10 -2 0 0>;
-    pos waMedial_uSign_cham <-10 -2 0 0>;
-    pos waMedial_ueSign_cham <-10 -2 0 0>;
+    pos laMedial_cham <-10 $SP44_laMedial_y 0 0>;
+    pos laMedial_cham.narrow <-110 $SP44_laMedial_y 0 0>;
+    pos waMedial_cham <-110 $SP44_laMedial_y 0 0>;
+    pos waMedial_cham.narrow <-110 $SP44_laMedial_y 0 0>;
+    pos laMedial_waMedial_cham <-10 $SP44_laMedial_y 0 0>;
+    pos laMedial_uSign_cham <-10 $SP44_laMedial_y 0 0>;
+    pos laMedial_ueSign_cham <-10 $SP44_laMedial_y 0 0>;
+    pos waMedial_uSign_cham <-10 $SP44_laMedial_y 0 0>;
+    pos waMedial_ueSign_cham <-10 $SP44_laMedial_y 0 0>;
 } SinglePositioning44;
 
 lookup SinglePositioning45 {
     lookupflag 0;
     ;
     # Original source: 39 
-    pos laMedial_cham <-10 -2 0 0>;
-    pos laMedial_cham.narrow <-110 -2 0 0>;
-    pos waMedial_cham <-110 -2 0 0>;
-    pos waMedial_cham.narrow <-110 -2 0 0>;
-    pos laMedial_waMedial_cham <-10 -2 0 0>;
-    pos laMedial_uSign_cham <-10 -2 0 0>;
-    pos laMedial_ueSign_cham <-10 -2 0 0>;
-    pos waMedial_uSign_cham <-10 -2 0 0>;
-    pos waMedial_ueSign_cham <-10 -2 0 0>;
+    pos laMedial_cham <$SP45_laMedial_x $SP45_laMedial_y 0 0>;
+    pos laMedial_cham.narrow <$SP45_laMedial_narrow_x $SP45_laMedial_y 0 0>;
+    pos waMedial_cham <$SP45_laMedial_narrow_x $SP45_laMedial_y 0 0>;
+    pos waMedial_cham.narrow <$SP45_laMedial_narrow_x $SP45_laMedial_y 0 0>;
+    pos laMedial_waMedial_cham <$SP45_laMedial_x $SP45_laMedial_y 0 0>;
+    pos laMedial_uSign_cham <$SP45_laMedial_x $SP45_laMedial_y 0 0>;
+    pos laMedial_ueSign_cham <$SP45_laMedial_x $SP45_laMedial_y 0 0>;
+    pos waMedial_uSign_cham <$SP45_laMedial_x $SP45_laMedial_y 0 0>;
+    pos waMedial_ueSign_cham <$SP45_laMedial_x $SP45_laMedial_y 0 0>;
 } SinglePositioning45;
 
 lookup SinglePositioning46 {
     lookupflag 0;
     ;
     # Original source: 40 
-    pos laMedial_cham <96 -27 0 0>;
-    pos laMedial_cham.narrow <-4 -27 0 0>;
-    pos waMedial_cham <-4 -27 0 0>;
-    pos waMedial_cham.narrow <-4 -27 0 0>;
-    pos laMedial_waMedial_cham <96 -27 0 0>;
-    pos laMedial_uSign_cham <96 -27 0 0>;
-    pos laMedial_ueSign_cham <96 -27 0 0>;
-    pos waMedial_uSign_cham <96 -27 0 0>;
-    pos waMedial_ueSign_cham <96 -27 0 0>;
+    pos laMedial_cham <$SP46_laMedial_x $SP46_laMedial_y 0 0>;
+    pos laMedial_cham.narrow <$SP46_laMedial_narrow_x $SP46_laMedial_y 0 0>;
+    pos waMedial_cham <$SP46_laMedial_narrow_x $SP46_laMedial_y 0 0>;
+    pos waMedial_cham.narrow <$SP46_laMedial_narrow_x $SP46_laMedial_y 0 0>;
+    pos laMedial_waMedial_cham <$SP46_laMedial_x $SP46_laMedial_y 0 0>;
+    pos laMedial_uSign_cham <$SP46_laMedial_x $SP46_laMedial_y 0 0>;
+    pos laMedial_ueSign_cham <$SP46_laMedial_x $SP46_laMedial_y 0 0>;
+    pos waMedial_uSign_cham <$SP46_laMedial_x $SP46_laMedial_y 0 0>;
+    pos waMedial_ueSign_cham <$SP46_laMedial_x $SP46_laMedial_y 0 0>;
 } SinglePositioning46;
 
 lookup SinglePositioning47 {
     lookupflag 0;
     ;
     # Original source: 41 
-    pos laMedial_cham <72 -2 0 0>;
-    pos laMedial_cham.narrow <-28 -2 0 0>;
-    pos waMedial_cham <-28 -2 0 0>;
-    pos waMedial_cham.narrow <-28 -2 0 0>;
-    pos laMedial_waMedial_cham <72 -2 0 0>;
-    pos laMedial_uSign_cham <72 -2 0 0>;
-    pos laMedial_ueSign_cham <72 -2 0 0>;
-    pos waMedial_uSign_cham <72 -2 0 0>;
-    pos waMedial_ueSign_cham <72 -2 0 0>;
+    pos laMedial_cham <$SP47_laMedial_x $SP47_laMedial_y 0 0>;
+    pos laMedial_cham.narrow <$SP47_laMedial_narrow_x $SP47_laMedial_y 0 0>;
+    pos waMedial_cham <$SP47_laMedial_narrow_x $SP47_laMedial_y 0 0>;
+    pos waMedial_cham.narrow <$SP47_laMedial_narrow_x $SP47_laMedial_y 0 0>;
+    pos laMedial_waMedial_cham <$SP47_laMedial_x $SP47_laMedial_y 0 0>;
+    pos laMedial_uSign_cham <$SP47_laMedial_x $SP47_laMedial_y 0 0>;
+    pos laMedial_ueSign_cham <$SP47_laMedial_x $SP47_laMedial_y 0 0>;
+    pos waMedial_uSign_cham <$SP47_laMedial_x $SP47_laMedial_y 0 0>;
+    pos waMedial_ueSign_cham <$SP47_laMedial_x $SP47_laMedial_y 0 0>;
 } SinglePositioning47;
 
 lookup SinglePositioning48 {
     lookupflag 0;
     ;
     # Original source: 42 
-    pos laMedial_cham <-58 -2 0 0>;
-    pos laMedial_cham.narrow <-158 -2 0 0>;
-    pos waMedial_cham <-158 -2 0 0>;
-    pos waMedial_cham.narrow <-158 -2 0 0>;
-    pos laMedial_waMedial_cham <-58 -2 0 0>;
-    pos laMedial_uSign_cham <-58 -2 0 0>;
-    pos laMedial_ueSign_cham <-58 -2 0 0>;
-    pos waMedial_uSign_cham <-58 -2 0 0>;
-    pos waMedial_ueSign_cham <-58 -2 0 0>;
+    pos laMedial_cham <$SP48_laMedial_x -2 0 0>;
+    pos laMedial_cham.narrow <$SP48_laMedial_narrow_x -2 0 0>;
+    pos waMedial_cham <$SP48_laMedial_narrow_x -2 0 0>;
+    pos waMedial_cham.narrow <$SP48_laMedial_narrow_x -2 0 0>;
+    pos laMedial_waMedial_cham <$SP48_laMedial_x -2 0 0>;
+    pos laMedial_uSign_cham <$SP48_laMedial_x -2 0 0>;
+    pos laMedial_ueSign_cham <$SP48_laMedial_x -2 0 0>;
+    pos waMedial_uSign_cham <$SP48_laMedial_x -2 0 0>;
+    pos waMedial_ueSign_cham <$SP48_laMedial_x -2 0 0>;
 } SinglePositioning48;
 
 lookup SinglePositioning49 {
     lookupflag 0;
     ;
     # Original source: 43 
-    pos laMedial_cham <-20 2 0 0>;
-    pos laMedial_cham.narrow <-120 2 0 0>;
-    pos waMedial_cham <-120 2 0 0>;
-    pos waMedial_cham.narrow <-120 2 0 0>;
-    pos laMedial_waMedial_cham <-20 2 0 0>;
-    pos laMedial_uSign_cham <-20 2 0 0>;
-    pos laMedial_ueSign_cham <-20 2 0 0>;
-    pos waMedial_uSign_cham <-20 2 0 0>;
-    pos waMedial_ueSign_cham <-20 2 0 0>;
+    pos laMedial_cham <$SP49_laMedial_x $SP49_laMedial_y 0 0>;
+    pos laMedial_cham.narrow <$SP49_laMedial_narrow_x $SP49_laMedial_y 0 0>;
+    pos waMedial_cham <$SP49_laMedial_narrow_x $SP49_laMedial_y 0 0>;
+    pos waMedial_cham.narrow <$SP49_laMedial_narrow_x $SP49_laMedial_y 0 0>;
+    pos laMedial_waMedial_cham <$SP49_laMedial_x $SP49_laMedial_y 0 0>;
+    pos laMedial_uSign_cham <$SP49_laMedial_x $SP49_laMedial_y 0 0>;
+    pos laMedial_ueSign_cham <$SP49_laMedial_x $SP49_laMedial_y 0 0>;
+    pos waMedial_uSign_cham <$SP49_laMedial_x $SP49_laMedial_y 0 0>;
+    pos waMedial_ueSign_cham <$SP49_laMedial_x $SP49_laMedial_y 0 0>;
 } SinglePositioning49;
 
 lookup SinglePositioning50 {
     lookupflag 0;
     ;
     # Original source: 44 
-    pos laMedial_cham <20 -2 0 0>;
-    pos laMedial_cham.narrow <-80 -2 0 0>;
-    pos waMedial_cham <-80 -2 0 0>;
-    pos waMedial_cham.narrow <-80 -2 0 0>;
-    pos laMedial_waMedial_cham <20 -2 0 0>;
-    pos laMedial_uSign_cham <20 -2 0 0>;
-    pos laMedial_ueSign_cham <20 -2 0 0>;
-    pos waMedial_uSign_cham <20 -2 0 0>;
-    pos waMedial_ueSign_cham <20 -2 0 0>;
+    pos laMedial_cham <$SP50_laMedial_x $SP50_laMedial_y 0 0>;
+    pos laMedial_cham.narrow <$SP50_laMedial_narrow_x $SP50_laMedial_y 0 0>;
+    pos waMedial_cham <$SP50_laMedial_narrow_x $SP50_laMedial_y 0 0>;
+    pos waMedial_cham.narrow <$SP50_laMedial_narrow_x $SP50_laMedial_y 0 0>;
+    pos laMedial_waMedial_cham <$SP50_laMedial_x $SP50_laMedial_y 0 0>;
+    pos laMedial_uSign_cham <$SP50_laMedial_x $SP50_laMedial_y 0 0>;
+    pos laMedial_ueSign_cham <$SP50_laMedial_x $SP50_laMedial_y 0 0>;
+    pos waMedial_uSign_cham <$SP50_laMedial_x $SP50_laMedial_y 0 0>;
+    pos waMedial_ueSign_cham <$SP50_laMedial_x $SP50_laMedial_y 0 0>;
 } SinglePositioning50;
 
 lookup SinglePositioning51 {
     lookupflag 0;
     ;
     # Original source: 45 
-    pos laMedial_cham <28 2 0 0>;
-    pos laMedial_cham.narrow <-72 2 0 0>;
-    pos waMedial_cham <-72 2 0 0>;
-    pos waMedial_cham.narrow <-72 2 0 0>;
-    pos laMedial_waMedial_cham <28 2 0 0>;
-    pos laMedial_uSign_cham <28 2 0 0>;
-    pos laMedial_ueSign_cham <28 2 0 0>;
-    pos waMedial_uSign_cham <28 2 0 0>;
-    pos waMedial_ueSign_cham <28 2 0 0>;
+    pos laMedial_cham <$SP51_laMedial_x $SP51_laMedial_y 0 0>;
+    pos laMedial_cham.narrow <$SP51_laMedial_narrow_x $SP51_laMedial_y 0 0>;
+    pos waMedial_cham <$SP51_laMedial_narrow_x $SP51_laMedial_y 0 0>;
+    pos waMedial_cham.narrow <$SP51_laMedial_narrow_x $SP51_laMedial_y 0 0>;
+    pos laMedial_waMedial_cham <$SP51_laMedial_x $SP51_laMedial_y 0 0>;
+    pos laMedial_uSign_cham <$SP51_laMedial_x $SP51_laMedial_y 0 0>;
+    pos laMedial_ueSign_cham <$SP51_laMedial_x $SP51_laMedial_y 0 0>;
+    pos waMedial_uSign_cham <$SP51_laMedial_x $SP51_laMedial_y 0 0>;
+    pos waMedial_ueSign_cham <$SP51_laMedial_x $SP51_laMedial_y 0 0>;
 } SinglePositioning51;
 
 lookup SinglePositioning52 {
     lookupflag 0;
     ;
     # Original source: 46 
-    pos laMedial_cham <127 -35 0 0>;
-    pos laMedial_cham.narrow <27 -35 0 0>;
-    pos waMedial_cham <27 -35 0 0>;
-    pos waMedial_cham.narrow <27 -35 0 0>;
-    pos laMedial_waMedial_cham <127 -35 0 0>;
-    pos laMedial_uSign_cham <127 -35 0 0>;
-    pos laMedial_ueSign_cham <127 -35 0 0>;
-    pos waMedial_uSign_cham <127 -35 0 0>;
-    pos waMedial_ueSign_cham <127 -35 0 0>;
+    pos laMedial_cham <$SP52_laMedial_x $SP52_laMedial_y 0 0>;
+    pos laMedial_cham.narrow <$SP52_laMedial_narrow_x $SP52_laMedial_y 0 0>;
+    pos waMedial_cham <$SP52_laMedial_narrow_x $SP52_laMedial_y 0 0>;
+    pos waMedial_cham.narrow <$SP52_laMedial_narrow_x $SP52_laMedial_y 0 0>;
+    pos laMedial_waMedial_cham <$SP52_laMedial_x $SP52_laMedial_y 0 0>;
+    pos laMedial_uSign_cham <$SP52_laMedial_x $SP52_laMedial_y 0 0>;
+    pos laMedial_ueSign_cham <$SP52_laMedial_x $SP52_laMedial_y 0 0>;
+    pos waMedial_uSign_cham <$SP52_laMedial_x $SP52_laMedial_y 0 0>;
+    pos waMedial_ueSign_cham <$SP52_laMedial_x $SP52_laMedial_y 0 0>;
 } SinglePositioning52;
 
 lookup SinglePositioning53 {
     lookupflag 0;
     ;
     # Original source: 47 
-    pos laMedial_cham <-70 -1 0 0>;
-    pos laMedial_cham.narrow <-170 -1 0 0>;
-    pos waMedial_cham <-170 -1 0 0>;
-    pos waMedial_cham.narrow <-170 -1 0 0>;
-    pos laMedial_waMedial_cham <-70 -1 0 0>;
-    pos laMedial_uSign_cham <-70 -1 0 0>;
-    pos laMedial_ueSign_cham <-70 -1 0 0>;
-    pos waMedial_uSign_cham <-70 -1 0 0>;
-    pos waMedial_ueSign_cham <-70 -1 0 0>;
+    pos laMedial_cham <$SP53_laMedial_x $SP53_laMedial_y 0 0>;
+    pos laMedial_cham.narrow <$SP53_laMedial_narrow_x $SP53_laMedial_y 0 0>;
+    pos waMedial_cham <$SP53_laMedial_narrow_x $SP53_laMedial_y 0 0>;
+    pos waMedial_cham.narrow <$SP53_laMedial_narrow_x $SP53_laMedial_y 0 0>;
+    pos laMedial_waMedial_cham <$SP53_laMedial_x $SP53_laMedial_y 0 0>;
+    pos laMedial_uSign_cham <$SP53_laMedial_x $SP53_laMedial_y 0 0>;
+    pos laMedial_ueSign_cham <$SP53_laMedial_x $SP53_laMedial_y 0 0>;
+    pos waMedial_uSign_cham <$SP53_laMedial_x $SP53_laMedial_y 0 0>;
+    pos waMedial_ueSign_cham <$SP53_laMedial_x $SP53_laMedial_y 0 0>;
 } SinglePositioning53;
 ";
 name = PositioningRules;
@@ -1219,10 +1219,6 @@ value = (
 2,
 4
 );
-},
-{
-name = "Replace Prefix";
-value = "PositioningRules;\012lookup SinglePositioning2 {\012    lookupflag 0;\012    ;\012    # Original source: 1 \012    pos aaSign_oeSign_cham 13;\012} SinglePositioning2;\012\012lookup SinglePositioning3 {\012    lookupflag 0;\012    ;\012    # Original source: 2 \012    pos aaSign_cham -20;\012} SinglePositioning3;\012\012lookup SinglePositioning4 {\012    lookupflag 0;\012    ;\012    # Original source: 3 \012    pos ngSignFinal_cham -240;\012} SinglePositioning4;\012\012lookup SinglePositioning5 {\012    lookupflag 0;\012    ;\012    # Original source: 4 \012    pos [auSign_cham auSign_mSignFinal_cham oeSign_auSign_cham] -127;\012} SinglePositioning5;\012\012lookup SinglePositioning6 {\012    lookupflag 0;\012    ;\012    # Original source: 5 \012    pos [iSign_cham iiSign_cham] -175;\012} SinglePositioning6;\012\012lookup SinglePositioning7 {\012    lookupflag 0;\012    ;\012    # Original source: 6 \012    pos iSign_mSignFinal_cham -35;\012} SinglePositioning7;\012\012lookup SinglePositioning8 {\012    lookupflag 0;\012    ;\012    # Original source: 7 \012    pos [oeSign_cham oeSign_mSignFinal_cham oeSign_ngSignFinal_cham] -259;\012} SinglePositioning8;\012\012lookup SinglePositioning9 {\012    lookupflag 0;\012    ;\012    # Original source: 8 \012    pos eiSign_cham -75;\012} SinglePositioning9;\012\012\012lookup SinglePositioning20 {\012    lookupflag 0;\012    ;\012    # Original source: 14 \012    pos laMedial_cham <38 -2 0 0>;\012    pos laMedial_cham.narrow <-62 -2 0 0>;\012    pos waMedial_cham <-62 -2 0 0>;\012    pos waMedial_cham.narrow <-62 -2 0 0>;\012    pos laMedial_waMedial_cham <38 -2 0 0>;\012    pos laMedial_uSign_cham <38 -2 0 0>;\012    pos laMedial_ueSign_cham <38 -2 0 0>;\012    pos waMedial_uSign_cham <38 -2 0 0>;\012    pos waMedial_ueSign_cham <38 -2 0 0>;\012} SinglePositioning20;\012\012lookup SinglePositioning21 {\012    lookupflag 0;\012    ;\012    # Original source: 15 \012    pos laMedial_cham <117 -2 0 0>;\012    pos laMedial_cham.narrow <17 -2 0 0>;\012    pos waMedial_cham <17 -2 0 0>;\012    pos waMedial_cham.narrow <17 -2 0 0>;\012    pos laMedial_waMedial_cham <117 -2 0 0>;\012    pos laMedial_uSign_cham <117 -2 0 0>;\012    pos laMedial_ueSign_cham <117 -2 0 0>;\012    pos waMedial_uSign_cham <117 -2 0 0>;\012    pos waMedial_ueSign_cham <117 -2 0 0>;\012} SinglePositioning21;\012\012lookup SinglePositioning22 {\012    lookupflag 0;\012    ;\012    # Original source: 16 \012    pos laMedial_cham <-10 -2 0 0>;\012    pos laMedial_cham.narrow <-110 -2 0 0>;\012    pos waMedial_cham <-110 -2 0 0>;\012    pos waMedial_cham.narrow <-110 -2 0 0>;\012    pos laMedial_waMedial_cham <-10 -2 0 0>;\012    pos laMedial_uSign_cham <-10 -2 0 0>;\012    pos laMedial_ueSign_cham <-10 -2 0 0>;\012    pos waMedial_uSign_cham <-10 -2 0 0>;\012    pos waMedial_ueSign_cham <-10 -2 0 0>;\012} SinglePositioning22;\012\012lookup SinglePositioning23 {\012    lookupflag 0;\012    ;\012    # Original source: 17 \012    pos laMedial_cham <-10 -2 0 0>;\012    pos laMedial_cham.narrow <-110 -2 0 0>;\012    pos waMedial_cham <-110 -2 0 0>;\012    pos waMedial_cham.narrow <-110 -2 0 0>;\012    pos laMedial_waMedial_cham <-10 -2 0 0>;\012    pos laMedial_uSign_cham <-10 -2 0 0>;\012    pos laMedial_ueSign_cham <-10 -2 0 0>;\012    pos waMedial_uSign_cham <-10 -2 0 0>;\012    pos waMedial_ueSign_cham <-10 -2 0 0>;\012} SinglePositioning23;\012\012lookup SinglePositioning24 {\012    lookupflag 0;\012    ;\012    # Original source: 18 \012    pos laMedial_cham <-10 -2 0 0>;\012    pos laMedial_cham.narrow <-110 -2 0 0>;\012    pos waMedial_cham <-110 -2 0 0>;\012    pos waMedial_cham.narrow <-110 -2 0 0>;\012    pos laMedial_waMedial_cham <-10 -2 0 0>;\012    pos laMedial_uSign_cham <-10 -2 0 0>;\012    pos laMedial_ueSign_cham <-10 -2 0 0>;\012    pos waMedial_uSign_cham <-10 -2 0 0>;\012    pos waMedial_ueSign_cham <-10 -2 0 0>;\012} SinglePositioning24;\012\012lookup SinglePositioning25 {\012    lookupflag 0;\012    ;\012    # Original source: 19 \012    pos laMedial_cham <48 -2 0 0>;\012    pos laMedial_cham.narrow <-52 -2 0 0>;\012    pos waMedial_cham <-52 -2 0 0>;\012    pos waMedial_cham.narrow <-52 -2 0 0>;\012    pos laMedial_waMedial_cham <48 -2 0 0>;\012    pos laMedial_uSign_cham <48 -2 0 0>;\012    pos laMedial_ueSign_cham <48 -2 0 0>;\012    pos waMedial_uSign_cham <48 -2 0 0>;\012    pos waMedial_ueSign_cham <48 -2 0 0>;\012} SinglePositioning25;\012\012lookup SinglePositioning26 {\012    lookupflag 0;\012    ;\012    # Original source: 20 \012    pos laMedial_cham <50 -2 0 0>;\012    pos laMedial_cham.narrow <-50 -2 0 0>;\012    pos waMedial_cham <-50 -2 0 0>;\012    pos waMedial_cham.narrow <-50 -2 0 0>;\012    pos laMedial_waMedial_cham <50 -2 0 0>;\012    pos laMedial_uSign_cham <50 -2 0 0>;\012    pos laMedial_ueSign_cham <50 -2 0 0>;\012    pos waMedial_uSign_cham <50 -2 0 0>;\012    pos waMedial_ueSign_cham <50 -2 0 0>;\012} SinglePositioning26;\012\012lookup SinglePositioning27 {\012    lookupflag 0;\012    ;\012    # Original source: 21 \012    pos laMedial_cham <-6 4 0 0>;\012    pos laMedial_cham.narrow <-106 4 0 0>;\012    pos waMedial_cham <-106 4 0 0>;\012    pos waMedial_cham.narrow <-106 4 0 0>;\012    pos laMedial_waMedial_cham <-6 4 0 0>;\012    pos laMedial_uSign_cham <-6 4 0 0>;\012    pos laMedial_ueSign_cham <-6 4 0 0>;\012    pos waMedial_uSign_cham <-6 4 0 0>;\012    pos waMedial_ueSign_cham <-6 4 0 0>;\012} SinglePositioning27;\012\012lookup SinglePositioning28 {\012    lookupflag 0;\012    ;\012    # Original source: 22 \012    pos laMedial_cham <-10 -2 0 0>;\012    pos laMedial_cham.narrow <-110 -2 0 0>;\012    pos waMedial_cham <-110 -2 0 0>;\012    pos waMedial_cham.narrow <-110 -2 0 0>;\012    pos laMedial_waMedial_cham <-10 -2 0 0>;\012    pos laMedial_uSign_cham <-10 -2 0 0>;\012    pos laMedial_ueSign_cham <-10 -2 0 0>;\012    pos waMedial_uSign_cham <-10 -2 0 0>;\012    pos waMedial_ueSign_cham <-10 -2 0 0>;\012} SinglePositioning28;\012\012lookup SinglePositioning29 {\012    lookupflag 0;\012    ;\012    # Original source: 23 \012    pos laMedial_cham <-10 -2 0 0>;\012    pos laMedial_cham.narrow <-110 -2 0 0>;\012    pos waMedial_cham <-110 -2 0 0>;\012    pos waMedial_cham.narrow <-110 -2 0 0>;\012    pos laMedial_waMedial_cham <-10 -2 0 0>;\012    pos laMedial_uSign_cham <-10 -2 0 0>;\012    pos laMedial_ueSign_cham <-10 -2 0 0>;\012    pos waMedial_uSign_cham <-10 -2 0 0>;\012    pos waMedial_ueSign_cham <-10 -2 0 0>;\012} SinglePositioning29;\012\012lookup SinglePositioning30 {\012    lookupflag 0;\012    ;\012    # Original source: 24 \012    pos laMedial_cham <-10 -2 0 0>;\012    pos laMedial_cham.narrow <-110 -2 0 0>;\012    pos waMedial_cham <-110 -2 0 0>;\012    pos waMedial_cham.narrow <-110 -2 0 0>;\012    pos laMedial_waMedial_cham <-10 -2 0 0>;\012    pos laMedial_uSign_cham <-10 -2 0 0>;\012    pos laMedial_ueSign_cham <-10 -2 0 0>;\012    pos waMedial_uSign_cham <-10 -2 0 0>;\012    pos waMedial_ueSign_cham <-10 -2 0 0>;\012} SinglePositioning30;\012\012lookup SinglePositioning31 {\012    lookupflag 0;\012    ;\012    # Original source: 25 \012    pos laMedial_cham <39 54 0 0>;\012    pos laMedial_cham.narrow <-61 54 0 0>;\012    pos waMedial_cham <-61 54 0 0>;\012    pos waMedial_cham.narrow <-61 54 0 0>;\012    pos laMedial_waMedial_cham <39 54 0 0>;\012    pos laMedial_uSign_cham <39 54 0 0>;\012    pos laMedial_ueSign_cham <39 54 0 0>;\012    pos waMedial_uSign_cham <39 54 0 0>;\012    pos waMedial_ueSign_cham <39 54 0 0>;\012} SinglePositioning31;\012\012lookup SinglePositioning32 {\012    lookupflag 0;\012    ;\012    # Original source: 26 \012    pos laMedial_cham <-10 -2 0 0>;\012    pos laMedial_cham.narrow <-110 -2 0 0>;\012    pos waMedial_cham <-110 -2 0 0>;\012    pos waMedial_cham.narrow <-110 -2 0 0>;\012    pos laMedial_waMedial_cham <-10 -2 0 0>;\012    pos laMedial_uSign_cham <-10 -2 0 0>;\012    pos laMedial_ueSign_cham <-10 -2 0 0>;\012    pos waMedial_uSign_cham <-10 -2 0 0>;\012    pos waMedial_ueSign_cham <-10 -2 0 0>;\012} SinglePositioning32;\012\012lookup SinglePositioning33 {\012    lookupflag 0;\012    ;\012    # Original source: 27 \012    pos laMedial_cham <-8 -2 0 0>;\012    pos laMedial_cham.narrow <-108 -2 0 0>;\012    pos waMedial_cham <-108 -2 0 0>;\012    pos waMedial_cham.narrow <-108 -2 0 0>;\012    pos laMedial_waMedial_cham <-8 -2 0 0>;\012    pos laMedial_uSign_cham <-8 -2 0 0>;\012    pos laMedial_ueSign_cham <-8 -2 0 0>;\012    pos waMedial_uSign_cham <-8 -2 0 0>;\012    pos waMedial_ueSign_cham <-8 -2 0 0>;\012} SinglePositioning33;\012\012lookup SinglePositioning34 {\012    lookupflag 0;\012    ;\012    # Original source: 28 \012    pos laMedial_cham <20 -2 0 0>;\012    pos laMedial_cham.narrow <-80 -2 0 0>;\012    pos waMedial_cham <-80 -2 0 0>;\012    pos waMedial_cham.narrow <-80 -2 0 0>;\012    pos laMedial_waMedial_cham <20 -2 0 0>;\012    pos laMedial_uSign_cham <20 -2 0 0>;\012    pos laMedial_ueSign_cham <20 -2 0 0>;\012    pos waMedial_uSign_cham <20 -2 0 0>;\012    pos waMedial_ueSign_cham <20 -2 0 0>;\012} SinglePositioning34;\012\012lookup SinglePositioning35 {\012    lookupflag 0;\012    ;\012    # Original source: 29 \012    pos laMedial_cham <175 -86 0 0>;\012    pos laMedial_cham.narrow <75 -86 0 0>;\012    pos waMedial_cham <75 -86 0 0>;\012    pos waMedial_cham.narrow <75 -86 0 0>;\012    pos laMedial_waMedial_cham <175 -86 0 0>;\012    pos laMedial_uSign_cham <175 -86 0 0>;\012    pos laMedial_ueSign_cham <175 -86 0 0>;\012    pos waMedial_uSign_cham <175 -86 0 0>;\012    pos waMedial_ueSign_cham <175 -86 0 0>;\012} SinglePositioning35;\012\012lookup SinglePositioning36 {\012    lookupflag 0;\012    ;\012    # Original source: 30 \012    pos laMedial_cham <13 -7 0 0>;\012    pos laMedial_cham.narrow <-87 -7 0 0>;\012    pos waMedial_cham <-87 -7 0 0>;\012    pos waMedial_cham.narrow <-87 -7 0 0>;\012    pos laMedial_waMedial_cham <13 -7 0 0>;\012    pos laMedial_uSign_cham <13 -7 0 0>;\012    pos laMedial_ueSign_cham <13 -7 0 0>;\012    pos waMedial_uSign_cham <13 -7 0 0>;\012    pos waMedial_ueSign_cham <13 -7 0 0>;\012} SinglePositioning36;\012\012lookup SinglePositioning37 {\012    lookupflag 0;\012    ;\012    # Original source: 31 \012    pos laMedial_cham <134 6 0 0>;\012    pos laMedial_cham.narrow <34 6 0 0>;\012    pos waMedial_cham <34 6 0 0>;\012    pos waMedial_cham.narrow <34 6 0 0>;\012    pos laMedial_waMedial_cham <134 6 0 0>;\012    pos laMedial_uSign_cham <134 6 0 0>;\012    pos laMedial_ueSign_cham <134 6 0 0>;\012    pos waMedial_uSign_cham <134 6 0 0>;\012    pos waMedial_ueSign_cham <134 6 0 0>;\012} SinglePositioning37;\012\012lookup SinglePositioning38 {\012    lookupflag 0;\012    ;\012    # Original source: 32 \012    pos laMedial_cham <-10 -2 0 0>;\012    pos laMedial_cham.narrow <-110 -2 0 0>;\012    pos waMedial_cham <-110 -2 0 0>;\012    pos waMedial_cham.narrow <-110 -2 0 0>;\012    pos laMedial_waMedial_cham <-10 -2 0 0>;\012    pos laMedial_uSign_cham <-10 -2 0 0>;\012    pos laMedial_ueSign_cham <-10 -2 0 0>;\012    pos waMedial_uSign_cham <-10 -2 0 0>;\012    pos waMedial_ueSign_cham <-10 -2 0 0>;\012} SinglePositioning38;\012\012lookup SinglePositioning39 {\012    lookupflag 0;\012    ;\012    # Original source: 33 \012    pos laMedial_cham <33 -7 0 0>;\012    pos laMedial_cham.narrow <-67 -7 0 0>;\012    pos waMedial_cham <-67 -7 0 0>;\012    pos waMedial_cham.narrow <-67 -7 0 0>;\012    pos laMedial_waMedial_cham <33 -7 0 0>;\012    pos laMedial_uSign_cham <33 -7 0 0>;\012    pos laMedial_ueSign_cham <33 -7 0 0>;\012    pos waMedial_uSign_cham <33 -7 0 0>;\012    pos waMedial_ueSign_cham <33 -7 0 0>;\012} SinglePositioning39;\012\012lookup SinglePositioning40 {\012    lookupflag 0;\012    ;\012    # Original source: 34 \012    pos laMedial_cham <-10 -1 0 0>;\012    pos laMedial_cham.narrow <-110 -1 0 0>;\012    pos waMedial_cham <-110 -1 0 0>;\012    pos waMedial_cham.narrow <-110 -1 0 0>;\012    pos laMedial_waMedial_cham <-10 -1 0 0>;\012    pos laMedial_uSign_cham <-10 -1 0 0>;\012    pos laMedial_ueSign_cham <-10 -1 0 0>;\012    pos waMedial_uSign_cham <-10 -1 0 0>;\012    pos waMedial_ueSign_cham <-10 -1 0 0>;\012} SinglePositioning40;\012\012lookup SinglePositioning41 {\012    lookupflag 0;\012    ;\012    # Original source: 35 \012    pos laMedial_cham <-10 -1 0 0>;\012    pos laMedial_cham.narrow <-110 -1 0 0>;\012    pos waMedial_cham <-110 -1 0 0>;\012    pos waMedial_cham.narrow <-110 -1 0 0>;\012    pos laMedial_waMedial_cham <-10 -1 0 0>;\012    pos laMedial_uSign_cham <-10 -1 0 0>;\012    pos laMedial_ueSign_cham <-10 -1 0 0>;\012    pos waMedial_uSign_cham <-10 -1 0 0>;\012    pos waMedial_ueSign_cham <-10 -1 0 0>;\012} SinglePositioning41;\012\012lookup SinglePositioning42 {\012    lookupflag 0;\012    ;\012    # Original source: 36 \012    pos laMedial_cham <-10 -2 0 0>;\012    pos laMedial_cham.narrow <-110 -2 0 0>;\012    pos waMedial_cham <-110 -2 0 0>;\012    pos waMedial_cham.narrow <-110 -2 0 0>;\012    pos laMedial_waMedial_cham <-10 -2 0 0>;\012    pos laMedial_uSign_cham <-10 -2 0 0>;\012    pos laMedial_ueSign_cham <-10 -2 0 0>;\012    pos waMedial_uSign_cham <-10 -2 0 0>;\012    pos waMedial_ueSign_cham <-10 -2 0 0>;\012} SinglePositioning42;\012\012lookup SinglePositioning43 {\012    lookupflag 0;\012    ;\012    # Original source: 37 \012    pos laMedial_cham <41 -2 0 0>;\012    pos laMedial_cham.narrow <-59 -2 0 0>;\012    pos waMedial_cham <-59 -2 0 0>;\012    pos waMedial_cham.narrow <-59 -2 0 0>;\012    pos laMedial_waMedial_cham <41 -2 0 0>;\012    pos laMedial_uSign_cham <41 -2 0 0>;\012    pos laMedial_ueSign_cham <41 -2 0 0>;\012    pos waMedial_uSign_cham <41 -2 0 0>;\012    pos waMedial_ueSign_cham <41 -2 0 0>;\012} SinglePositioning43;\012\012lookup SinglePositioning44 {\012    lookupflag 0;\012    ;\012    # Original source: 38 \012    pos laMedial_cham <-10 -2 0 0>;\012    pos laMedial_cham.narrow <-110 -2 0 0>;\012    pos waMedial_cham <-110 -2 0 0>;\012    pos waMedial_cham.narrow <-110 -2 0 0>;\012    pos laMedial_waMedial_cham <-10 -2 0 0>;\012    pos laMedial_uSign_cham <-10 -2 0 0>;\012    pos laMedial_ueSign_cham <-10 -2 0 0>;\012    pos waMedial_uSign_cham <-10 -2 0 0>;\012    pos waMedial_ueSign_cham <-10 -2 0 0>;\012} SinglePositioning44;\012\012lookup SinglePositioning45 {\012    lookupflag 0;\012    ;\012    # Original source: 39 \012    pos laMedial_cham <10 -2 0 0>;\012    pos laMedial_cham.narrow <-90 -2 0 0>;\012    pos waMedial_cham <-90 -2 0 0>;\012    pos waMedial_cham.narrow <-90 -2 0 0>;\012    pos laMedial_waMedial_cham <10 -2 0 0>;\012    pos laMedial_uSign_cham <10 -2 0 0>;\012    pos laMedial_ueSign_cham <10 -2 0 0>;\012    pos waMedial_uSign_cham <10 -2 0 0>;\012    pos waMedial_ueSign_cham <10 -2 0 0>;\012} SinglePositioning45;\012\012lookup SinglePositioning46 {\012    lookupflag 0;\012    ;\012    # Original source: 40 \012    pos laMedial_cham <85 24 0 0>;\012    pos laMedial_cham.narrow <-15 24 0 0>;\012    pos waMedial_cham <-15 24 0 0>;\012    pos waMedial_cham.narrow <-15 24 0 0>;\012    pos laMedial_waMedial_cham <85 24 0 0>;\012    pos laMedial_uSign_cham <85 24 0 0>;\012    pos laMedial_ueSign_cham <85 24 0 0>;\012    pos waMedial_uSign_cham <85 24 0 0>;\012    pos waMedial_ueSign_cham <85 24 0 0>;\012} SinglePositioning46;\012\012lookup SinglePositioning47 {\012    lookupflag 0;\012    ;\012    # Original source: 41 \012    pos laMedial_cham <28 -2 0 0>;\012    pos laMedial_cham.narrow <-72 -2 0 0>;\012    pos waMedial_cham <-72 -2 0 0>;\012    pos waMedial_cham.narrow <-72 -2 0 0>;\012    pos laMedial_waMedial_cham <28 -2 0 0>;\012    pos laMedial_uSign_cham <28 -2 0 0>;\012    pos laMedial_ueSign_cham <28 -2 0 0>;\012    pos waMedial_uSign_cham <28 -2 0 0>;\012    pos waMedial_ueSign_cham <28 -2 0 0>;\012} SinglePositioning47;\012\012lookup SinglePositioning48 {\012    lookupflag 0;\012    ;\012    # Original source: 42 \012    pos laMedial_cham <-10 -2 0 0>;\012    pos laMedial_cham.narrow <-110 -2 0 0>;\012    pos waMedial_cham <-110 -2 0 0>;\012    pos waMedial_cham.narrow <-110 -2 0 0>;\012    pos laMedial_waMedial_cham <-10 -2 0 0>;\012    pos laMedial_uSign_cham <-10 -2 0 0>;\012    pos laMedial_ueSign_cham <-10 -2 0 0>;\012    pos waMedial_uSign_cham <-10 -2 0 0>;\012    pos waMedial_ueSign_cham <-10 -2 0 0>;\012} SinglePositioning48;\012\012lookup SinglePositioning49 {\012    lookupflag 0;\012    ;\012    # Original source: 43 \012    pos laMedial_cham <-10 4 0 0>;\012    pos laMedial_cham.narrow <-110 4 0 0>;\012    pos waMedial_cham <-110 4 0 0>;\012    pos waMedial_cham.narrow <-110 4 0 0>;\012    pos laMedial_waMedial_cham <-10 4 0 0>;\012    pos laMedial_uSign_cham <-10 4 0 0>;\012    pos laMedial_ueSign_cham <-10 4 0 0>;\012    pos waMedial_uSign_cham <-10 4 0 0>;\012    pos waMedial_ueSign_cham <-10 4 0 0>;\012} SinglePositioning49;\012\012lookup SinglePositioning50 {\012    lookupflag 0;\012    ;\012    # Original source: 44 \012    pos laMedial_cham <-10 -2 0 0>;\012    pos laMedial_cham.narrow <-110 -2 0 0>;\012    pos waMedial_cham <-110 -2 0 0>;\012    pos waMedial_cham.narrow <-110 -2 0 0>;\012    pos laMedial_waMedial_cham <-10 -2 0 0>;\012    pos laMedial_uSign_cham <-10 -2 0 0>;\012    pos laMedial_ueSign_cham <-10 -2 0 0>;\012    pos waMedial_uSign_cham <-10 -2 0 0>;\012    pos waMedial_ueSign_cham <-10 -2 0 0>;\012} SinglePositioning50;\012\012lookup SinglePositioning51 {\012    lookupflag 0;\012    ;\012    # Original source: 45 \012    pos laMedial_cham <10 -2 0 0>;\012    pos laMedial_cham.narrow <-90 -2 0 0>;\012    pos waMedial_cham <-90 -2 0 0>;\012    pos waMedial_cham.narrow <-90 -2 0 0>;\012    pos laMedial_waMedial_cham <10 -2 0 0>;\012    pos laMedial_uSign_cham <10 -2 0 0>;\012    pos laMedial_ueSign_cham <10 -2 0 0>;\012    pos waMedial_uSign_cham <10 -2 0 0>;\012    pos waMedial_ueSign_cham <10 -2 0 0>;\012} SinglePositioning51;\012\012lookup SinglePositioning52 {\012    lookupflag 0;\012    ;\012    # Original source: 46 \012    pos laMedial_cham <110 4 0 0>;\012    pos laMedial_cham.narrow <10 4 0 0>;\012    pos waMedial_cham <10 4 0 0>;\012    pos waMedial_cham.narrow <10 4 0 0>;\012    pos laMedial_waMedial_cham <110 4 0 0>;\012    pos laMedial_uSign_cham <110 4 0 0>;\012    pos laMedial_ueSign_cham <110 4 0 0>;\012    pos waMedial_uSign_cham <110 4 0 0>;\012    pos waMedial_ueSign_cham <110 4 0 0>;\012} SinglePositioning52;\012\012lookup SinglePositioning53 {\012    lookupflag 0;\012    ;\012    # Original source: 47 \012    pos laMedial_cham <-30 -2 0 0>;\012    pos laMedial_cham.narrow <-130 -2 0 0>;\012    pos waMedial_cham <-130 -2 0 0>;\012    pos waMedial_cham.narrow <-130 -2 0 0>;\012    pos laMedial_waMedial_cham <-30 -2 0 0>;\012    pos laMedial_uSign_cham <-30 -2 0 0>;\012    pos laMedial_ueSign_cham <-30 -2 0 0>;\012    pos waMedial_uSign_cham <-30 -2 0 0>;\012    pos waMedial_ueSign_cham <-30 -2 0 0>;\012} SinglePositioning53;\012";
 }
 );
 iconName = Light;
@@ -1252,6 +1248,115 @@ over = -15;
 }
 );
 name = Light;
+numberValues = (
+13,
+-20,
+-240,
+-127,
+-175,
+-35,
+-259,
+-75,
+38,
+-2,
+-62,
+117,
+-2,
+17,
+-10,
+-2,
+-110,
+-10,
+-2,
+-110,
+-10,
+-2,
+-110,
+48,
+-2,
+-52,
+50,
+-2,
+-50,
+-6,
+4,
+-106,
+-10,
+-2,
+-110,
+-10,
+-2,
+-110,
+-10,
+-2,
+-110,
+39,
+54,
+-61,
+-10,
+-2,
+-110,
+-8,
+-2,
+-108,
+20,
+-2,
+-80,
+175,
+-86,
+75,
+13,
+-7,
+-87,
+134,
+6,
+34,
+-10,
+-2,
+-110,
+33,
+-7,
+-67,
+-10,
+-1,
+-110,
+-10,
+-1,
+-110,
+-10,
+-2,
+-110,
+41,
+-2,
+-59,
+-2,
+10,
+-2,
+-90,
+85,
+24,
+-15,
+28,
+-2,
+-72,
+-10,
+-110,
+-10,
+4,
+-110,
+-10,
+-2,
+-110,
+10,
+-2,
+-90,
+110,
+4,
+10,
+-30,
+-2,
+-130
+);
 stemValues = (
 22,
 0,
@@ -1352,6 +1457,115 @@ over = -15;
 }
 );
 name = Regular;
+numberValues = (
+84,
+1,
+-235,
+-106,
+-125,
+5,
+-215,
+-45,
+95,
+-20,
+-5,
+137,
+-40,
+37,
+-10,
+-2,
+-110,
+-11,
+-2,
+-111,
+-6,
+-2,
+-106,
+61,
+-20,
+-39,
+75,
+-2,
+-25,
+-15,
+2,
+-115,
+-10,
+-2,
+-110,
+-10,
+-2,
+-110,
+-10,
+-2,
+-110,
+53,
+-5,
+-47,
+-10,
+-2,
+-110,
+-10,
+-2,
+-110,
+20,
+-2,
+-80,
+236,
+-120,
+136,
+4,
+-7,
+-96,
+149,
+-2,
+49,
+-10,
+-10,
+-110,
+35,
+-5,
+-65,
+-3,
+-20,
+-103,
+3,
+-15,
+-97,
+-10,
+-2,
+-110,
+72,
+-13,
+-28,
+-2,
+-10,
+-2,
+-110,
+96,
+-27,
+-4,
+72,
+-2,
+-28,
+-58,
+-158,
+-20,
+2,
+-120,
+20,
+-2,
+-80,
+28,
+2,
+-72,
+127,
+-35,
+27,
+-70,
+-1,
+-170
+);
 stemValues = (
 69,
 58,
@@ -1423,10 +1637,6 @@ value = (
 2,
 4
 );
-},
-{
-name = "Replace Prefix";
-value = "PositioningRules;lookup SinglePositioning2 {\012    lookupflag 0;\012    ;\012    # Original source: 1 \012    pos aaSign_oeSign_cham 207;\012} SinglePositioning2;\012\012lookup SinglePositioning3 {\012    lookupflag 0;\012    ;\012    # Original source: 2 \012    pos aaSign_cham 85;\012} SinglePositioning3;\012\012lookup SinglePositioning4 {\012    lookupflag 0;\012    ;\012    # Original source: 3 \012    pos ngSignFinal_cham -198;\012} SinglePositioning4;\012\012lookup SinglePositioning5 {\012    lookupflag 0;\012    ;\012    # Original source: 4 \012    pos [auSign_cham auSign_mSignFinal_cham oeSign_auSign_cham] -50;\012} SinglePositioning5;\012\012lookup SinglePositioning6 {\012    lookupflag 0;\012    ;\012    # Original source: 5 \012    pos [iSign_cham iiSign_cham] -60;\012} SinglePositioning6;\012\012lookup SinglePositioning7 {\012    lookupflag 0;\012    ;\012    # Original source: 6 \012    pos iSign_mSignFinal_cham 145;\012} SinglePositioning7;\012\012lookup SinglePositioning8 {\012    lookupflag 0;\012    ;\012    # Original source: 7 \012    pos [oeSign_cham oeSign_mSignFinal_cham oeSign_ngSignFinal_cham] -160;\012} SinglePositioning8;\012\012lookup SinglePositioning9 {\012    lookupflag 0;\012    ;\012    # Original source: 8 \012    pos eiSign_cham -15;\012} SinglePositioning9;\012\012lookup SinglePositioning20 {\012    lookupflag 0;\012    ;\012    # Original source: 14 \012    pos laMedial_cham <114 -85 0 0>;\012    pos laMedial_cham.narrow <14 -85 0 0>;\012    pos waMedial_cham <14 -85 0 0>;\012    pos waMedial_cham.narrow <14 -85 0 0>;\012    pos laMedial_waMedial_cham <114 -85 0 0>;\012    pos laMedial_uSign_cham <114 -85 0 0>;\012    pos laMedial_ueSign_cham <114 -85 0 0>;\012    pos waMedial_uSign_cham <114 -85 0 0>;\012    pos waMedial_ueSign_cham <114 -85 0 0>;\012} SinglePositioning20;\012\012lookup SinglePositioning21 {\012    lookupflag 0;\012    ;\012    # Original source: 15 \012    pos laMedial_cham <182 -113 0 0>;\012    pos laMedial_cham.narrow <82 -113 0 0>;\012    pos waMedial_cham <82 -113 0 0>;\012    pos waMedial_cham.narrow <82 -113 0 0>;\012    pos laMedial_waMedial_cham <182 -113 0 0>;\012    pos laMedial_uSign_cham <182 -113 0 0>;\012    pos laMedial_ueSign_cham <182 -113 0 0>;\012    pos waMedial_uSign_cham <182 -113 0 0>;\012    pos waMedial_ueSign_cham <182 -113 0 0>;\012} SinglePositioning21;\012\012lookup SinglePositioning22 {\012    lookupflag 0;\012    ;\012    # Original source: 16 \012    pos laMedial_cham <-128 -44 0 0>;\012    pos laMedial_cham.narrow <-228 -44 0 0>;\012    pos waMedial_cham <-228 -44 0 0>;\012    pos waMedial_cham.narrow <-228 -44 0 0>;\012    pos laMedial_waMedial_cham <-128 -44 0 0>;\012    pos laMedial_uSign_cham <-128 -44 0 0>;\012    pos laMedial_ueSign_cham <-128 -44 0 0>;\012    pos waMedial_uSign_cham <-128 -44 0 0>;\012    pos waMedial_ueSign_cham <-128 -44 0 0>;\012} SinglePositioning22;\012\012lookup SinglePositioning23 {\012    lookupflag 0;\012    ;\012    # Original source: 17 \012    pos laMedial_cham <-105 -53 0 0>;\012    pos laMedial_cham.narrow <-205 -53 0 0>;\012    pos waMedial_cham <-205 -53 0 0>;\012    pos waMedial_cham.narrow <-205 -53 0 0>;\012    pos laMedial_waMedial_cham <-105 -53 0 0>;\012    pos laMedial_uSign_cham <-105 -53 0 0>;\012    pos laMedial_ueSign_cham <-105 -53 0 0>;\012    pos waMedial_uSign_cham <-105 -53 0 0>;\012    pos waMedial_ueSign_cham <-105 -53 0 0>;\012} SinglePositioning23;\012\012lookup SinglePositioning24 {\012    lookupflag 0;\012    ;\012    # Original source: 18 \012    pos laMedial_cham <-10 -106 0 0>;\012    pos laMedial_cham.narrow <-110 -106 0 0>;\012    pos waMedial_cham <-110 -106 0 0>;\012    pos waMedial_cham.narrow <-110 -106 0 0>;\012    pos laMedial_waMedial_cham <-10 -106 0 0>;\012    pos laMedial_uSign_cham <-10 -106 0 0>;\012    pos laMedial_ueSign_cham <-10 -106 0 0>;\012    pos waMedial_uSign_cham <-10 -106 0 0>;\012    pos waMedial_ueSign_cham <-10 -106 0 0>;\012} SinglePositioning24;\012\012lookup SinglePositioning25 {\012    lookupflag 0;\012    ;\012    # Original source: 19 \012    pos laMedial_cham <56 -85 0 0>;\012    pos laMedial_cham.narrow <-44 -85 0 0>;\012    pos waMedial_cham <-44 -85 0 0>;\012    pos waMedial_cham.narrow <-44 -85 0 0>;\012    pos laMedial_waMedial_cham <56 -85 0 0>;\012    pos laMedial_uSign_cham <56 -85 0 0>;\012    pos laMedial_ueSign_cham <56 -85 0 0>;\012    pos waMedial_uSign_cham <56 -85 0 0>;\012    pos waMedial_ueSign_cham <56 -85 0 0>;\012} SinglePositioning25;\012\012lookup SinglePositioning26 {\012    lookupflag 0;\012    ;\012    # Original source: 20 \012    pos laMedial_cham <65 -103 0 0>;\012    pos laMedial_cham.narrow <-35 -103 0 0>;\012    pos waMedial_cham <-35 -103 0 0>;\012    pos waMedial_cham.narrow <-35 -103 0 0>;\012    pos laMedial_waMedial_cham <65 -103 0 0>;\012    pos laMedial_uSign_cham <65 -103 0 0>;\012    pos laMedial_ueSign_cham <65 -103 0 0>;\012    pos waMedial_uSign_cham <65 -103 0 0>;\012    pos waMedial_ueSign_cham <65 -103 0 0>;\012} SinglePositioning26;\012\012lookup SinglePositioning27 {\012    lookupflag 0;\012    ;\012    # Original source: 21 \012    pos laMedial_cham <-16 -103 0 0>;\012    pos laMedial_cham.narrow <-116 -103 0 0>;\012    pos waMedial_cham <-116 -103 0 0>;\012    pos waMedial_cham.narrow <-116 -103 0 0>;\012    pos laMedial_waMedial_cham <-16 -103 0 0>;\012    pos laMedial_uSign_cham <-16 -103 0 0>;\012    pos laMedial_ueSign_cham <-16 -103 0 0>;\012    pos waMedial_uSign_cham <-16 -103 0 0>;\012    pos waMedial_ueSign_cham <-16 -103 0 0>;\012} SinglePositioning27;\012\012lookup SinglePositioning28 {\012    lookupflag 0;\012    ;\012    # Original source: 22 \012    pos laMedial_cham <49 -85 0 0>;\012    pos laMedial_cham.narrow <-51 -85 0 0>;\012    pos waMedial_cham <-51 -85 0 0>;\012    pos waMedial_cham.narrow <-51 -85 0 0>;\012    pos laMedial_waMedial_cham <49 -85 0 0>;\012    pos laMedial_uSign_cham <49 -85 0 0>;\012    pos laMedial_ueSign_cham <49 -85 0 0>;\012    pos waMedial_uSign_cham <49 -85 0 0>;\012    pos waMedial_ueSign_cham <49 -85 0 0>;\012} SinglePositioning28;\012\012lookup SinglePositioning29 {\012    lookupflag 0;\012    ;\012    # Original source: 23 \012    pos laMedial_cham <-111 -6 0 0>;\012    pos laMedial_cham.narrow <-211 -6 0 0>;\012    pos waMedial_cham <-211 -6 0 0>;\012    pos waMedial_cham.narrow <-211 -6 0 0>;\012    pos laMedial_waMedial_cham <-111 -6 0 0>;\012    pos laMedial_uSign_cham <-111 -6 0 0>;\012    pos laMedial_ueSign_cham <-111 -6 0 0>;\012    pos waMedial_uSign_cham <-111 -6 0 0>;\012    pos waMedial_ueSign_cham <-111 -6 0 0>;\012} SinglePositioning29;\012\012lookup SinglePositioning30 {\012    lookupflag 0;\012    ;\012    # Original source: 24 \012    pos laMedial_cham <-2 -88 0 0>;\012    pos laMedial_cham.narrow <-102 -88 0 0>;\012    pos waMedial_cham <-102 -88 0 0>;\012    pos waMedial_cham.narrow <-102 -88 0 0>;\012    pos laMedial_waMedial_cham <-2 -88 0 0>;\012    pos laMedial_uSign_cham <-2 -88 0 0>;\012    pos laMedial_ueSign_cham <-2 -88 0 0>;\012    pos waMedial_uSign_cham <-2 -88 0 0>;\012    pos waMedial_ueSign_cham <-2 -88 0 0>;\012} SinglePositioning30;\012\012lookup SinglePositioning31 {\012    lookupflag 0;\012    ;\012    # Original source: 25 \012    pos laMedial_cham <77 -87 0 0>;\012    pos laMedial_cham.narrow <-23 -87 0 0>;\012    pos waMedial_cham <-23 -87 0 0>;\012    pos waMedial_cham.narrow <-23 -87 0 0>;\012    pos laMedial_waMedial_cham <77 -87 0 0>;\012    pos laMedial_uSign_cham <77 -87 0 0>;\012    pos laMedial_ueSign_cham <77 -87 0 0>;\012    pos waMedial_uSign_cham <77 -87 0 0>;\012    pos waMedial_ueSign_cham <77 -87 0 0>;\012} SinglePositioning31;\012\012lookup SinglePositioning32 {\012    lookupflag 0;\012    ;\012    # Original source: 26 \012    pos laMedial_cham <-119 -24 0 0>;\012    pos laMedial_cham.narrow <-219 -24 0 0>;\012    pos waMedial_cham <-219 -24 0 0>;\012    pos waMedial_cham.narrow <-219 -24 0 0>;\012    pos laMedial_waMedial_cham <-119 -24 0 0>;\012    pos laMedial_uSign_cham <-119 -24 0 0>;\012    pos laMedial_ueSign_cham <-119 -24 0 0>;\012    pos waMedial_uSign_cham <-119 -24 0 0>;\012    pos waMedial_ueSign_cham <-119 -24 0 0>;\012} SinglePositioning32;\012\012lookup SinglePositioning33 {\012    lookupflag 0;\012    ;\012    # Original source: 27 \012    pos laMedial_cham <-82 -44 0 0>;\012    pos laMedial_cham.narrow <-182 -44 0 0>;\012    pos waMedial_cham <-182 -44 0 0>;\012    pos waMedial_cham.narrow <-182 -44 0 0>;\012    pos laMedial_waMedial_cham <-82 -44 0 0>;\012    pos laMedial_uSign_cham <-82 -44 0 0>;\012    pos laMedial_ueSign_cham <-82 -44 0 0>;\012    pos waMedial_uSign_cham <-82 -44 0 0>;\012    pos waMedial_ueSign_cham <-82 -44 0 0>;\012} SinglePositioning33;\012\012lookup SinglePositioning34 {\012    lookupflag 0;\012    ;\012    # Original source: 28 \012    pos laMedial_cham <80 -90 0 0>;\012    pos laMedial_cham.narrow <-20 -90 0 0>;\012    pos waMedial_cham <-20 -90 0 0>;\012    pos waMedial_cham.narrow <-20 -90 0 0>;\012    pos laMedial_waMedial_cham <80 -90 0 0>;\012    pos laMedial_uSign_cham <80 -90 0 0>;\012    pos laMedial_ueSign_cham <80 -90 0 0>;\012    pos waMedial_uSign_cham <80 -90 0 0>;\012    pos waMedial_ueSign_cham <80 -90 0 0>;\012} SinglePositioning34;\012\012lookup SinglePositioning35 {\012    lookupflag 0;\012    ;\012    # Original source: 29 \012    pos laMedial_cham <293 -170 0 0>;\012    pos laMedial_cham.narrow <193 -170 0 0>;\012    pos waMedial_cham <193 -170 0 0>;\012    pos waMedial_cham.narrow <193 -170 0 0>;\012    pos laMedial_waMedial_cham <293 -170 0 0>;\012    pos laMedial_uSign_cham <293 -170 0 0>;\012    pos laMedial_ueSign_cham <293 -170 0 0>;\012    pos waMedial_uSign_cham <293 -170 0 0>;\012    pos waMedial_ueSign_cham <293 -170 0 0>;\012} SinglePositioning35;\012\012lookup SinglePositioning36 {\012    lookupflag 0;\012    ;\012    # Original source: 30 \012    pos laMedial_cham <6 -96 0 0>;\012    pos laMedial_cham.narrow <-94 -96 0 0>;\012    pos waMedial_cham <-94 -96 0 0>;\012    pos waMedial_cham.narrow <-94 -96 0 0>;\012    pos laMedial_waMedial_cham <6 -96 0 0>;\012    pos laMedial_uSign_cham <6 -96 0 0>;\012    pos laMedial_ueSign_cham <6 -96 0 0>;\012    pos waMedial_uSign_cham <6 -96 0 0>;\012    pos waMedial_ueSign_cham <6 -96 0 0>;\012} SinglePositioning36;\012\012lookup SinglePositioning37 {\012    lookupflag 0;\012    ;\012    # Original source: 31 \012    pos laMedial_cham <228 -97 0 0>;\012    pos laMedial_cham.narrow <128 -97 0 0>;\012    pos waMedial_cham <128 -97 0 0>;\012    pos waMedial_cham.narrow <128 -97 0 0>;\012    pos laMedial_waMedial_cham <228 -97 0 0>;\012    pos laMedial_uSign_cham <228 -97 0 0>;\012    pos laMedial_ueSign_cham <228 -97 0 0>;\012    pos waMedial_uSign_cham <228 -97 0 0>;\012    pos waMedial_ueSign_cham <228 -97 0 0>;\012} SinglePositioning37;\012\012lookup SinglePositioning38 {\012    lookupflag 0;\012    ;\012    # Original source: 32 \012    pos laMedial_cham <-40 -80 0 0>;\012    pos laMedial_cham.narrow <-140 -80 0 0>;\012    pos waMedial_cham <-140 -80 0 0>;\012    pos waMedial_cham.narrow <-140 -80 0 0>;\012    pos laMedial_waMedial_cham <-40 -80 0 0>;\012    pos laMedial_uSign_cham <-40 -80 0 0>;\012    pos laMedial_ueSign_cham <-40 -80 0 0>;\012    pos waMedial_uSign_cham <-40 -80 0 0>;\012    pos waMedial_ueSign_cham <-40 -80 0 0>;\012} SinglePositioning38;\012\012lookup SinglePositioning39 {\012    lookupflag 0;\012    ;\012    # Original source: 33 \012    pos laMedial_cham <-21 -105 0 0>;\012    pos laMedial_cham.narrow <-121 -105 0 0>;\012    pos waMedial_cham <-121 -105 0 0>;\012    pos waMedial_cham.narrow <-121 -105 0 0>;\012    pos laMedial_waMedial_cham <-21 -105 0 0>;\012    pos laMedial_uSign_cham <-21 -105 0 0>;\012    pos laMedial_ueSign_cham <-21 -105 0 0>;\012    pos waMedial_uSign_cham <-21 -105 0 0>;\012    pos waMedial_ueSign_cham <-21 -105 0 0>;\012} SinglePositioning39;\012\012lookup SinglePositioning40 {\012    lookupflag 0;\012    ;\012    # Original source: 34 \012    pos laMedial_cham <55 -120 0 0>;\012    pos laMedial_cham.narrow <-45 -120 0 0>;\012    pos waMedial_cham <-45 -120 0 0>;\012    pos waMedial_cham.narrow <-45 -120 0 0>;\012    pos laMedial_waMedial_cham <55 -120 0 0>;\012    pos laMedial_uSign_cham <55 -120 0 0>;\012    pos laMedial_ueSign_cham <55 -120 0 0>;\012    pos waMedial_uSign_cham <55 -120 0 0>;\012    pos waMedial_ueSign_cham <55 -120 0 0>;\012} SinglePositioning40;\012\012lookup SinglePositioning41 {\012    lookupflag 0;\012    ;\012    # Original source: 35 \012    pos laMedial_cham <50 -100 0 0>;\012    pos laMedial_cham.narrow <-50 -100 0 0>;\012    pos waMedial_cham <-50 -100 0 0>;\012    pos waMedial_cham.narrow <-50 -100 0 0>;\012    pos laMedial_waMedial_cham <50 -100 0 0>;\012    pos laMedial_uSign_cham <50 -100 0 0>;\012    pos laMedial_ueSign_cham <50 -100 0 0>;\012    pos waMedial_uSign_cham <50 -100 0 0>;\012    pos waMedial_ueSign_cham <50 -100 0 0>;\012} SinglePositioning41;\012\012lookup SinglePositioning42 {\012    lookupflag 0;\012    ;\012    # Original source: 36 \012    pos laMedial_cham <-26 -99 0 0>;\012    pos laMedial_cham.narrow <-126 -99 0 0>;\012    pos waMedial_cham <-126 -99 0 0>;\012    pos waMedial_cham.narrow <-126 -99 0 0>;\012    pos laMedial_waMedial_cham <-26 -99 0 0>;\012    pos laMedial_uSign_cham <-26 -99 0 0>;\012    pos laMedial_ueSign_cham <-26 -99 0 0>;\012    pos waMedial_uSign_cham <-26 -99 0 0>;\012    pos waMedial_ueSign_cham <-26 -99 0 0>;\012} SinglePositioning42;\012\012lookup SinglePositioning43 {\012    lookupflag 0;\012    ;\012    # Original source: 37 \012    pos laMedial_cham <91 -95 0 0>;\012    pos laMedial_cham.narrow <-9 -95 0 0>;\012    pos waMedial_cham <-9 -95 0 0>;\012    pos waMedial_cham.narrow <-9 -95 0 0>;\012    pos laMedial_waMedial_cham <91 -95 0 0>;\012    pos laMedial_uSign_cham <91 -95 0 0>;\012    pos laMedial_ueSign_cham <91 -95 0 0>;\012    pos waMedial_uSign_cham <91 -95 0 0>;\012    pos waMedial_ueSign_cham <91 -95 0 0>;\012} SinglePositioning43;\012\012lookup SinglePositioning44 {\012    lookupflag 0;\012    ;\012    # Original source: 38 \012    pos laMedial_cham <-10 -100 0 0>;\012    pos laMedial_cham.narrow <-110 -100 0 0>;\012    pos waMedial_cham <-110 -100 0 0>;\012    pos waMedial_cham.narrow <-110 -100 0 0>;\012    pos laMedial_waMedial_cham <-10 -100 0 0>;\012    pos laMedial_uSign_cham <-10 -100 0 0>;\012    pos laMedial_ueSign_cham <-10 -100 0 0>;\012    pos waMedial_uSign_cham <-10 -100 0 0>;\012    pos waMedial_ueSign_cham <-10 -100 0 0>;\012} SinglePositioning44;\012\012lookup SinglePositioning45 {\012    lookupflag 0;\012    ;\012    # Original source: 39 \012    pos laMedial_cham <-12 -95 0 0>;\012    pos laMedial_cham.narrow <-112 -95 0 0>;\012    pos waMedial_cham <-112 -95 0 0>;\012    pos waMedial_cham.narrow <-112 -95 0 0>;\012    pos laMedial_waMedial_cham <-12 -95 0 0>;\012    pos laMedial_uSign_cham <-12 -95 0 0>;\012    pos laMedial_ueSign_cham <-12 -95 0 0>;\012    pos waMedial_uSign_cham <-12 -95 0 0>;\012    pos waMedial_ueSign_cham <-12 -95 0 0>;\012} SinglePositioning45;\012\012lookup SinglePositioning46 {\012    lookupflag 0;\012    ;\012    # Original source: 40 \012    pos laMedial_cham <136 -89 0 0>;\012    pos laMedial_cham.narrow <36 -89 0 0>;\012    pos waMedial_cham <36 -89 0 0>;\012    pos waMedial_cham.narrow <36 -89 0 0>;\012    pos laMedial_waMedial_cham <136 -89 0 0>;\012    pos laMedial_uSign_cham <136 -89 0 0>;\012    pos laMedial_ueSign_cham <136 -89 0 0>;\012    pos waMedial_uSign_cham <136 -89 0 0>;\012    pos waMedial_ueSign_cham <136 -89 0 0>;\012} SinglePositioning46;\012\012lookup SinglePositioning47 {\012    lookupflag 0;\012    ;\012    # Original source: 41 \012    pos laMedial_cham <95 -86 0 0>;\012    pos laMedial_cham.narrow <-5 -86 0 0>;\012    pos waMedial_cham <-5 -86 0 0>;\012    pos waMedial_cham.narrow <-5 -86 0 0>;\012    pos laMedial_waMedial_cham <95 -86 0 0>;\012    pos laMedial_uSign_cham <95 -86 0 0>;\012    pos laMedial_ueSign_cham <95 -86 0 0>;\012    pos waMedial_uSign_cham <95 -86 0 0>;\012    pos waMedial_ueSign_cham <95 -86 0 0>;\012} SinglePositioning47;\012\012lookup SinglePositioning48 {\012    lookupflag 0;\012    ;\012    # Original source: 42 \012    pos laMedial_cham <-142 -2 0 0>;\012    pos laMedial_cham.narrow <-242 -2 0 0>;\012    pos waMedial_cham <-242 -2 0 0>;\012    pos waMedial_cham.narrow <-242 -2 0 0>;\012    pos laMedial_waMedial_cham <-142 -2 0 0>;\012    pos laMedial_uSign_cham <-142 -2 0 0>;\012    pos laMedial_ueSign_cham <-142 -2 0 0>;\012    pos waMedial_uSign_cham <-142 -2 0 0>;\012    pos waMedial_ueSign_cham <-142 -2 0 0>;\012} SinglePositioning48;\012\012lookup SinglePositioning49 {\012    lookupflag 0;\012    ;\012    # Original source: 43 \012    pos laMedial_cham <-10 -113 0 0>;\012    pos laMedial_cham.narrow <-110 -113 0 0>;\012    pos waMedial_cham <-110 -113 0 0>;\012    pos waMedial_cham.narrow <-110 -113 0 0>;\012    pos laMedial_waMedial_cham <-10 -113 0 0>;\012    pos laMedial_uSign_cham <-10 -113 0 0>;\012    pos laMedial_ueSign_cham <-10 -113 0 0>;\012    pos waMedial_uSign_cham <-10 -113 0 0>;\012    pos waMedial_ueSign_cham <-10 -113 0 0>;\012} SinglePositioning49;\012\012lookup SinglePositioning50 {\012    lookupflag 0;\012    ;\012    # Original source: 44 \012    pos laMedial_cham <63 -108 0 0>;\012    pos laMedial_cham.narrow <-37 -108 0 0>;\012    pos waMedial_cham <-37 -108 0 0>;\012    pos waMedial_cham.narrow <-37 -108 0 0>;\012    pos laMedial_waMedial_cham <63 -108 0 0>;\012    pos laMedial_uSign_cham <63 -108 0 0>;\012    pos laMedial_ueSign_cham <63 -108 0 0>;\012    pos waMedial_uSign_cham <63 -108 0 0>;\012    pos waMedial_ueSign_cham <63 -108 0 0>;\012} SinglePositioning50;\012\012lookup SinglePositioning51 {\012    lookupflag 0;\012    ;\012    # Original source: 45 \012    pos laMedial_cham <4 -105 0 0>;\012    pos laMedial_cham.narrow <-96 -105 0 0>;\012    pos waMedial_cham <-96 -105 0 0>;\012    pos waMedial_cham.narrow <-96 -105 0 0>;\012    pos laMedial_waMedial_cham <4 -105 0 0>;\012    pos laMedial_uSign_cham <4 -105 0 0>;\012    pos laMedial_ueSign_cham <4 -105 0 0>;\012    pos waMedial_uSign_cham <4 -105 0 0>;\012    pos waMedial_ueSign_cham <4 -105 0 0>;\012} SinglePositioning51;\012\012lookup SinglePositioning52 {\012    lookupflag 0;\012    ;\012    # Original source: 46 \012    pos laMedial_cham <182 -105 0 0>;\012    pos laMedial_cham.narrow <82 -105 0 0>;\012    pos waMedial_cham <82 -105 0 0>;\012    pos waMedial_cham.narrow <82 -105 0 0>;\012    pos laMedial_waMedial_cham <182 -105 0 0>;\012    pos laMedial_uSign_cham <182 -105 0 0>;\012    pos laMedial_ueSign_cham <182 -105 0 0>;\012    pos waMedial_uSign_cham <182 -105 0 0>;\012    pos waMedial_ueSign_cham <182 -105 0 0>;\012} SinglePositioning52;\012\012lookup SinglePositioning53 {\012    lookupflag 0;\012    ;\012    # Original source: 47 \012    pos laMedial_cham <-127 -30 0 0>;\012    pos laMedial_cham.narrow <-227 -30 0 0>;\012    pos waMedial_cham <-227 -30 0 0>;\012    pos waMedial_cham.narrow <-227 -30 0 0>;\012    pos laMedial_waMedial_cham <-127 -30 0 0>;\012    pos laMedial_uSign_cham <-127 -30 0 0>;\012    pos laMedial_ueSign_cham <-127 -30 0 0>;\012    pos waMedial_uSign_cham <-127 -30 0 0>;\012    pos waMedial_ueSign_cham <-127 -30 0 0>;\012} SinglePositioning53;\012";
 }
 );
 iconName = Bold;
@@ -1456,6 +1666,115 @@ over = -15;
 }
 );
 name = Bold;
+numberValues = (
+207,
+85,
+-198,
+-50,
+-60,
+145,
+-160,
+-15,
+114,
+-85,
+14,
+182,
+-113,
+82,
+-128,
+-44,
+-228,
+-105,
+-53,
+-205,
+-10,
+-106,
+-110,
+56,
+-85,
+-44,
+65,
+-103,
+-35,
+-16,
+-103,
+-116,
+49,
+-85,
+-51,
+-111,
+-6,
+-211,
+-2,
+-88,
+-102,
+77,
+-87,
+-23,
+-119,
+-24,
+-219,
+-82,
+-44,
+-182,
+80,
+-90,
+-20,
+293,
+-170,
+193,
+6,
+-96,
+-94,
+228,
+-97,
+128,
+-40,
+-80,
+-140,
+-21,
+-105,
+-121,
+55,
+-120,
+-45,
+50,
+-100,
+-50,
+-26,
+-99,
+-126,
+91,
+-95,
+-9,
+-100,
+-12,
+-95,
+-112,
+136,
+-89,
+36,
+95,
+-86,
+-5,
+-142,
+-242,
+-10,
+-113,
+-110,
+63,
+-108,
+-37,
+4,
+-105,
+-96,
+182,
+-105,
+82,
+-127,
+-30,
+-227
+);
 stemValues = (
 142,
 153,
@@ -35834,6 +36153,329 @@ type = descender;
 },
 {
 type = "italic angle";
+}
+);
+numbers = (
+{
+name = SP2_aaSign_oeSign;
+},
+{
+name = SP3_aaSign;
+},
+{
+name = SP4_ngSignFinal;
+},
+{
+name = SP5_auSign;
+},
+{
+name = SP6_iSign;
+},
+{
+name = SP7_iSign_mSignFinal;
+},
+{
+name = SP8_oeSign;
+},
+{
+name = SP9_eiSign;
+},
+{
+name = SP20_laMedial_x;
+},
+{
+name = SP20_laMedial_y;
+},
+{
+name = SP20_laMedial_narrow_x;
+},
+{
+name = SP21_laMedial_x;
+},
+{
+name = SP21_laMedial_y;
+},
+{
+name = SP21_laMedial_narrow_x;
+},
+{
+name = SP22_laMedial_x;
+},
+{
+name = SP22_laMedial_y;
+},
+{
+name = SP22_laMedial_narrow_x;
+},
+{
+name = SP23_laMedial_x;
+},
+{
+name = SP23_laMedial_y;
+},
+{
+name = SP23_laMedial_narrow_x;
+},
+{
+name = SP24_laMedial_x;
+},
+{
+name = SP24_laMedial_y;
+},
+{
+name = SP24_laMedial_narrow_x;
+},
+{
+name = SP25_laMedial_x;
+},
+{
+name = SP25_laMedial_y;
+},
+{
+name = SP25_laMedial_narrow_x;
+},
+{
+name = SP26_laMedial_x;
+},
+{
+name = SP26_laMedial_y;
+},
+{
+name = SP26_laMedial_narrow_x;
+},
+{
+name = SP27_laMedial_x;
+},
+{
+name = SP27_laMedial_y;
+},
+{
+name = SP27_laMedial_narrow_x;
+},
+{
+name = SP28_laMedial_x;
+},
+{
+name = SP28_laMedial_y;
+},
+{
+name = SP28_laMedial_narrow_x;
+},
+{
+name = SP29_laMedial_x;
+},
+{
+name = SP29_laMedial_y;
+},
+{
+name = SP29_laMedial_narrow_x;
+},
+{
+name = SP30_laMedial_x;
+},
+{
+name = SP30_laMedial_y;
+},
+{
+name = SP30_laMedial_narrow_x;
+},
+{
+name = SP31_laMedial_x;
+},
+{
+name = SP31_laMedial_y;
+},
+{
+name = SP31_laMedial_narrow_x;
+},
+{
+name = SP32_laMedial_x;
+},
+{
+name = SP32_laMedial_y;
+},
+{
+name = SP32_laMedial_narrow_x;
+},
+{
+name = SP33_laMedial_x;
+},
+{
+name = SP33_laMedial_y;
+},
+{
+name = SP33_laMedial_narrow_x;
+},
+{
+name = SP34_laMedial_x;
+},
+{
+name = SP34_laMedial_y;
+},
+{
+name = SP34_laMedial_narrow_x;
+},
+{
+name = SP35_laMedial_x;
+},
+{
+name = SP35_laMedial_y;
+},
+{
+name = SP35_laMedial_narrow_x;
+},
+{
+name = SP36_laMedial_x;
+},
+{
+name = SP36_laMedial_y;
+},
+{
+name = SP36_laMedial_narrow_x;
+},
+{
+name = SP37_laMedial_x;
+},
+{
+name = SP37_laMedial_y;
+},
+{
+name = SP37_laMedial_narrow_x;
+},
+{
+name = SP38_laMedial_x;
+},
+{
+name = SP38_laMedial_y;
+},
+{
+name = SP38_laMedial_narrow_x;
+},
+{
+name = SP39_laMedial_x;
+},
+{
+name = SP39_laMedial_y;
+},
+{
+name = SP39_laMedial_narrow_x;
+},
+{
+name = SP40_laMedial_x;
+},
+{
+name = SP40_laMedial_y;
+},
+{
+name = SP40_laMedial_narrow_x;
+},
+{
+name = SP41_laMedial_x;
+},
+{
+name = SP41_laMedial_y;
+},
+{
+name = SP41_laMedial_narrow_x;
+},
+{
+name = SP42_laMedial_x;
+},
+{
+name = SP42_laMedial_y;
+},
+{
+name = SP42_laMedial_narrow_x;
+},
+{
+name = SP43_laMedial_x;
+},
+{
+name = SP43_laMedial_y;
+},
+{
+name = SP43_laMedial_narrow_x;
+},
+{
+name = SP44_laMedial_y;
+},
+{
+name = SP45_laMedial_x;
+},
+{
+name = SP45_laMedial_y;
+},
+{
+name = SP45_laMedial_narrow_x;
+},
+{
+name = SP46_laMedial_x;
+},
+{
+name = SP46_laMedial_y;
+},
+{
+name = SP46_laMedial_narrow_x;
+},
+{
+name = SP47_laMedial_x;
+},
+{
+name = SP47_laMedial_y;
+},
+{
+name = SP47_laMedial_narrow_x;
+},
+{
+name = SP48_laMedial_x;
+},
+{
+name = SP48_laMedial_narrow_x;
+},
+{
+name = SP49_laMedial_x;
+},
+{
+name = SP49_laMedial_y;
+},
+{
+name = SP49_laMedial_narrow_x;
+},
+{
+name = SP50_laMedial_x;
+},
+{
+name = SP50_laMedial_y;
+},
+{
+name = SP50_laMedial_narrow_x;
+},
+{
+name = SP51_laMedial_x;
+},
+{
+name = SP51_laMedial_y;
+},
+{
+name = SP51_laMedial_narrow_x;
+},
+{
+name = SP52_laMedial_x;
+},
+{
+name = SP52_laMedial_y;
+},
+{
+name = SP52_laMedial_narrow_x;
+},
+{
+name = SP53_laMedial_x;
+},
+{
+name = SP53_laMedial_y;
+},
+{
+name = SP53_laMedial_narrow_x;
 }
 );
 properties = (
